@@ -64,7 +64,7 @@ webApi.OnPost("/api/todo", async(req, res) => {
     //     });
     // would echod id=123 below
     var data = await req.ParseAsJsonAsync<Dictionary<string, string>>();
-    Console.WriteLine($"id={data["id"]});
+    Console.WriteLine($"id={data["id"]}");
 });
 
 // Using post body that is URL encoded
@@ -78,7 +78,7 @@ webApi.OnPost("/api/todo", async(req, res) => {
     //     });
     // would echod id=123 below
     var data = await req.ParseAsUrlEncodedAsync();
-    Console.WriteLine($"id={data["id"]});
+    Console.WriteLine($"id={data["id"]}");
 });
 ```
 
@@ -94,17 +94,10 @@ webApi.OnPost("/api/todo", async(req, res) => {
     await res.WriteAsTextAsync("OK");
 });
 
-// Respond with JSON object
+// Respond with JSON
 webApi.OnPost("/api/todo", async(req, res) => {
     await res.WriteAsJsonAsync(new {
         result = "OK"
-    });
-});
-
-// Respond with JSON array
-webApi.OnPost("/api/todo", async(req, res) => {
-    await res.WriteAsJsonAsync(new string[] {
-        "OK"
     });
 });
 
