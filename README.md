@@ -25,11 +25,11 @@ An [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.
 ```cs
 webApi.OnPost("/api/todo/insert", async (req, res) => {
     var todo = await req.ParseAsJsonAsync<Dict>();
-    await database.InsertAndCommitAsync<string>("todo", todo);
+    // Do something to insert the todo
 });
 webApi.OnPost("/api/todo/delete", async (req, res) => {
     var id = await req.ParseAsJsonAsync<string>();
-    await database.DeleteAndCommitAsync("todo", id);
+    // Do something to delete the todo
 });
 
 // Don't forget to compile
@@ -43,27 +43,19 @@ You need an implementation like [EmbedIO](#using-embedio) or [RedHttpServer](#us
 There are many ways to receive data from a client...
 
 ```cs
+// Using path params
 webApi.OnGet("/api/todo/{id}", (req, res) => {
     // Opening /api/todo/123 would print id=123 below
-    Console.WriteLine($"id={req.PathParams["id"]});
+    Console.WriteLine($"id={req.PathParams["id"]}");
 });
 
+// Using query params
 webApi.OnGet("/api/todo", (req, res) => {
     // Opening /api/todo?id=123 would print id=123 below
-    Console.WriteLine($"id={req.QueryParams["id"]});
+    Console.WriteLine($"id={req.QueryParams["id"]}");
 });
 
-webApi.OnPost("/api/todo", async(req, res) => {
-    // A javascript client posting JSON data with...
-    //     $.ajax('/api/todo', {
-    //         method: 'POST',
-    //         data: JSON.stringify("123"),
-    //     });
-    // would echod id=123 below
-    var data = await req.ParseAsJsonAsync<string>();
-    Console.WriteLine($"id={data});
-});
-
+// Using post body that is JSON encoded
 webApi.OnPost("/api/todo", async(req, res) => {
     // A javascript client posting JSON data with...
     //     $.ajax('/api/todo', {
@@ -75,17 +67,7 @@ webApi.OnPost("/api/todo", async(req, res) => {
     Console.WriteLine($"id={data["id"]});
 });
 
-webApi.OnPost("/api/todo", async(req, res) => {
-    // A javascript client posting JSON data with...
-    //     $.ajax('/api/todo', {
-    //         method: 'POST',
-    //         data: JSON.stringify(["abc", "123"]),
-    //     });
-    // would echod id=123 below
-    var data = await req.ParseAsJsonAsync<string[]>();
-    Console.WriteLine($"id={data[1]});
-});
-
+// Using post body that is URL encoded
 webApi.OnPost("/api/todo", async(req, res) => {
     // A javascript client posting JSON data with...
     //     var formData = new FormData();
