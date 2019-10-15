@@ -14,7 +14,7 @@
 
 ### Install from Source Code
 
-git clone https://github.com/firesharkstudios/butterfly-twilio
+git clone https://github.com/firesharkstudios/butterfly-web
 
 ## Creating a Web Api
 
@@ -242,7 +242,7 @@ So, the end result of running the code above would be a local *todosList* and *t
 
 ## API Documentation
 
-Available [here](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-twilio/blob/master/docs/api/Butterfly.Web.html).
+Available [here](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.html).
 
 ## Contributing
 
