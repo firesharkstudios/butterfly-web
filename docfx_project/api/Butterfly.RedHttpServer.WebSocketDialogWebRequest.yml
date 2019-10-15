@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  commentId: T:Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  id: WebSocketDialogWebRequest
+  parent: Butterfly.RedHttpServer
+  children:
+  - Butterfly.RedHttpServer.WebSocketDialogWebRequest.#ctor(WebSocketDialog)
+  - Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers
+  - Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams
+  - Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams
+  - Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl
+  - Butterfly.RedHttpServer.WebSocketDialogWebRequest.webSocketDialog
+  langs:
+  - csharp
+  - vb
+  name: WebSocketDialogWebRequest
+  nameWithType: WebSocketDialogWebRequest
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    id: WebSocketDialogWebRequest
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    startLine: 67
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: 'public class WebSocketDialogWebRequest : object, IWebRequest'
+    content.vb: >-
+      Public Class WebSocketDialogWebRequest
+          Inherits Object
+          Implements IWebRequest
+  inheritance:
+  - System.Object
+  implements:
+  - Butterfly.Web.IWebRequest
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.webSocketDialog
+  commentId: F:Butterfly.RedHttpServer.WebSocketDialogWebRequest.webSocketDialog
+  id: webSocketDialog
+  parent: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  langs:
+  - csharp
+  - vb
+  name: webSocketDialog
+  nameWithType: WebSocketDialogWebRequest.webSocketDialog
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.webSocketDialog
+  type: Field
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    id: webSocketDialog
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    startLine: 69
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: protected readonly WebSocketDialog webSocketDialog
+    return:
+      type: WebSocketDialog
+    content.vb: Protected ReadOnly webSocketDialog As WebSocketDialog
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.#ctor(WebSocketDialog)
+  commentId: M:Butterfly.RedHttpServer.WebSocketDialogWebRequest.#ctor(WebSocketDialog)
+  id: '#ctor(WebSocketDialog)'
+  parent: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  langs:
+  - csharp
+  - vb
+  name: WebSocketDialogWebRequest(WebSocketDialog)
+  nameWithType: WebSocketDialogWebRequest.WebSocketDialogWebRequest(WebSocketDialog)
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.WebSocketDialogWebRequest(WebSocketDialog)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    id: .ctor
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    startLine: 71
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public WebSocketDialogWebRequest(WebSocketDialog webSocketDialog)
+    parameters:
+    - id: webSocketDialog
+      type: WebSocketDialog
+    content.vb: Public Sub New(webSocketDialog As WebSocketDialog)
+  overload: Butterfly.RedHttpServer.WebSocketDialogWebRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl
+  commentId: P:Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl
+  id: RequestUrl
+  parent: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  langs:
+  - csharp
+  - vb
+  name: RequestUrl
+  nameWithType: WebSocketDialogWebRequest.RequestUrl
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    id: RequestUrl
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    startLine: 75
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public Uri RequestUrl { get; }
+    parameters: []
+    return:
+      type: Uri
+    content.vb: Public ReadOnly Property RequestUrl As Uri
+  overload: Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers
+  commentId: P:Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers
+  id: Headers
+  parent: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: WebSocketDialogWebRequest.Headers
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    id: Headers
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    startLine: 77
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public Dictionary<string, string> Headers { get; }
+    parameters: []
+    return:
+      type: Dictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property Headers As Dictionary(Of String, String)
+  overload: Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams
+  commentId: P:Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams
+  id: PathParams
+  parent: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  langs:
+  - csharp
+  - vb
+  name: PathParams
+  nameWithType: WebSocketDialogWebRequest.PathParams
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    id: PathParams
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    startLine: 79
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public Dictionary<string, string> PathParams { get; }
+    parameters: []
+    return:
+      type: Dictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property PathParams As Dictionary(Of String, String)
+  overload: Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams
+  commentId: P:Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams
+  id: QueryParams
+  parent: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  langs:
+  - csharp
+  - vb
+  name: QueryParams
+  nameWithType: WebSocketDialogWebRequest.QueryParams
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    id: QueryParams
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+    startLine: 81
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public Dictionary<string, string> QueryParams { get; }
+    parameters: []
+    return:
+      type: Dictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property QueryParams As Dictionary(Of String, String)
+  overload: Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Butterfly.RedHttpServer
+  commentId: N:Butterfly.RedHttpServer
+  name: Butterfly.RedHttpServer
+  nameWithType: Butterfly.RedHttpServer
+  fullName: Butterfly.RedHttpServer
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.Web.IWebRequest
+  commentId: T:Butterfly.Web.IWebRequest
+  parent: Butterfly.Web
+  name: IWebRequest
+  nameWithType: IWebRequest
+  fullName: Butterfly.Web.IWebRequest
+- uid: Butterfly.Web
+  commentId: N:Butterfly.Web
+  name: Butterfly.Web
+  nameWithType: Butterfly.Web
+  fullName: Butterfly.Web
+- uid: WebSocketDialog
+  isExternal: true
+  name: WebSocketDialog
+  nameWithType: WebSocketDialog
+  fullName: WebSocketDialog
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.#ctor*
+  commentId: Overload:Butterfly.RedHttpServer.WebSocketDialogWebRequest.#ctor
+  name: WebSocketDialogWebRequest
+  nameWithType: WebSocketDialogWebRequest.WebSocketDialogWebRequest
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.WebSocketDialogWebRequest
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl*
+  commentId: Overload:Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl
+  name: RequestUrl
+  nameWithType: WebSocketDialogWebRequest.RequestUrl
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.RequestUrl
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers*
+  commentId: Overload:Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers
+  name: Headers
+  nameWithType: WebSocketDialogWebRequest.Headers
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.Headers
+- uid: Dictionary{System.String,System.String}
+  commentId: '!:Dictionary{System.String,System.String}'
+  definition: Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams*
+  commentId: Overload:Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams
+  name: PathParams
+  nameWithType: WebSocketDialogWebRequest.PathParams
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.PathParams
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams*
+  commentId: Overload:Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams
+  name: QueryParams
+  nameWithType: WebSocketDialogWebRequest.QueryParams
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest.QueryParams
+shouldSkipMarkup: true

@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  id: EmbedIOWebResponse
+  parent: Butterfly.Web.EmbedIO
+  children:
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.#ctor(IHttpContext)
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.context
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader(System.String)
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect(System.String)
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader(System.String,System.String)
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EmbedIOWebResponse
+  nameWithType: EmbedIOWebResponse
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: EmbedIOWebResponse
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 113
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: 'public class EmbedIOWebResponse : object, IHttpResponse'
+    content.vb: >-
+      Public Class EmbedIOWebResponse
+          Inherits Object
+          Implements IHttpResponse
+  inheritance:
+  - System.Object
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.context
+  commentId: F:Butterfly.Web.EmbedIO.EmbedIOWebResponse.context
+  id: context
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: context
+  nameWithType: EmbedIOWebResponse.context
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.context
+  type: Field
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: context
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 115
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public readonly IHttpContext context
+    return:
+      type: IHttpContext
+    content.vb: Public ReadOnly context As IHttpContext
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.#ctor(IHttpContext)
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOWebResponse.#ctor(IHttpContext)
+  id: '#ctor(IHttpContext)'
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: EmbedIOWebResponse(IHttpContext)
+  nameWithType: EmbedIOWebResponse.EmbedIOWebResponse(IHttpContext)
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.EmbedIOWebResponse(IHttpContext)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: .ctor
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 117
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public EmbedIOWebResponse(IHttpContext context)
+    parameters:
+    - id: context
+      type: IHttpContext
+    content.vb: Public Sub New(context As IHttpContext)
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader(System.String)
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader(System.String)
+  id: GetHeader(System.String)
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHeader(String)
+  nameWithType: EmbedIOWebResponse.GetHeader(String)
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: GetHeader
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 121
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public string GetHeader(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetHeader(name As String) As String
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader(System.String,System.String)
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader(System.String,System.String)
+  id: SetHeader(System.String,System.String)
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: SetHeader(String, String)
+  nameWithType: EmbedIOWebResponse.SetHeader(String, String)
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: SetHeader
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 125
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public void SetHeader(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetHeader(name As String, value As String)
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode
+  commentId: P:Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode
+  id: StatusCode
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: EmbedIOWebResponse.StatusCode
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: StatusCode
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 134
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public int StatusCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StatusCode As Integer
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.StatusCode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText
+  commentId: P:Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText
+  id: StatusText
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: StatusText
+  nameWithType: EmbedIOWebResponse.StatusText
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: StatusText
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 143
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public string StatusText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StatusText As String
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.StatusText
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect(System.String)
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect(System.String)
+  id: SendRedirect(System.String)
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: SendRedirect(String)
+  nameWithType: EmbedIOWebResponse.SendRedirect(String)
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: SendRedirect
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 152
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public void SendRedirect(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Public Sub SendRedirect(url As String)
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream
+  commentId: P:Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream
+  id: OutputStream
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: OutputStream
+  nameWithType: EmbedIOWebResponse.OutputStream
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: OutputStream
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 156
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public Stream OutputStream { get; }
+    parameters: []
+    return:
+      type: Stream
+    content.vb: Public ReadOnly Property OutputStream As Stream
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync(System.String,System.String)
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync(System.String,System.String)
+  id: WriteAsTextAsync(System.String,System.String)
+  parent: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteAsTextAsync(String, String)
+  nameWithType: EmbedIOWebResponse.WriteAsTextAsync(String, String)
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    id: WriteAsTextAsync
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 158
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public Task WriteAsTextAsync(string value, string contentType = "text/plain")
+    parameters:
+    - id: value
+      type: System.String
+    - id: contentType
+      type: System.String
+    return:
+      type: Task
+    content.vb: Public Function WriteAsTextAsync(value As String, contentType As String = "text/plain") As Task
+  overload: Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Butterfly.Web.EmbedIO
+  commentId: N:Butterfly.Web.EmbedIO
+  name: Butterfly.Web.EmbedIO
+  nameWithType: Butterfly.Web.EmbedIO
+  fullName: Butterfly.Web.EmbedIO
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.Web.WebApi.IHttpResponse
+  commentId: T:Butterfly.Web.WebApi.IHttpResponse
+  parent: Butterfly.Web.WebApi
+  name: IHttpResponse
+  nameWithType: IHttpResponse
+  fullName: Butterfly.Web.WebApi.IHttpResponse
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+- uid: IHttpContext
+  isExternal: true
+  name: IHttpContext
+  nameWithType: IHttpContext
+  fullName: IHttpContext
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.#ctor*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.#ctor
+  name: EmbedIOWebResponse
+  nameWithType: EmbedIOWebResponse.EmbedIOWebResponse
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.EmbedIOWebResponse
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader
+  name: GetHeader
+  nameWithType: EmbedIOWebResponse.GetHeader
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.GetHeader
+- uid: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  isExternal: true
+  name: GetHeader(String)
+  nameWithType: IHttpResponse.GetHeader(String)
+  fullName: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+    name: GetHeader
+    nameWithType: IHttpResponse.GetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.GetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+    name: GetHeader
+    nameWithType: IHttpResponse.GetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.GetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader
+  name: SetHeader
+  nameWithType: EmbedIOWebResponse.SetHeader
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SetHeader
+- uid: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  isExternal: true
+  name: SetHeader(String, String)
+  nameWithType: IHttpResponse.SetHeader(String, String)
+  fullName: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String, System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+    name: SetHeader
+    nameWithType: IHttpResponse.SetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+    name: SetHeader
+    nameWithType: IHttpResponse.SetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode
+  name: StatusCode
+  nameWithType: EmbedIOWebResponse.StatusCode
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusCode
+- uid: Butterfly.Web.WebApi.IHttpResponse.StatusCode
+  commentId: P:Butterfly.Web.WebApi.IHttpResponse.StatusCode
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  name: StatusCode
+  nameWithType: IHttpResponse.StatusCode
+  fullName: Butterfly.Web.WebApi.IHttpResponse.StatusCode
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText
+  name: StatusText
+  nameWithType: EmbedIOWebResponse.StatusText
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.StatusText
+- uid: Butterfly.Web.WebApi.IHttpResponse.StatusText
+  commentId: P:Butterfly.Web.WebApi.IHttpResponse.StatusText
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  name: StatusText
+  nameWithType: IHttpResponse.StatusText
+  fullName: Butterfly.Web.WebApi.IHttpResponse.StatusText
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect
+  name: SendRedirect
+  nameWithType: EmbedIOWebResponse.SendRedirect
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.SendRedirect
+- uid: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  isExternal: true
+  name: SendRedirect(String)
+  nameWithType: IHttpResponse.SendRedirect(String)
+  fullName: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+    name: SendRedirect
+    nameWithType: IHttpResponse.SendRedirect
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SendRedirect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+    name: SendRedirect
+    nameWithType: IHttpResponse.SendRedirect
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SendRedirect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream
+  name: OutputStream
+  nameWithType: EmbedIOWebResponse.OutputStream
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.OutputStream
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync
+  name: WriteAsTextAsync
+  nameWithType: EmbedIOWebResponse.WriteAsTextAsync
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse.WriteAsTextAsync
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+shouldSkipMarkup: true

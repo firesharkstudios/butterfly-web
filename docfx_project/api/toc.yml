@@ -1,0 +1,84 @@
+### YamlMime:TableOfContent
+- uid: Butterfly.RedHttpServer
+  name: Butterfly.RedHttpServer
+  items:
+  - uid: Butterfly.RedHttpServer.HttpRequestX
+    name: HttpRequestX
+  - uid: Butterfly.RedHttpServer.RedHttpServerContext
+    name: RedHttpServerContext
+  - uid: Butterfly.RedHttpServer.RedHttpServerSubscriptionApi
+    name: RedHttpServerSubscriptionApi
+  - uid: Butterfly.RedHttpServer.RedHttpServerWebApi
+    name: RedHttpServerWebApi
+  - uid: Butterfly.RedHttpServer.RedHttpServerWebRequest
+    name: RedHttpServerWebRequest
+  - uid: Butterfly.RedHttpServer.RedHttpServerWebResponse
+    name: RedHttpServerWebResponse
+  - uid: Butterfly.RedHttpServer.WebSocketDialogChannelConnection
+    name: WebSocketDialogChannelConnection
+  - uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+    name: WebSocketDialogWebRequest
+- uid: Butterfly.Web
+  name: Butterfly.Web
+  items:
+  - uid: Butterfly.Web.IHttpRequestX
+    name: IHttpRequestX
+  - uid: Butterfly.Web.IHttpResponseX
+    name: IHttpResponseX
+  - uid: Butterfly.Web.IWebRequest
+    name: IWebRequest
+  - uid: Butterfly.Web.IWebRequestX
+    name: IWebRequestX
+- uid: Butterfly.Web.Channel
+  name: Butterfly.Web.Channel
+  items:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection
+    name: BaseChannelConnection
+  - uid: Butterfly.Web.Channel.BaseSubscriptionApi
+    name: BaseSubscriptionApi
+  - uid: Butterfly.Web.Channel.Channel
+    name: Channel
+  - uid: Butterfly.Web.Channel.ChannelSubscription
+    name: ChannelSubscription
+  - uid: Butterfly.Web.Channel.IChannelConnection
+    name: IChannelConnection
+  - uid: Butterfly.Web.Channel.ISubscriptionApi
+    name: ISubscriptionApi
+- uid: Butterfly.Web.EmbedIO
+  name: Butterfly.Web.EmbedIO
+  items:
+  - uid: Butterfly.Web.EmbedIO.EmbedIOContext
+    name: EmbedIOContext
+  - uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest
+    name: EmbedIOHttpWebRequest
+  - uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApi
+    name: EmbedIOSubscriptionApi
+  - uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+    name: EmbedIOSubscriptionApiConnection
+  - uid: Butterfly.Web.EmbedIO.EmbedIOWebApi
+    name: EmbedIOWebApi
+  - uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+    name: EmbedIOWebResponse
+  - uid: Butterfly.Web.EmbedIO.EmbedIOWebSocketWebRequest
+    name: EmbedIOWebSocketWebRequest
+  - uid: Butterfly.Web.EmbedIO.MyWebModule
+    name: MyWebModule
+  - uid: Butterfly.Web.EmbedIO.MyWebSocketsServer
+    name: MyWebSocketsServer
+- uid: Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  items:
+  - uid: Butterfly.Web.WebApi.BaseHttpRequest
+    name: BaseHttpRequest
+  - uid: Butterfly.Web.WebApi.BaseWebApi
+    name: BaseWebApi
+  - uid: Butterfly.Web.WebApi.IHttpRequest
+    name: IHttpRequest
+  - uid: Butterfly.Web.WebApi.IHttpResponse
+    name: IHttpResponse
+  - uid: Butterfly.Web.WebApi.IWebApi
+    name: IWebApi
+  - uid: Butterfly.Web.WebApi.WebApiUtil
+    name: WebApiUtil
+  - uid: Butterfly.Web.WebApi.WebHandler
+    name: WebHandler

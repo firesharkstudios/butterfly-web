@@ -1,0 +1,976 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  id: EmbedIOSubscriptionApiConnection
+  parent: Butterfly.Web.EmbedIO
+  children:
+  - Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.#ctor(Butterfly.Web.Channel.BaseSubscriptionApi,Action{System.String},IWebSocketContext)
+  - Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.context
+  - Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose
+  - Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.send
+  - Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EmbedIOSubscriptionApiConnection
+  nameWithType: EmbedIOSubscriptionApiConnection
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    id: EmbedIOSubscriptionApiConnection
+    path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    startLine: 93
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: 'public class EmbedIOSubscriptionApiConnection : BaseChannelConnection, IChannelConnection, IDisposable'
+    content.vb: >-
+      Public Class EmbedIOSubscriptionApiConnection
+          Inherits BaseChannelConnection
+          Implements IChannelConnection, IDisposable
+  inheritance:
+  - System.Object
+  - Butterfly.Web.Channel.BaseChannelConnection
+  implements:
+  - Butterfly.Web.Channel.IChannelConnection
+  - IDisposable
+  inheritedMembers:
+  - Butterfly.Web.Channel.BaseChannelConnection.logger
+  - Butterfly.Web.Channel.BaseChannelConnection.subscriptionApi
+  - Butterfly.Web.Channel.BaseChannelConnection.created
+  - Butterfly.Web.Channel.BaseChannelConnection.buffer
+  - Butterfly.Web.Channel.BaseChannelConnection.monitor
+  - Butterfly.Web.Channel.BaseChannelConnection.authToken
+  - Butterfly.Web.Channel.BaseChannelConnection.id
+  - Butterfly.Web.Channel.BaseChannelConnection.lastHeartbeat
+  - Butterfly.Web.Channel.BaseChannelConnection.AuthToken
+  - Butterfly.Web.Channel.BaseChannelConnection.Id
+  - Butterfly.Web.Channel.BaseChannelConnection.Created
+  - Butterfly.Web.Channel.BaseChannelConnection.LastHeartbeat
+  - Butterfly.Web.Channel.BaseChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+  - Butterfly.Web.Channel.BaseChannelConnection.started
+  - Butterfly.Web.Channel.BaseChannelConnection.Start(System.Object,System.String)
+  - Butterfly.Web.Channel.BaseChannelConnection.channelByKey
+  - Butterfly.Web.Channel.BaseChannelConnection.RunAsync
+  - Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync(System.String)
+  - Butterfly.Web.Channel.BaseChannelConnection.EMPTY_DICT
+  - Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync(ICollection{System.Collections.Generic.Dictionary{System.String,System.Object}})
+  - Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll
+  - Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe(ICollection{System.String})
+  - Butterfly.Web.Channel.BaseChannelConnection.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.send
+  commentId: F:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.send
+  id: send
+  parent: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  langs:
+  - csharp
+  - vb
+  name: send
+  nameWithType: EmbedIOSubscriptionApiConnection.send
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.send
+  type: Field
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    id: send
+    path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    startLine: 94
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: protected readonly Action<string> send
+    return:
+      type: Action{System.String}
+    content.vb: Protected ReadOnly send As Action(Of String)
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.context
+  commentId: F:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.context
+  id: context
+  parent: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  langs:
+  - csharp
+  - vb
+  name: context
+  nameWithType: EmbedIOSubscriptionApiConnection.context
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.context
+  type: Field
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    id: context
+    path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    startLine: 95
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: protected readonly IWebSocketContext context
+    return:
+      type: IWebSocketContext
+    content.vb: Protected ReadOnly context As IWebSocketContext
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.#ctor(Butterfly.Web.Channel.BaseSubscriptionApi,Action{System.String},IWebSocketContext)
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.#ctor(Butterfly.Web.Channel.BaseSubscriptionApi,Action{System.String},IWebSocketContext)
+  id: '#ctor(Butterfly.Web.Channel.BaseSubscriptionApi,Action{System.String},IWebSocketContext)'
+  parent: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  langs:
+  - csharp
+  - vb
+  name: EmbedIOSubscriptionApiConnection(BaseSubscriptionApi, Action<String>, IWebSocketContext)
+  nameWithType: EmbedIOSubscriptionApiConnection.EmbedIOSubscriptionApiConnection(BaseSubscriptionApi, Action<String>, IWebSocketContext)
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.EmbedIOSubscriptionApiConnection(Butterfly.Web.Channel.BaseSubscriptionApi, Action<System.String>, IWebSocketContext)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    id: .ctor
+    path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    startLine: 97
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public EmbedIOSubscriptionApiConnection(BaseSubscriptionApi subscriptionApi, Action<string> send, IWebSocketContext context)
+    parameters:
+    - id: subscriptionApi
+      type: Butterfly.Web.Channel.BaseSubscriptionApi
+    - id: send
+      type: Action{System.String}
+    - id: context
+      type: IWebSocketContext
+    content.vb: Public Sub New(subscriptionApi As BaseSubscriptionApi, send As Action(Of String), context As IWebSocketContext)
+  overload: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.#ctor*
+  nameWithType.vb: EmbedIOSubscriptionApiConnection.EmbedIOSubscriptionApiConnection(BaseSubscriptionApi, Action(Of String), IWebSocketContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.EmbedIOSubscriptionApiConnection(Butterfly.Web.Channel.BaseSubscriptionApi, Action(Of System.String), IWebSocketContext)
+  name.vb: EmbedIOSubscriptionApiConnection(BaseSubscriptionApi, Action(Of String), IWebSocketContext)
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync(System.String)
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync(System.String)
+  id: SendAsync(System.String)
+  parent: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(String)
+  nameWithType: EmbedIOSubscriptionApiConnection.SendAsync(String)
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    id: SendAsync
+    path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    startLine: 102
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: protected override Task SendAsync(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: Task
+    content.vb: Protected Overrides Function SendAsync(text As String) As Task
+  overridden: Butterfly.Web.Channel.BaseChannelConnection.SendAsync(System.String)
+  overload: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose
+  commentId: M:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose
+  id: DoDispose
+  parent: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  langs:
+  - csharp
+  - vb
+  name: DoDispose()
+  nameWithType: EmbedIOSubscriptionApiConnection.DoDispose()
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    id: DoDispose
+    path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+    startLine: 108
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: protected override void DoDispose()
+    content.vb: Protected Overrides Sub DoDispose
+  overridden: Butterfly.Web.Channel.BaseChannelConnection.DoDispose
+  overload: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Butterfly.Web.EmbedIO
+  commentId: N:Butterfly.Web.EmbedIO
+  name: Butterfly.Web.EmbedIO
+  nameWithType: Butterfly.Web.EmbedIO
+  fullName: Butterfly.Web.EmbedIO
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.Web.Channel.BaseChannelConnection
+  commentId: T:Butterfly.Web.Channel.BaseChannelConnection
+  parent: Butterfly.Web.Channel
+  name: BaseChannelConnection
+  nameWithType: BaseChannelConnection
+  fullName: Butterfly.Web.Channel.BaseChannelConnection
+- uid: Butterfly.Web.Channel.IChannelConnection
+  commentId: T:Butterfly.Web.Channel.IChannelConnection
+  parent: Butterfly.Web.Channel
+  name: IChannelConnection
+  nameWithType: IChannelConnection
+  fullName: Butterfly.Web.Channel.IChannelConnection
+- uid: IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: IDisposable
+- uid: Butterfly.Web.Channel.BaseChannelConnection.logger
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.logger
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: logger
+  nameWithType: BaseChannelConnection.logger
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.logger
+- uid: Butterfly.Web.Channel.BaseChannelConnection.subscriptionApi
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.subscriptionApi
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: subscriptionApi
+  nameWithType: BaseChannelConnection.subscriptionApi
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.subscriptionApi
+- uid: Butterfly.Web.Channel.BaseChannelConnection.created
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.created
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: created
+  nameWithType: BaseChannelConnection.created
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.created
+- uid: Butterfly.Web.Channel.BaseChannelConnection.buffer
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.buffer
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: buffer
+  nameWithType: BaseChannelConnection.buffer
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.buffer
+- uid: Butterfly.Web.Channel.BaseChannelConnection.monitor
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.monitor
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: monitor
+  nameWithType: BaseChannelConnection.monitor
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.monitor
+- uid: Butterfly.Web.Channel.BaseChannelConnection.authToken
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.authToken
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: authToken
+  nameWithType: BaseChannelConnection.authToken
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.authToken
+- uid: Butterfly.Web.Channel.BaseChannelConnection.id
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.id
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: id
+  nameWithType: BaseChannelConnection.id
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.id
+- uid: Butterfly.Web.Channel.BaseChannelConnection.lastHeartbeat
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.lastHeartbeat
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: lastHeartbeat
+  nameWithType: BaseChannelConnection.lastHeartbeat
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.lastHeartbeat
+- uid: Butterfly.Web.Channel.BaseChannelConnection.AuthToken
+  commentId: P:Butterfly.Web.Channel.BaseChannelConnection.AuthToken
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: AuthToken
+  nameWithType: BaseChannelConnection.AuthToken
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.AuthToken
+- uid: Butterfly.Web.Channel.BaseChannelConnection.Id
+  commentId: P:Butterfly.Web.Channel.BaseChannelConnection.Id
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: Id
+  nameWithType: BaseChannelConnection.Id
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.Id
+- uid: Butterfly.Web.Channel.BaseChannelConnection.Created
+  commentId: P:Butterfly.Web.Channel.BaseChannelConnection.Created
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: Created
+  nameWithType: BaseChannelConnection.Created
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.Created
+- uid: Butterfly.Web.Channel.BaseChannelConnection.LastHeartbeat
+  commentId: P:Butterfly.Web.Channel.BaseChannelConnection.LastHeartbeat
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: LastHeartbeat
+  nameWithType: BaseChannelConnection.LastHeartbeat
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.LastHeartbeat
+- uid: Butterfly.Web.Channel.BaseChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  isExternal: true
+  name: QueueMessage(String, String, Object, Boolean)
+  nameWithType: BaseChannelConnection.QueueMessage(String, String, Object, Boolean)
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.QueueMessage(System.String, System.String, System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+    name: QueueMessage
+    nameWithType: BaseChannelConnection.QueueMessage
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.QueueMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+    name: QueueMessage
+    nameWithType: BaseChannelConnection.QueueMessage
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.QueueMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel.BaseChannelConnection.started
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.started
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: started
+  nameWithType: BaseChannelConnection.started
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.started
+- uid: Butterfly.Web.Channel.BaseChannelConnection.Start(System.Object,System.String)
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.Start(System.Object,System.String)
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  isExternal: true
+  name: Start(Object, String)
+  nameWithType: BaseChannelConnection.Start(Object, String)
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.Start(System.Object, System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.Start(System.Object,System.String)
+    name: Start
+    nameWithType: BaseChannelConnection.Start
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.Start(System.Object,System.String)
+    name: Start
+    nameWithType: BaseChannelConnection.Start
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel.BaseChannelConnection.channelByKey
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.channelByKey
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: channelByKey
+  nameWithType: BaseChannelConnection.channelByKey
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.channelByKey
+- uid: Butterfly.Web.Channel.BaseChannelConnection.RunAsync
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.RunAsync
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: RunAsync()
+  nameWithType: BaseChannelConnection.RunAsync()
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.RunAsync()
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.RunAsync
+    name: RunAsync
+    nameWithType: BaseChannelConnection.RunAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.RunAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.RunAsync
+    name: RunAsync
+    nameWithType: BaseChannelConnection.RunAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.RunAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync(System.String)
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync(System.String)
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  isExternal: true
+  name: ReceiveMessageAsync(String)
+  nameWithType: BaseChannelConnection.ReceiveMessageAsync(String)
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync(System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync(System.String)
+    name: ReceiveMessageAsync
+    nameWithType: BaseChannelConnection.ReceiveMessageAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync(System.String)
+    name: ReceiveMessageAsync
+    nameWithType: BaseChannelConnection.ReceiveMessageAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.ReceiveMessageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel.BaseChannelConnection.EMPTY_DICT
+  commentId: F:Butterfly.Web.Channel.BaseChannelConnection.EMPTY_DICT
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: EMPTY_DICT
+  nameWithType: BaseChannelConnection.EMPTY_DICT
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.EMPTY_DICT
+- uid: Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync(ICollection{System.Collections.Generic.Dictionary{System.String,System.Object}})
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync(ICollection{System.Collections.Generic.Dictionary{System.String,System.Object}})
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  isExternal: true
+  name: SubscribeAsync(ICollection<System.Collections.Generic.Dictionary<String, Object>>)
+  nameWithType: BaseChannelConnection.SubscribeAsync(ICollection<System.Collections.Generic.Dictionary<String, Object>>)
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync(ICollection<System.Collections.Generic.Dictionary<System.String, System.Object>>)
+  nameWithType.vb: BaseChannelConnection.SubscribeAsync(ICollection(Of System.Collections.Generic.Dictionary(Of String, Object)))
+  fullName.vb: Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync(ICollection(Of System.Collections.Generic.Dictionary(Of System.String, System.Object)))
+  name.vb: SubscribeAsync(ICollection(Of System.Collections.Generic.Dictionary(Of String, Object)))
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync(ICollection{System.Collections.Generic.Dictionary{System.String,System.Object}})
+    name: SubscribeAsync
+    nameWithType: BaseChannelConnection.SubscribeAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: System.Collections.Generic.Dictionary
+    nameWithType: System.Collections.Generic.Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync(ICollection{System.Collections.Generic.Dictionary{System.String,System.Object}})
+    name: SubscribeAsync
+    nameWithType: BaseChannelConnection.SubscribeAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.SubscribeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: System.Collections.Generic.Dictionary
+    nameWithType: System.Collections.Generic.Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: UnsubscribeAll()
+  nameWithType: BaseChannelConnection.UnsubscribeAll()
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll()
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll
+    name: UnsubscribeAll
+    nameWithType: BaseChannelConnection.UnsubscribeAll
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll
+    name: UnsubscribeAll
+    nameWithType: BaseChannelConnection.UnsubscribeAll
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.UnsubscribeAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe(ICollection{System.String})
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe(ICollection{System.String})
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  isExternal: true
+  name: Unsubscribe(ICollection<String>)
+  nameWithType: BaseChannelConnection.Unsubscribe(ICollection<String>)
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe(ICollection<System.String>)
+  nameWithType.vb: BaseChannelConnection.Unsubscribe(ICollection(Of String))
+  fullName.vb: Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe(ICollection(Of System.String))
+  name.vb: Unsubscribe(ICollection(Of String))
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe(ICollection{System.String})
+    name: Unsubscribe
+    nameWithType: BaseChannelConnection.Unsubscribe
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe(ICollection{System.String})
+    name: Unsubscribe
+    nameWithType: BaseChannelConnection.Unsubscribe
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.Unsubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel.BaseChannelConnection.Dispose
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.Dispose
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: Dispose()
+  nameWithType: BaseChannelConnection.Dispose()
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.Dispose()
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.Dispose
+    name: Dispose
+    nameWithType: BaseChannelConnection.Dispose
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.Dispose
+    name: Dispose
+    nameWithType: BaseChannelConnection.Dispose
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.Channel
+  commentId: N:Butterfly.Web.Channel
+  name: Butterfly.Web.Channel
+  nameWithType: Butterfly.Web.Channel
+  fullName: Butterfly.Web.Channel
+- uid: Action{System.String}
+  commentId: '!:Action{System.String}'
+  definition: Action`1
+  name: Action<String>
+  nameWithType: Action<String>
+  fullName: Action<System.String>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: Action(Of System.String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IWebSocketContext
+  isExternal: true
+  name: IWebSocketContext
+  nameWithType: IWebSocketContext
+  fullName: IWebSocketContext
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.#ctor*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.#ctor
+  name: EmbedIOSubscriptionApiConnection
+  nameWithType: EmbedIOSubscriptionApiConnection.EmbedIOSubscriptionApiConnection
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.EmbedIOSubscriptionApiConnection
+- uid: Butterfly.Web.Channel.BaseSubscriptionApi
+  commentId: T:Butterfly.Web.Channel.BaseSubscriptionApi
+  parent: Butterfly.Web.Channel
+  name: BaseSubscriptionApi
+  nameWithType: BaseSubscriptionApi
+  fullName: Butterfly.Web.Channel.BaseSubscriptionApi
+- uid: Butterfly.Web.Channel.BaseChannelConnection.SendAsync(System.String)
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.SendAsync(System.String)
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  isExternal: true
+  name: SendAsync(String)
+  nameWithType: BaseChannelConnection.SendAsync(String)
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.SendAsync(System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.SendAsync(System.String)
+    name: SendAsync
+    nameWithType: BaseChannelConnection.SendAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.SendAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.SendAsync(System.String)
+    name: SendAsync
+    nameWithType: BaseChannelConnection.SendAsync
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.SendAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync
+  name: SendAsync
+  nameWithType: EmbedIOSubscriptionApiConnection.SendAsync
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.SendAsync
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: Butterfly.Web.Channel.BaseChannelConnection.DoDispose
+  commentId: M:Butterfly.Web.Channel.BaseChannelConnection.DoDispose
+  parent: Butterfly.Web.Channel.BaseChannelConnection
+  name: DoDispose()
+  nameWithType: BaseChannelConnection.DoDispose()
+  fullName: Butterfly.Web.Channel.BaseChannelConnection.DoDispose()
+  spec.csharp:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.DoDispose
+    name: DoDispose
+    nameWithType: BaseChannelConnection.DoDispose
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.DoDispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.Channel.BaseChannelConnection.DoDispose
+    name: DoDispose
+    nameWithType: BaseChannelConnection.DoDispose
+    fullName: Butterfly.Web.Channel.BaseChannelConnection.DoDispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose
+  name: DoDispose
+  nameWithType: EmbedIOSubscriptionApiConnection.DoDispose
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection.DoDispose
+shouldSkipMarkup: true

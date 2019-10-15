@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.RedHttpServer.HttpRequestX
+  commentId: T:Butterfly.RedHttpServer.HttpRequestX
+  id: HttpRequestX
+  parent: Butterfly.RedHttpServer
+  children:
+  - Butterfly.RedHttpServer.HttpRequestX.ToUri(HttpRequest)
+  langs:
+  - csharp
+  - vb
+  name: HttpRequestX
+  nameWithType: HttpRequestX
+  fullName: Butterfly.RedHttpServer.HttpRequestX
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/HttpRequestX.cs
+    id: HttpRequestX
+    path: ../Butterfly.Web.RedHttpServer/HttpRequestX.cs
+    startLine: 4
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: 'public static class HttpRequestX : object'
+    content.vb: >-
+      Public Module HttpRequestX
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Butterfly.RedHttpServer.HttpRequestX.ToUri(HttpRequest)
+  commentId: M:Butterfly.RedHttpServer.HttpRequestX.ToUri(HttpRequest)
+  id: ToUri(HttpRequest)
+  isExtensionMethod: true
+  parent: Butterfly.RedHttpServer.HttpRequestX
+  langs:
+  - csharp
+  - vb
+  name: ToUri(HttpRequest)
+  nameWithType: HttpRequestX.ToUri(HttpRequest)
+  fullName: Butterfly.RedHttpServer.HttpRequestX.ToUri(HttpRequest)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/HttpRequestX.cs
+    id: ToUri
+    path: ../Butterfly.Web.RedHttpServer/HttpRequestX.cs
+    startLine: 5
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public static Uri ToUri(this HttpRequest me)
+    parameters:
+    - id: me
+      type: HttpRequest
+    return:
+      type: Uri
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUri(me As HttpRequest) As Uri
+  overload: Butterfly.RedHttpServer.HttpRequestX.ToUri*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Butterfly.RedHttpServer
+  commentId: N:Butterfly.RedHttpServer
+  name: Butterfly.RedHttpServer
+  nameWithType: Butterfly.RedHttpServer
+  fullName: Butterfly.RedHttpServer
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.RedHttpServer.HttpRequestX.ToUri*
+  commentId: Overload:Butterfly.RedHttpServer.HttpRequestX.ToUri
+  name: ToUri
+  nameWithType: HttpRequestX.ToUri
+  fullName: Butterfly.RedHttpServer.HttpRequestX.ToUri
+- uid: HttpRequest
+  commentId: '!:HttpRequest'
+  isExternal: true
+  name: HttpRequest
+  nameWithType: HttpRequest
+  fullName: HttpRequest
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+shouldSkipMarkup: true

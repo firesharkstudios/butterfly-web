@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.RedHttpServer
+  commentId: N:Butterfly.RedHttpServer
+  id: Butterfly.RedHttpServer
+  children:
+  - Butterfly.RedHttpServer.HttpRequestX
+  - Butterfly.RedHttpServer.RedHttpServerContext
+  - Butterfly.RedHttpServer.RedHttpServerSubscriptionApi
+  - Butterfly.RedHttpServer.RedHttpServerWebApi
+  - Butterfly.RedHttpServer.RedHttpServerWebRequest
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse
+  - Butterfly.RedHttpServer.WebSocketDialogChannelConnection
+  - Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  langs:
+  - csharp
+  - vb
+  name: Butterfly.RedHttpServer
+  nameWithType: Butterfly.RedHttpServer
+  fullName: Butterfly.RedHttpServer
+  type: Namespace
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+references:
+- uid: Butterfly.RedHttpServer.HttpRequestX
+  commentId: T:Butterfly.RedHttpServer.HttpRequestX
+  name: HttpRequestX
+  nameWithType: HttpRequestX
+  fullName: Butterfly.RedHttpServer.HttpRequestX
+- uid: Butterfly.RedHttpServer.RedHttpServerContext
+  commentId: T:Butterfly.RedHttpServer.RedHttpServerContext
+  name: RedHttpServerContext
+  nameWithType: RedHttpServerContext
+  fullName: Butterfly.RedHttpServer.RedHttpServerContext
+- uid: Butterfly.RedHttpServer.RedHttpServerSubscriptionApi
+  commentId: T:Butterfly.RedHttpServer.RedHttpServerSubscriptionApi
+  name: RedHttpServerSubscriptionApi
+  nameWithType: RedHttpServerSubscriptionApi
+  fullName: Butterfly.RedHttpServer.RedHttpServerSubscriptionApi
+- uid: Butterfly.RedHttpServer.WebSocketDialogChannelConnection
+  commentId: T:Butterfly.RedHttpServer.WebSocketDialogChannelConnection
+  name: WebSocketDialogChannelConnection
+  nameWithType: WebSocketDialogChannelConnection
+  fullName: Butterfly.RedHttpServer.WebSocketDialogChannelConnection
+- uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  commentId: T:Butterfly.RedHttpServer.WebSocketDialogWebRequest
+  name: WebSocketDialogWebRequest
+  nameWithType: WebSocketDialogWebRequest
+  fullName: Butterfly.RedHttpServer.WebSocketDialogWebRequest
+- uid: Butterfly.RedHttpServer.RedHttpServerWebApi
+  commentId: T:Butterfly.RedHttpServer.RedHttpServerWebApi
+  name: RedHttpServerWebApi
+  nameWithType: RedHttpServerWebApi
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebApi
+- uid: Butterfly.RedHttpServer.RedHttpServerWebRequest
+  commentId: T:Butterfly.RedHttpServer.RedHttpServerWebRequest
+  name: RedHttpServerWebRequest
+  nameWithType: RedHttpServerWebRequest
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebRequest
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  commentId: T:Butterfly.RedHttpServer.RedHttpServerWebResponse
+  name: RedHttpServerWebResponse
+  nameWithType: RedHttpServerWebResponse
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse
+shouldSkipMarkup: true

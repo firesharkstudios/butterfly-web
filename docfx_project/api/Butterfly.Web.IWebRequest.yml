@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.IWebRequest
+  commentId: T:Butterfly.Web.IWebRequest
+  id: IWebRequest
+  parent: Butterfly.Web
+  children:
+  - Butterfly.Web.IWebRequest.Headers
+  - Butterfly.Web.IWebRequest.PathParams
+  - Butterfly.Web.IWebRequest.QueryParams
+  - Butterfly.Web.IWebRequest.RequestUrl
+  langs:
+  - csharp
+  - vb
+  name: IWebRequest
+  nameWithType: IWebRequest
+  fullName: Butterfly.Web.IWebRequest
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+    id: IWebRequest
+    path: ../Butterfly.Web/IWebRequest.cs
+    startLine: 8
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  syntax:
+    content: public interface IWebRequest
+    content.vb: Public Interface IWebRequest
+  extensionMethods:
+  - Butterfly.Web.IWebRequest.Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Butterfly.Web.IWebRequest.RequestUrl
+  commentId: P:Butterfly.Web.IWebRequest.RequestUrl
+  id: RequestUrl
+  parent: Butterfly.Web.IWebRequest
+  langs:
+  - csharp
+  - vb
+  name: RequestUrl
+  nameWithType: IWebRequest.RequestUrl
+  fullName: Butterfly.Web.IWebRequest.RequestUrl
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+    id: RequestUrl
+    path: ../Butterfly.Web/IWebRequest.cs
+    startLine: 12
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  summary: "\nRetrieves the URL used to make the request\n"
+  example: []
+  syntax:
+    content: Uri RequestUrl { get; }
+    parameters: []
+    return:
+      type: Uri
+    content.vb: ReadOnly Property RequestUrl As Uri
+  overload: Butterfly.Web.IWebRequest.RequestUrl*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.IWebRequest.Headers
+  commentId: P:Butterfly.Web.IWebRequest.Headers
+  id: Headers
+  parent: Butterfly.Web.IWebRequest
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: IWebRequest.Headers
+  fullName: Butterfly.Web.IWebRequest.Headers
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+    id: Headers
+    path: ../Butterfly.Web/IWebRequest.cs
+    startLine: 17
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  summary: "\nRetrieves the request headers\n"
+  example: []
+  syntax:
+    content: Dictionary<string, string> Headers { get; }
+    parameters: []
+    return:
+      type: Dictionary{System.String,System.String}
+    content.vb: ReadOnly Property Headers As Dictionary(Of String, String)
+  overload: Butterfly.Web.IWebRequest.Headers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.IWebRequest.PathParams
+  commentId: P:Butterfly.Web.IWebRequest.PathParams
+  id: PathParams
+  parent: Butterfly.Web.IWebRequest
+  langs:
+  - csharp
+  - vb
+  name: PathParams
+  nameWithType: IWebRequest.PathParams
+  fullName: Butterfly.Web.IWebRequest.PathParams
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+    id: PathParams
+    path: ../Butterfly.Web/IWebRequest.cs
+    startLine: 30
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  summary: "\nRetrieves the path params\n"
+  example:
+  - "\n<pre><code>webApi.OnGet(&quot;/todo/{id}&quot;, (req, res) => {\n    // Opening /todo/123 would echo id=123 to the console below\n    Console.Writeline($&quot;id={req.PathParams[&quot;id&quot;]}&quot;);\n});</code></pre>\n"
+  syntax:
+    content: Dictionary<string, string> PathParams { get; }
+    parameters: []
+    return:
+      type: Dictionary{System.String,System.String}
+    content.vb: ReadOnly Property PathParams As Dictionary(Of String, String)
+  overload: Butterfly.Web.IWebRequest.PathParams*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.IWebRequest.QueryParams
+  commentId: P:Butterfly.Web.IWebRequest.QueryParams
+  id: QueryParams
+  parent: Butterfly.Web.IWebRequest
+  langs:
+  - csharp
+  - vb
+  name: QueryParams
+  nameWithType: IWebRequest.QueryParams
+  fullName: Butterfly.Web.IWebRequest.QueryParams
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+    id: QueryParams
+    path: ../Butterfly.Web/IWebRequest.cs
+    startLine: 43
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  summary: "\nRetrieves the query string params\n"
+  example:
+  - "\n<pre><code>webApi.OnGet(&quot;/todo&quot;, (req, res) => {\n    // Opening /todo?id=123 would echo id=123 to the console below\n    Console.Writeline($&quot;id={req.QueryParams[&quot;id&quot;]}&quot;);\n});</code></pre>\n"
+  syntax:
+    content: Dictionary<string, string> QueryParams { get; }
+    parameters: []
+    return:
+      type: Dictionary{System.String,System.String}
+    content.vb: ReadOnly Property QueryParams As Dictionary(Of String, String)
+  overload: Butterfly.Web.IWebRequest.QueryParams*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Butterfly.Web
+  commentId: N:Butterfly.Web
+  name: Butterfly.Web
+  nameWithType: Butterfly.Web
+  fullName: Butterfly.Web
+- uid: Butterfly.Web.IWebRequest.Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  commentId: M:Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  parent: Butterfly.Web.IWebRequestX
+  definition: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  name: GetAuthenticationHeaderValue()
+  nameWithType: IWebRequestX.GetAuthenticationHeaderValue()
+  fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue()
+  spec.csharp:
+  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    name: GetAuthenticationHeaderValue
+    nameWithType: IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    name: GetAuthenticationHeaderValue
+    nameWithType: IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  commentId: M:Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  name: GetAuthenticationHeaderValue(IWebRequest)
+  nameWithType: IWebRequestX.GetAuthenticationHeaderValue(IWebRequest)
+  fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  spec.csharp:
+  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+    name: GetAuthenticationHeaderValue
+    nameWithType: IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Butterfly.Web.IWebRequest
+    name: IWebRequest
+    nameWithType: IWebRequest
+    fullName: Butterfly.Web.IWebRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+    name: GetAuthenticationHeaderValue
+    nameWithType: IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Butterfly.Web.IWebRequest
+    name: IWebRequest
+    nameWithType: IWebRequest
+    fullName: Butterfly.Web.IWebRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.IWebRequestX
+  commentId: T:Butterfly.Web.IWebRequestX
+  parent: Butterfly.Web
+  name: IWebRequestX
+  nameWithType: IWebRequestX
+  fullName: Butterfly.Web.IWebRequestX
+- uid: Butterfly.Web.IWebRequest.RequestUrl*
+  commentId: Overload:Butterfly.Web.IWebRequest.RequestUrl
+  name: RequestUrl
+  nameWithType: IWebRequest.RequestUrl
+  fullName: Butterfly.Web.IWebRequest.RequestUrl
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+- uid: Butterfly.Web.IWebRequest.Headers*
+  commentId: Overload:Butterfly.Web.IWebRequest.Headers
+  name: Headers
+  nameWithType: IWebRequest.Headers
+  fullName: Butterfly.Web.IWebRequest.Headers
+- uid: Dictionary{System.String,System.String}
+  commentId: '!:Dictionary{System.String,System.String}'
+  definition: Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.IWebRequest.PathParams*
+  commentId: Overload:Butterfly.Web.IWebRequest.PathParams
+  name: PathParams
+  nameWithType: IWebRequest.PathParams
+  fullName: Butterfly.Web.IWebRequest.PathParams
+- uid: Butterfly.Web.IWebRequest.QueryParams*
+  commentId: Overload:Butterfly.Web.IWebRequest.QueryParams
+  name: QueryParams
+  nameWithType: IWebRequest.QueryParams
+  fullName: Butterfly.Web.IWebRequest.QueryParams
+shouldSkipMarkup: true

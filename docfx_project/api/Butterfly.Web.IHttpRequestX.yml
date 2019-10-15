@@ -1,0 +1,313 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.IHttpRequestX
+  commentId: T:Butterfly.Web.IHttpRequestX
+  id: IHttpRequestX
+  parent: Butterfly.Web
+  children:
+  - Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  - Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  langs:
+  - csharp
+  - vb
+  name: IHttpRequestX
+  nameWithType: IHttpRequestX
+  fullName: Butterfly.Web.IHttpRequestX
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpRequestX.cs
+    id: IHttpRequestX
+    path: ../Butterfly.Web/IHttpRequestX.cs
+    startLine: 11
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  syntax:
+    content: 'public static class IHttpRequestX : object'
+    content.vb: >-
+      Public Module IHttpRequestX
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  id: ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  isExtensionMethod: true
+  parent: Butterfly.Web.IHttpRequestX
+  langs:
+  - csharp
+  - vb
+  name: ParseAsUrlEncodedAsync(IHttpRequest)
+  nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync(IHttpRequest)
+  fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpRequestX.cs
+    id: ParseAsUrlEncodedAsync
+    path: ../Butterfly.Web/IHttpRequestX.cs
+    startLine: 12
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  syntax:
+    content: public static Task<Dictionary<string, string>> ParseAsUrlEncodedAsync(this IHttpRequest me)
+    parameters:
+    - id: me
+      type: Butterfly.Web.WebApi.IHttpRequest
+    return:
+      type: Task{Dictionary{System.String,System.String}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ParseAsUrlEncodedAsync(me As IHttpRequest) As Task(Of Dictionary(Of String, String))
+  overload: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  id: ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  isExtensionMethod: true
+  parent: Butterfly.Web.IHttpRequestX
+  langs:
+  - csharp
+  - vb
+  name: ParseAsJsonAsync<T>(IHttpRequest)
+  nameWithType: IHttpRequestX.ParseAsJsonAsync<T>(IHttpRequest)
+  fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync<T>(Butterfly.Web.WebApi.IHttpRequest)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpRequestX.cs
+    id: ParseAsJsonAsync
+    path: ../Butterfly.Web/IHttpRequestX.cs
+    startLine: 17
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  syntax:
+    content: public static Task<T> ParseAsJsonAsync<T>(this IHttpRequest me)
+    parameters:
+    - id: me
+      type: Butterfly.Web.WebApi.IHttpRequest
+    typeParameters:
+    - id: T
+    return:
+      type: Task{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ParseAsJsonAsync(Of T)(me As IHttpRequest) As Task(Of T)
+  overload: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync*
+  nameWithType.vb: IHttpRequestX.ParseAsJsonAsync(Of T)(IHttpRequest)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync(Of T)(Butterfly.Web.WebApi.IHttpRequest)
+  name.vb: ParseAsJsonAsync(Of T)(IHttpRequest)
+references:
+- uid: Butterfly.Web
+  commentId: N:Butterfly.Web
+  name: Butterfly.Web
+  nameWithType: Butterfly.Web
+  fullName: Butterfly.Web
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync*
+  commentId: Overload:Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+  name: ParseAsUrlEncodedAsync
+  nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync
+  fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+- uid: Butterfly.Web.WebApi.IHttpRequest
+  commentId: T:Butterfly.Web.WebApi.IHttpRequest
+  parent: Butterfly.Web.WebApi
+  name: IHttpRequest
+  nameWithType: IHttpRequest
+  fullName: Butterfly.Web.WebApi.IHttpRequest
+- uid: Task{Dictionary{System.String,System.String}}
+  commentId: '!:Task{Dictionary{System.String,System.String}}'
+  definition: Task`1
+  name: Task<Dictionary<String, String>>
+  nameWithType: Task<Dictionary<String, String>>
+  fullName: Task<Dictionary<System.String, System.String>>
+  nameWithType.vb: Task(Of Dictionary(Of String, String))
+  fullName.vb: Task(Of Dictionary(Of System.String, System.String))
+  name.vb: Task(Of Dictionary(Of String, String))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync*
+  commentId: Overload:Butterfly.Web.IHttpRequestX.ParseAsJsonAsync
+  name: ParseAsJsonAsync
+  nameWithType: IHttpRequestX.ParseAsJsonAsync
+  fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync
+- uid: Task{{T}}
+  commentId: '!:Task{``0}'
+  definition: Task`1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

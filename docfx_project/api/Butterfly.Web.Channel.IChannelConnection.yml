@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.Channel.IChannelConnection
+  commentId: T:Butterfly.Web.Channel.IChannelConnection
+  id: IChannelConnection
+  parent: Butterfly.Web.Channel
+  children:
+  - Butterfly.Web.Channel.IChannelConnection.AuthToken
+  - Butterfly.Web.Channel.IChannelConnection.Created
+  - Butterfly.Web.Channel.IChannelConnection.Id
+  - Butterfly.Web.Channel.IChannelConnection.LastHeartbeat
+  - Butterfly.Web.Channel.IChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+  - Butterfly.Web.Channel.IChannelConnection.Start(System.Object,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IChannelConnection
+  nameWithType: IChannelConnection
+  fullName: Butterfly.Web.Channel.IChannelConnection
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+    id: IChannelConnection
+    path: ../Butterfly.Web/Channel/IChannelConnection.cs
+    startLine: 10
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.Channel
+  summary: "\nInternal interface representing a communications channel from the server to the client (might be implemented via WebSockets, HTTP long polling, etc)\n"
+  example: []
+  syntax:
+    content: 'public interface IChannelConnection : IDisposable'
+    content.vb: >-
+      Public Interface IChannelConnection
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Butterfly.Web.Channel.IChannelConnection.AuthToken
+  commentId: P:Butterfly.Web.Channel.IChannelConnection.AuthToken
+  id: AuthToken
+  parent: Butterfly.Web.Channel.IChannelConnection
+  langs:
+  - csharp
+  - vb
+  name: AuthToken
+  nameWithType: IChannelConnection.AuthToken
+  fullName: Butterfly.Web.Channel.IChannelConnection.AuthToken
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+    id: AuthToken
+    path: ../Butterfly.Web/Channel/IChannelConnection.cs
+    startLine: 11
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.Channel
+  syntax:
+    content: object AuthToken { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: ReadOnly Property AuthToken As Object
+  overload: Butterfly.Web.Channel.IChannelConnection.AuthToken*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.Channel.IChannelConnection.Id
+  commentId: P:Butterfly.Web.Channel.IChannelConnection.Id
+  id: Id
+  parent: Butterfly.Web.Channel.IChannelConnection
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IChannelConnection.Id
+  fullName: Butterfly.Web.Channel.IChannelConnection.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+    id: Id
+    path: ../Butterfly.Web/Channel/IChannelConnection.cs
+    startLine: 12
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.Channel
+  syntax:
+    content: string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Id As String
+  overload: Butterfly.Web.Channel.IChannelConnection.Id*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.Channel.IChannelConnection.Created
+  commentId: P:Butterfly.Web.Channel.IChannelConnection.Created
+  id: Created
+  parent: Butterfly.Web.Channel.IChannelConnection
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: IChannelConnection.Created
+  fullName: Butterfly.Web.Channel.IChannelConnection.Created
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+    id: Created
+    path: ../Butterfly.Web/Channel/IChannelConnection.cs
+    startLine: 13
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.Channel
+  syntax:
+    content: DateTime Created { get; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: ReadOnly Property Created As DateTime
+  overload: Butterfly.Web.Channel.IChannelConnection.Created*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.Channel.IChannelConnection.LastHeartbeat
+  commentId: P:Butterfly.Web.Channel.IChannelConnection.LastHeartbeat
+  id: LastHeartbeat
+  parent: Butterfly.Web.Channel.IChannelConnection
+  langs:
+  - csharp
+  - vb
+  name: LastHeartbeat
+  nameWithType: IChannelConnection.LastHeartbeat
+  fullName: Butterfly.Web.Channel.IChannelConnection.LastHeartbeat
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+    id: LastHeartbeat
+    path: ../Butterfly.Web/Channel/IChannelConnection.cs
+    startLine: 14
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.Channel
+  syntax:
+    content: DateTime LastHeartbeat { get; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: ReadOnly Property LastHeartbeat As DateTime
+  overload: Butterfly.Web.Channel.IChannelConnection.LastHeartbeat*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.Channel.IChannelConnection.Start(System.Object,System.String)
+  commentId: M:Butterfly.Web.Channel.IChannelConnection.Start(System.Object,System.String)
+  id: Start(System.Object,System.String)
+  parent: Butterfly.Web.Channel.IChannelConnection
+  langs:
+  - csharp
+  - vb
+  name: Start(Object, String)
+  nameWithType: IChannelConnection.Start(Object, String)
+  fullName: Butterfly.Web.Channel.IChannelConnection.Start(System.Object, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+    id: Start
+    path: ../Butterfly.Web/Channel/IChannelConnection.cs
+    startLine: 15
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.Channel
+  syntax:
+    content: void Start(object authToken, string id)
+    parameters:
+    - id: authToken
+      type: System.Object
+    - id: id
+      type: System.String
+    content.vb: Sub Start(authToken As Object, id As String)
+  overload: Butterfly.Web.Channel.IChannelConnection.Start*
+- uid: Butterfly.Web.Channel.IChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+  commentId: M:Butterfly.Web.Channel.IChannelConnection.QueueMessage(System.String,System.String,System.Object,System.Boolean)
+  id: QueueMessage(System.String,System.String,System.Object,System.Boolean)
+  parent: Butterfly.Web.Channel.IChannelConnection
+  langs:
+  - csharp
+  - vb
+  name: QueueMessage(String, String, Object, Boolean)
+  nameWithType: IChannelConnection.QueueMessage(String, String, Object, Boolean)
+  fullName: Butterfly.Web.Channel.IChannelConnection.QueueMessage(System.String, System.String, System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+    id: QueueMessage
+    path: ../Butterfly.Web/Channel/IChannelConnection.cs
+    startLine: 16
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.Channel
+  syntax:
+    content: void QueueMessage(string channelKey = null, string messageType = null, object data = null, bool immediate = false)
+    parameters:
+    - id: channelKey
+      type: System.String
+    - id: messageType
+      type: System.String
+    - id: data
+      type: System.Object
+    - id: immediate
+      type: System.Boolean
+    content.vb: Sub QueueMessage(channelKey As String = Nothing, messageType As String = Nothing, data As Object = Nothing, immediate As Boolean = False)
+  overload: Butterfly.Web.Channel.IChannelConnection.QueueMessage*
+references:
+- uid: Butterfly.Web.Channel
+  commentId: N:Butterfly.Web.Channel
+  name: Butterfly.Web.Channel
+  nameWithType: Butterfly.Web.Channel
+  fullName: Butterfly.Web.Channel
+- uid: Butterfly.Web.Channel.IChannelConnection.AuthToken*
+  commentId: Overload:Butterfly.Web.Channel.IChannelConnection.AuthToken
+  name: AuthToken
+  nameWithType: IChannelConnection.AuthToken
+  fullName: Butterfly.Web.Channel.IChannelConnection.AuthToken
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.Web.Channel.IChannelConnection.Id*
+  commentId: Overload:Butterfly.Web.Channel.IChannelConnection.Id
+  name: Id
+  nameWithType: IChannelConnection.Id
+  fullName: Butterfly.Web.Channel.IChannelConnection.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Butterfly.Web.Channel.IChannelConnection.Created*
+  commentId: Overload:Butterfly.Web.Channel.IChannelConnection.Created
+  name: Created
+  nameWithType: IChannelConnection.Created
+  fullName: Butterfly.Web.Channel.IChannelConnection.Created
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Butterfly.Web.Channel.IChannelConnection.LastHeartbeat*
+  commentId: Overload:Butterfly.Web.Channel.IChannelConnection.LastHeartbeat
+  name: LastHeartbeat
+  nameWithType: IChannelConnection.LastHeartbeat
+  fullName: Butterfly.Web.Channel.IChannelConnection.LastHeartbeat
+- uid: Butterfly.Web.Channel.IChannelConnection.Start*
+  commentId: Overload:Butterfly.Web.Channel.IChannelConnection.Start
+  name: Start
+  nameWithType: IChannelConnection.Start
+  fullName: Butterfly.Web.Channel.IChannelConnection.Start
+- uid: Butterfly.Web.Channel.IChannelConnection.QueueMessage*
+  commentId: Overload:Butterfly.Web.Channel.IChannelConnection.QueueMessage
+  name: QueueMessage
+  nameWithType: IChannelConnection.QueueMessage
+  fullName: Butterfly.Web.Channel.IChannelConnection.QueueMessage
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+shouldSkipMarkup: true

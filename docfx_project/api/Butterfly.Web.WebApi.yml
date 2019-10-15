@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  id: Butterfly.Web.WebApi
+  children:
+  - Butterfly.Web.WebApi.BaseHttpRequest
+  - Butterfly.Web.WebApi.BaseWebApi
+  - Butterfly.Web.WebApi.IHttpRequest
+  - Butterfly.Web.WebApi.IHttpResponse
+  - Butterfly.Web.WebApi.IWebApi
+  - Butterfly.Web.WebApi.WebApiUtil
+  - Butterfly.Web.WebApi.WebHandler
+  langs:
+  - csharp
+  - vb
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+  type: Namespace
+  assemblies:
+  - Butterfly.Web
+references:
+- uid: Butterfly.Web.WebApi.BaseHttpRequest
+  commentId: T:Butterfly.Web.WebApi.BaseHttpRequest
+  parent: Butterfly.Web.WebApi
+  name: BaseHttpRequest
+  nameWithType: BaseHttpRequest
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest
+- uid: Butterfly.Web.WebApi.BaseWebApi
+  commentId: T:Butterfly.Web.WebApi.BaseWebApi
+  parent: Butterfly.Web.WebApi
+  name: BaseWebApi
+  nameWithType: BaseWebApi
+  fullName: Butterfly.Web.WebApi.BaseWebApi
+- uid: Butterfly.Web.WebApi.IHttpRequest
+  commentId: T:Butterfly.Web.WebApi.IHttpRequest
+  parent: Butterfly.Web.WebApi
+  name: IHttpRequest
+  nameWithType: IHttpRequest
+  fullName: Butterfly.Web.WebApi.IHttpRequest
+- uid: Butterfly.Web.WebApi.IHttpResponse
+  commentId: T:Butterfly.Web.WebApi.IHttpResponse
+  parent: Butterfly.Web.WebApi
+  name: IHttpResponse
+  nameWithType: IHttpResponse
+  fullName: Butterfly.Web.WebApi.IHttpResponse
+- uid: Butterfly.Web.WebApi.IWebApi
+  commentId: T:Butterfly.Web.WebApi.IWebApi
+  parent: Butterfly.Web.WebApi
+  name: IWebApi
+  nameWithType: IWebApi
+  fullName: Butterfly.Web.WebApi.IWebApi
+- uid: Butterfly.Web.WebApi.WebApiUtil
+  commentId: T:Butterfly.Web.WebApi.WebApiUtil
+  name: WebApiUtil
+  nameWithType: WebApiUtil
+  fullName: Butterfly.Web.WebApi.WebApiUtil
+- uid: Butterfly.Web.WebApi.WebHandler
+  commentId: T:Butterfly.Web.WebApi.WebHandler
+  name: WebHandler
+  nameWithType: WebHandler
+  fullName: Butterfly.Web.WebApi.WebHandler
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+shouldSkipMarkup: true

@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.WebApi.IWebApi
+  commentId: T:Butterfly.Web.WebApi.IWebApi
+  id: IWebApi
+  parent: Butterfly.Web.WebApi
+  children:
+  - Butterfly.Web.WebApi.IWebApi.Compile
+  - Butterfly.Web.WebApi.IWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  - Butterfly.Web.WebApi.IWebApi.OnGet(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  - Butterfly.Web.WebApi.IWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  - Butterfly.Web.WebApi.IWebApi.OnPut(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  langs:
+  - csharp
+  - vb
+  name: IWebApi
+  nameWithType: IWebApi
+  fullName: Butterfly.Web.WebApi.IWebApi
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+    id: IWebApi
+    path: ../Butterfly.Web/WebApi/IWebApi.cs
+    startLine: 22
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  summary: "\nAllows handling requests/responses to a Web API via HTTP (inspired by Node.js&apos; Express)<p></p>\n"
+  example:
+  - "\n<pre><code>webApi.OnGet(&quot;/chat-messages&quot;, async(req, res) => {\n    // Read the request and write the response here\n});\nwebApi.OnPost(&quot;/login&quot;, async(req, res) => {\n    // Read the request and write the response here\n});\nwebApi.Compile();</code></pre>\n"
+  syntax:
+    content: 'public interface IWebApi : IDisposable'
+    content.vb: >-
+      Public Interface IWebApi
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Butterfly.Web.WebApi.IWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.IWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  id: OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  parent: Butterfly.Web.WebApi.IWebApi
+  langs:
+  - csharp
+  - vb
+  name: OnDelete(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: IWebApi.OnDelete(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.IWebApi.OnDelete(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+    id: OnDelete
+    path: ../Butterfly.Web/WebApi/IWebApi.cs
+    startLine: 40
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  summary: "\nAdds a <code data-dev-comment-type=\"paramref\" class=\"paramref\">listener</code> executed when DELETE requests are received matching <code data-dev-comment-type=\"paramref\" class=\"paramref\">path</code>\n"
+  example:
+  - "\n<pre><code>webApi.OnDelete(&quot;/api/todo&quot;, async(req, res) => {\n    var id = await req.ParseAsJsonAsync&lt;string>();\n    await database.DeleteAndCommitAsync(&quot;todo&quot;, id);\n});\nwebApi.OnDelete(&quot;/api/todo/{id}&quot;, async(req, res) => {\n    var id = req.PathParams.GetAs(&quot;id&quot;, &quot;&quot;);\n    await database.DeleteAndCommitAsync(&quot;todo&quot;, id);\n});</code></pre>    \n"
+  syntax:
+    content: void OnDelete(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
+    parameters:
+    - id: path
+      type: System.String
+      description: Only execute the <code data-dev-comment-type="paramref" class="paramref">listener</code> when DELETE requests match this path.
+    - id: listener
+      type: Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}
+      description: Execute this async handler when a DELETE request is received matching the <code data-dev-comment-type="paramref" class="paramref">path</code>
+    content.vb: Sub OnDelete(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
+  overload: Butterfly.Web.WebApi.IWebApi.OnDelete*
+  nameWithType.vb: IWebApi.OnDelete(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnDelete(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnDelete(String, Func(Of IHttpRequest, IHttpResponse, Task))
+- uid: Butterfly.Web.WebApi.IWebApi.OnGet(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.IWebApi.OnGet(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  id: OnGet(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  parent: Butterfly.Web.WebApi.IWebApi
+  langs:
+  - csharp
+  - vb
+  name: OnGet(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: IWebApi.OnGet(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.IWebApi.OnGet(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+    id: OnGet
+    path: ../Butterfly.Web/WebApi/IWebApi.cs
+    startLine: 60
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  summary: "\nAdds a <code data-dev-comment-type=\"paramref\" class=\"paramref\">listener</code> executed when GET requests are received matching <code data-dev-comment-type=\"paramref\" class=\"paramref\">path</code>\n"
+  example:
+  - "\n<pre><code>webApi.OnGet(&quot;/api/todos&quot;, async(req, res) => {\n    Dict[] rows = await database.SelectRowsAsync(&quot;SELECT * FROM todo&quot;);\n    await res.WriteAsJsonAsync(rows);\n});\nwebApi.OnGet(&quot;/api/todo/{id}&quot;, async(req, res) => {\n    var id = req.PathParams.GetAs(&quot;id&quot;, &quot;&quot;);\n    Dict row = await database.SelectRowAsync(&quot;SELECT * FROM todo&quot;, id);\n    await res.WriteAsJsonAsync(row);\n});</code></pre>\n"
+  syntax:
+    content: void OnGet(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
+    parameters:
+    - id: path
+      type: System.String
+      description: Only execute the <code data-dev-comment-type="paramref" class="paramref">listener</code> when GET requests match this path.
+    - id: listener
+      type: Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}
+      description: Execute this async handler when a GET request is received matching the <code data-dev-comment-type="paramref" class="paramref">path</code>
+    content.vb: Sub OnGet(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
+  overload: Butterfly.Web.WebApi.IWebApi.OnGet*
+  nameWithType.vb: IWebApi.OnGet(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnGet(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnGet(String, Func(Of IHttpRequest, IHttpResponse, Task))
+- uid: Butterfly.Web.WebApi.IWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.IWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  id: OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  parent: Butterfly.Web.WebApi.IWebApi
+  langs:
+  - csharp
+  - vb
+  name: OnPost(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: IWebApi.OnPost(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.IWebApi.OnPost(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+    id: OnPost
+    path: ../Butterfly.Web/WebApi/IWebApi.cs
+    startLine: 75
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  summary: "\nAdds a <code data-dev-comment-type=\"paramref\" class=\"paramref\">listener</code> executed when POST requests are received matching <code data-dev-comment-type=\"paramref\" class=\"paramref\">path</code>\n"
+  example:
+  - "\n<pre><code>webApi.OnPost(&quot;/api/todo&quot;, async(req, res) => {\n    var row = await req.ParseAsJsonAsync&lt;Dict>();\n    await database.InsertAndCommitAsync&lt;string>(&quot;todo&quot;, row);\n});</code></pre>\n"
+  syntax:
+    content: void OnPost(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
+    parameters:
+    - id: path
+      type: System.String
+      description: Only execute the <code data-dev-comment-type="paramref" class="paramref">listener</code> when POST requests match this path.
+    - id: listener
+      type: Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}
+      description: Execute this async handler when a POST request is received matching the <code data-dev-comment-type="paramref" class="paramref">path</code>
+    content.vb: Sub OnPost(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
+  overload: Butterfly.Web.WebApi.IWebApi.OnPost*
+  nameWithType.vb: IWebApi.OnPost(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnPost(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnPost(String, Func(Of IHttpRequest, IHttpResponse, Task))
+- uid: Butterfly.Web.WebApi.IWebApi.OnPut(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.IWebApi.OnPut(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  id: OnPut(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  parent: Butterfly.Web.WebApi.IWebApi
+  langs:
+  - csharp
+  - vb
+  name: OnPut(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: IWebApi.OnPut(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.IWebApi.OnPut(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+    id: OnPut
+    path: ../Butterfly.Web/WebApi/IWebApi.cs
+    startLine: 90
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  summary: "\nAdds a <code data-dev-comment-type=\"paramref\" class=\"paramref\">listener</code> executed when PUT requests are received matching <code data-dev-comment-type=\"paramref\" class=\"paramref\">path</code>\n"
+  example:
+  - "\n<pre><code>webApi.OnPost(&quot;/api/todo&quot;, async(req, res) => {\n    var row = await req.ParseAsJsonAsync&lt;Dict>();\n    await database.UpdateAndCommitAsync(&quot;todo&quot;, row);\n});</code></pre>\n"
+  syntax:
+    content: void OnPut(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
+    parameters:
+    - id: path
+      type: System.String
+      description: Only execute the <code data-dev-comment-type="paramref" class="paramref">listener</code> when PUT requests match this path.
+    - id: listener
+      type: Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}
+      description: Execute this async handler when a PUT request is received matching the <code data-dev-comment-type="paramref" class="paramref">path</code>
+    content.vb: Sub OnPut(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
+  overload: Butterfly.Web.WebApi.IWebApi.OnPut*
+  nameWithType.vb: IWebApi.OnPut(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnPut(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnPut(String, Func(Of IHttpRequest, IHttpResponse, Task))
+- uid: Butterfly.Web.WebApi.IWebApi.Compile
+  commentId: M:Butterfly.Web.WebApi.IWebApi.Compile
+  id: Compile
+  parent: Butterfly.Web.WebApi.IWebApi
+  langs:
+  - csharp
+  - vb
+  name: Compile()
+  nameWithType: IWebApi.Compile()
+  fullName: Butterfly.Web.WebApi.IWebApi.Compile()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+    id: Compile
+    path: ../Butterfly.Web/WebApi/IWebApi.cs
+    startLine: 95
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  summary: "\nCompile the web api (must call after adding all handlers)\n"
+  example: []
+  syntax:
+    content: void Compile()
+    content.vb: Sub Compile
+  overload: Butterfly.Web.WebApi.IWebApi.Compile*
+references:
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+- uid: Butterfly.Web.WebApi.IWebApi.OnDelete*
+  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnDelete
+  name: OnDelete
+  nameWithType: IWebApi.OnDelete
+  fullName: Butterfly.Web.WebApi.IWebApi.OnDelete
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}
+  commentId: '!:Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}'
+  definition: Func`3
+  name: Func<IHttpRequest, IHttpResponse, Task>
+  nameWithType: Func<IHttpRequest, IHttpResponse, Task>
+  fullName: Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>
+  nameWithType.vb: Func(Of IHttpRequest, IHttpResponse, Task)
+  fullName.vb: Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task)
+  name.vb: Func(Of IHttpRequest, IHttpResponse, Task)
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Butterfly.Web.WebApi.IHttpRequest
+    name: IHttpRequest
+    nameWithType: IHttpRequest
+    fullName: Butterfly.Web.WebApi.IHttpRequest
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Butterfly.Web.WebApi.IHttpResponse
+    name: IHttpResponse
+    nameWithType: IHttpResponse
+    fullName: Butterfly.Web.WebApi.IHttpResponse
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Task
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Butterfly.Web.WebApi.IHttpRequest
+    name: IHttpRequest
+    nameWithType: IHttpRequest
+    fullName: Butterfly.Web.WebApi.IHttpRequest
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Butterfly.Web.WebApi.IHttpResponse
+    name: IHttpResponse
+    nameWithType: IHttpResponse
+    fullName: Butterfly.Web.WebApi.IHttpResponse
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Task
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`3
+  isExternal: true
+  name: Func<, , >
+  nameWithType: Func<, , >
+  fullName: Func<, , >
+  nameWithType.vb: Func(Of , , )
+  fullName.vb: Func(Of , , )
+  name.vb: Func(Of , , )
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.WebApi.IWebApi.OnGet*
+  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnGet
+  name: OnGet
+  nameWithType: IWebApi.OnGet
+  fullName: Butterfly.Web.WebApi.IWebApi.OnGet
+- uid: Butterfly.Web.WebApi.IWebApi.OnPost*
+  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnPost
+  name: OnPost
+  nameWithType: IWebApi.OnPost
+  fullName: Butterfly.Web.WebApi.IWebApi.OnPost
+- uid: Butterfly.Web.WebApi.IWebApi.OnPut*
+  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnPut
+  name: OnPut
+  nameWithType: IWebApi.OnPut
+  fullName: Butterfly.Web.WebApi.IWebApi.OnPut
+- uid: Butterfly.Web.WebApi.IWebApi.Compile*
+  commentId: Overload:Butterfly.Web.WebApi.IWebApi.Compile
+  name: Compile
+  nameWithType: IWebApi.Compile
+  fullName: Butterfly.Web.WebApi.IWebApi.Compile
+shouldSkipMarkup: true

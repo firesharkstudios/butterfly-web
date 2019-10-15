@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.EmbedIO
+  commentId: N:Butterfly.Web.EmbedIO
+  id: Butterfly.Web.EmbedIO
+  children:
+  - Butterfly.Web.EmbedIO.EmbedIOContext
+  - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest
+  - Butterfly.Web.EmbedIO.EmbedIOSubscriptionApi
+  - Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  - Butterfly.Web.EmbedIO.EmbedIOWebApi
+  - Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  - Butterfly.Web.EmbedIO.EmbedIOWebSocketWebRequest
+  - Butterfly.Web.EmbedIO.MyWebModule
+  - Butterfly.Web.EmbedIO.MyWebSocketsServer
+  langs:
+  - csharp
+  - vb
+  name: Butterfly.Web.EmbedIO
+  nameWithType: Butterfly.Web.EmbedIO
+  fullName: Butterfly.Web.EmbedIO
+  type: Namespace
+  assemblies:
+  - Butterfly.Web.EmbedIO
+references:
+- uid: Butterfly.Web.EmbedIO.EmbedIOContext
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOContext
+  name: EmbedIOContext
+  nameWithType: EmbedIOContext
+  fullName: Butterfly.Web.EmbedIO.EmbedIOContext
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApi
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApi
+  name: EmbedIOSubscriptionApi
+  nameWithType: EmbedIOSubscriptionApi
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApi
+- uid: Butterfly.Web.EmbedIO.MyWebSocketsServer
+  commentId: T:Butterfly.Web.EmbedIO.MyWebSocketsServer
+  name: MyWebSocketsServer
+  nameWithType: MyWebSocketsServer
+  fullName: Butterfly.Web.EmbedIO.MyWebSocketsServer
+- uid: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+  parent: Butterfly.Web.EmbedIO
+  name: EmbedIOSubscriptionApiConnection
+  nameWithType: EmbedIOSubscriptionApiConnection
+  fullName: Butterfly.Web.EmbedIO.EmbedIOSubscriptionApiConnection
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebSocketWebRequest
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOWebSocketWebRequest
+  name: EmbedIOWebSocketWebRequest
+  nameWithType: EmbedIOWebSocketWebRequest
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebSocketWebRequest
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebApi
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOWebApi
+  name: EmbedIOWebApi
+  nameWithType: EmbedIOWebApi
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebApi
+- uid: Butterfly.Web.EmbedIO.MyWebModule
+  commentId: T:Butterfly.Web.EmbedIO.MyWebModule
+  name: MyWebModule
+  nameWithType: MyWebModule
+  fullName: Butterfly.Web.EmbedIO.MyWebModule
+- uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest
+  name: EmbedIOHttpWebRequest
+  nameWithType: EmbedIOHttpWebRequest
+  fullName: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest
+- uid: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  commentId: T:Butterfly.Web.EmbedIO.EmbedIOWebResponse
+  name: EmbedIOWebResponse
+  nameWithType: EmbedIOWebResponse
+  fullName: Butterfly.Web.EmbedIO.EmbedIOWebResponse
+- uid: Butterfly.Web.EmbedIO
+  commentId: N:Butterfly.Web.EmbedIO
+  name: Butterfly.Web.EmbedIO
+  nameWithType: Butterfly.Web.EmbedIO
+  fullName: Butterfly.Web.EmbedIO
+shouldSkipMarkup: true

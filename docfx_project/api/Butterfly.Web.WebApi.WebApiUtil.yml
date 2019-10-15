@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.WebApi.WebApiUtil
+  commentId: T:Butterfly.Web.WebApi.WebApiUtil
+  id: WebApiUtil
+  parent: Butterfly.Web.WebApi
+  children:
+  - Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync(Butterfly.Web.WebApi.IHttpRequest,System.String,System.String,Func{System.String,System.String},System.Int32)
+  - Butterfly.Web.WebApi.WebApiUtil.logger
+  langs:
+  - csharp
+  - vb
+  name: WebApiUtil
+  nameWithType: WebApiUtil
+  fullName: Butterfly.Web.WebApi.WebApiUtil
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebApiUtil.cs
+    id: WebApiUtil
+    path: ../Butterfly.Web/WebApi/WebApiUtil.cs
+    startLine: 9
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  syntax:
+    content: 'public class WebApiUtil : object'
+    content.vb: >-
+      Public Class WebApiUtil
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Butterfly.Web.WebApi.WebApiUtil.logger
+  commentId: F:Butterfly.Web.WebApi.WebApiUtil.logger
+  id: logger
+  parent: Butterfly.Web.WebApi.WebApiUtil
+  langs:
+  - csharp
+  - vb
+  name: logger
+  nameWithType: WebApiUtil.logger
+  fullName: Butterfly.Web.WebApi.WebApiUtil.logger
+  type: Field
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebApiUtil.cs
+    id: logger
+    path: ../Butterfly.Web/WebApi/WebApiUtil.cs
+    startLine: 10
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  syntax:
+    content: protected static readonly Logger logger
+    return:
+      type: Logger
+    content.vb: Protected Shared ReadOnly logger As Logger
+  modifiers.csharp:
+  - protected
+  - static
+  - readonly
+  modifiers.vb:
+  - Protected
+  - Shared
+  - ReadOnly
+- uid: Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync(Butterfly.Web.WebApi.IHttpRequest,System.String,System.String,Func{System.String,System.String},System.Int32)
+  commentId: M:Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync(Butterfly.Web.WebApi.IHttpRequest,System.String,System.String,Func{System.String,System.String},System.Int32)
+  id: FileUploadHandlerAsync(Butterfly.Web.WebApi.IHttpRequest,System.String,System.String,Func{System.String,System.String},System.Int32)
+  parent: Butterfly.Web.WebApi.WebApiUtil
+  langs:
+  - csharp
+  - vb
+  name: FileUploadHandlerAsync(IHttpRequest, String, String, Func<String, String>, Int32)
+  nameWithType: WebApiUtil.FileUploadHandlerAsync(IHttpRequest, String, String, Func<String, String>, Int32)
+  fullName: Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync(Butterfly.Web.WebApi.IHttpRequest, System.String, System.String, Func<System.String, System.String>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebApiUtil.cs
+    id: FileUploadHandlerAsync
+    path: ../Butterfly.Web/WebApi/WebApiUtil.cs
+    startLine: 12
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  syntax:
+    content: public static Task<string[]> FileUploadHandlerAsync(IHttpRequest req, string tempPath, string finalPath, Func<string, string> getFileName, int chunkDelayInMillis = 0)
+    parameters:
+    - id: req
+      type: Butterfly.Web.WebApi.IHttpRequest
+    - id: tempPath
+      type: System.String
+    - id: finalPath
+      type: System.String
+    - id: getFileName
+      type: Func{System.String,System.String}
+    - id: chunkDelayInMillis
+      type: System.Int32
+    return:
+      type: Task{System.String[]}
+    content.vb: Public Shared Function FileUploadHandlerAsync(req As IHttpRequest, tempPath As String, finalPath As String, getFileName As Func(Of String, String), chunkDelayInMillis As Integer = 0) As Task(Of String())
+  overload: Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync*
+  nameWithType.vb: WebApiUtil.FileUploadHandlerAsync(IHttpRequest, String, String, Func(Of String, String), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync(Butterfly.Web.WebApi.IHttpRequest, System.String, System.String, Func(Of System.String, System.String), System.Int32)
+  name.vb: FileUploadHandlerAsync(IHttpRequest, String, String, Func(Of String, String), Int32)
+references:
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Logger
+  isExternal: true
+  name: Logger
+  nameWithType: Logger
+  fullName: Logger
+- uid: Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync*
+  commentId: Overload:Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync
+  name: FileUploadHandlerAsync
+  nameWithType: WebApiUtil.FileUploadHandlerAsync
+  fullName: Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync
+- uid: Butterfly.Web.WebApi.IHttpRequest
+  commentId: T:Butterfly.Web.WebApi.IHttpRequest
+  parent: Butterfly.Web.WebApi
+  name: IHttpRequest
+  nameWithType: IHttpRequest
+  fullName: Butterfly.Web.WebApi.IHttpRequest
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Func{System.String,System.String}
+  commentId: '!:Func{System.String,System.String}'
+  definition: Func`2
+  name: Func<String, String>
+  nameWithType: Func<String, String>
+  fullName: Func<System.String, System.String>
+  nameWithType.vb: Func(Of String, String)
+  fullName.vb: Func(Of System.String, System.String)
+  name.vb: Func(Of String, String)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Task{System.String[]}
+  commentId: '!:Task{System.String[]}'
+  definition: Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

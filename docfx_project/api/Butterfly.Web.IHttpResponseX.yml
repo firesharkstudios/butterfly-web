@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.Web.IHttpResponseX
+  commentId: T:Butterfly.Web.IHttpResponseX
+  id: IHttpResponseX
+  parent: Butterfly.Web
+  children:
+  - Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  - Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IHttpResponseX
+  nameWithType: IHttpResponseX
+  fullName: Butterfly.Web.IHttpResponseX
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpResponseX.cs
+    id: IHttpResponseX
+    path: ../Butterfly.Web/IHttpResponseX.cs
+    startLine: 15
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  syntax:
+    content: 'public static class IHttpResponseX : object'
+    content.vb: >-
+      Public Module IHttpResponseX
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  commentId: M:Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  id: WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  isExtensionMethod: true
+  parent: Butterfly.Web.IHttpResponseX
+  langs:
+  - csharp
+  - vb
+  name: WriteAsJsonAsync(IHttpResponse, Object, String)
+  nameWithType: IHttpResponseX.WriteAsJsonAsync(IHttpResponse, Object, String)
+  fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse, System.Object, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpResponseX.cs
+    id: WriteAsJsonAsync
+    path: ../Butterfly.Web/IHttpResponseX.cs
+    startLine: 23
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  summary: "\nWrite the <code data-dev-comment-type=\"paramref\" class=\"paramref\">value</code> as JSON\n"
+  example: []
+  syntax:
+    content: public static Task WriteAsJsonAsync(this IHttpResponse me, object value, string contentType = "application/json")
+    parameters:
+    - id: me
+      type: Butterfly.Web.WebApi.IHttpResponse
+      description: ''
+    - id: value
+      type: System.Object
+      description: ''
+    - id: contentType
+      type: System.String
+      description: ''
+    return:
+      type: Task
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WriteAsJsonAsync(me As IHttpResponse, value As Object, contentType As String = "application/json") As Task
+  overload: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  commentId: M:Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  id: WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  isExtensionMethod: true
+  parent: Butterfly.Web.IHttpResponseX
+  langs:
+  - csharp
+  - vb
+  name: WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary<String, Object>[], String[], String[])
+  nameWithType: IHttpResponseX.WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary<String, Object>[], String[], String[])
+  fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse, System.Collections.Generic.Dictionary<System.String, System.Object>[], System.String[], System.String[])
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpResponseX.cs
+    id: WriteAsCsvAsync
+    path: ../Butterfly.Web/IHttpResponseX.cs
+    startLine: 36
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web
+  summary: "\nWrite the <code data-dev-comment-type=\"paramref\" class=\"paramref\">rows</code> as CSV\n"
+  example: []
+  syntax:
+    content: public static Task WriteAsCsvAsync(this IHttpResponse me, System.Collections.Generic.Dictionary<string, object>[] rows, string[] fieldNames, string[] headings = null)
+    parameters:
+    - id: me
+      type: Butterfly.Web.WebApi.IHttpResponse
+      description: ''
+    - id: rows
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}[]
+      description: ''
+    - id: fieldNames
+      type: System.String[]
+      description: ''
+    - id: headings
+      type: System.String[]
+      description: ''
+    return:
+      type: Task
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WriteAsCsvAsync(me As IHttpResponse, rows As System.Collections.Generic.Dictionary(Of String, Object)(), fieldNames As String(), headings As String() = Nothing) As Task
+  overload: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync*
+  nameWithType.vb: IHttpResponseX.WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary(Of String, Object)(), String(), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse, System.Collections.Generic.Dictionary(Of System.String, System.Object)(), System.String(), System.String())
+  name.vb: WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary(Of String, Object)(), String(), String())
+references:
+- uid: Butterfly.Web
+  commentId: N:Butterfly.Web
+  name: Butterfly.Web
+  nameWithType: Butterfly.Web
+  fullName: Butterfly.Web
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync*
+  commentId: Overload:Butterfly.Web.IHttpResponseX.WriteAsJsonAsync
+  name: WriteAsJsonAsync
+  nameWithType: IHttpResponseX.WriteAsJsonAsync
+  fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync
+- uid: Butterfly.Web.WebApi.IHttpResponse
+  commentId: T:Butterfly.Web.WebApi.IHttpResponse
+  parent: Butterfly.Web.WebApi
+  name: IHttpResponse
+  nameWithType: IHttpResponse
+  fullName: Butterfly.Web.WebApi.IHttpResponse
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+- uid: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync*
+  commentId: Overload:Butterfly.Web.IHttpResponseX.WriteAsCsvAsync
+  name: WriteAsCsvAsync
+  nameWithType: IHttpResponseX.WriteAsCsvAsync
+  fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}[]
+  isExternal: true
+  name: System.Collections.Generic.Dictionary<String, Object>[]
+  nameWithType: System.Collections.Generic.Dictionary<String, Object>[]
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>[]
+  nameWithType.vb: System.Collections.Generic.Dictionary(Of String, Object)()
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)()
+  name.vb: System.Collections.Generic.Dictionary(Of String, Object)()
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: System.Collections.Generic.Dictionary
+    nameWithType: System.Collections.Generic.Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: System.Collections.Generic.Dictionary
+    nameWithType: System.Collections.Generic.Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+shouldSkipMarkup: true

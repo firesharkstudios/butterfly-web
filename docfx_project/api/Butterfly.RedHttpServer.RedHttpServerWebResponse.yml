@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  commentId: T:Butterfly.RedHttpServer.RedHttpServerWebResponse
+  id: RedHttpServerWebResponse
+  parent: Butterfly.RedHttpServer
+  children:
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.#ctor(Response)
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader(System.String)
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.response
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect(System.String)
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader(System.String,System.String)
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText
+  - Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RedHttpServerWebResponse
+  nameWithType: RedHttpServerWebResponse
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  type: Class
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: RedHttpServerWebResponse
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 83
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: 'public class RedHttpServerWebResponse : object, IHttpResponse'
+    content.vb: >-
+      Public Class RedHttpServerWebResponse
+          Inherits Object
+          Implements IHttpResponse
+  inheritance:
+  - System.Object
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.response
+  commentId: F:Butterfly.RedHttpServer.RedHttpServerWebResponse.response
+  id: response
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: response
+  nameWithType: RedHttpServerWebResponse.response
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.response
+  type: Field
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: response
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 85
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public readonly Response response
+    return:
+      type: Response
+    content.vb: Public ReadOnly response As Response
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.#ctor(Response)
+  commentId: M:Butterfly.RedHttpServer.RedHttpServerWebResponse.#ctor(Response)
+  id: '#ctor(Response)'
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: RedHttpServerWebResponse(Response)
+  nameWithType: RedHttpServerWebResponse.RedHttpServerWebResponse(Response)
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.RedHttpServerWebResponse(Response)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: .ctor
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 87
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public RedHttpServerWebResponse(Response response)
+    parameters:
+    - id: response
+      type: Response
+    content.vb: Public Sub New(response As Response)
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader(System.String)
+  commentId: M:Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader(System.String)
+  id: GetHeader(System.String)
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHeader(String)
+  nameWithType: RedHttpServerWebResponse.GetHeader(String)
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: GetHeader
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 91
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public string GetHeader(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetHeader(name As String) As String
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader(System.String,System.String)
+  commentId: M:Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader(System.String,System.String)
+  id: SetHeader(System.String,System.String)
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: SetHeader(String, String)
+  nameWithType: RedHttpServerWebResponse.SetHeader(String, String)
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: SetHeader
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 95
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public void SetHeader(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetHeader(name As String, value As String)
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode
+  commentId: P:Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode
+  id: StatusCode
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: RedHttpServerWebResponse.StatusCode
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: StatusCode
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 99
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public int StatusCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StatusCode As Integer
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.StatusCode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText
+  commentId: P:Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText
+  id: StatusText
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: StatusText
+  nameWithType: RedHttpServerWebResponse.StatusText
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: StatusText
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 104
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public string StatusText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StatusText As String
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.StatusText
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect(System.String)
+  commentId: M:Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect(System.String)
+  id: SendRedirect(System.String)
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: SendRedirect(String)
+  nameWithType: RedHttpServerWebResponse.SendRedirect(String)
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: SendRedirect
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 109
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public void SendRedirect(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Public Sub SendRedirect(url As String)
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect*
+  implements:
+  - Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream
+  commentId: P:Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream
+  id: OutputStream
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: OutputStream
+  nameWithType: RedHttpServerWebResponse.OutputStream
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream
+  type: Property
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: OutputStream
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 113
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public Stream OutputStream { get; }
+    parameters: []
+    return:
+      type: Stream
+    content.vb: Public ReadOnly Property OutputStream As Stream
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync(System.String,System.String)
+  commentId: M:Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync(System.String,System.String)
+  id: WriteAsTextAsync(System.String,System.String)
+  parent: Butterfly.RedHttpServer.RedHttpServerWebResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteAsTextAsync(String, String)
+  nameWithType: RedHttpServerWebResponse.WriteAsTextAsync(String, String)
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    id: WriteAsTextAsync
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 115
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public Task WriteAsTextAsync(string value, string contentType = "text/plain")
+    parameters:
+    - id: value
+      type: System.String
+    - id: contentType
+      type: System.String
+    return:
+      type: Task
+    content.vb: Public Function WriteAsTextAsync(value As String, contentType As String = "text/plain") As Task
+  overload: Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Butterfly.RedHttpServer
+  commentId: N:Butterfly.RedHttpServer
+  name: Butterfly.RedHttpServer
+  nameWithType: Butterfly.RedHttpServer
+  fullName: Butterfly.RedHttpServer
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Butterfly.Web.WebApi.IHttpResponse
+  commentId: T:Butterfly.Web.WebApi.IHttpResponse
+  parent: Butterfly.Web.WebApi
+  name: IHttpResponse
+  nameWithType: IHttpResponse
+  fullName: Butterfly.Web.WebApi.IHttpResponse
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+- uid: Response
+  isExternal: true
+  name: Response
+  nameWithType: Response
+  fullName: Response
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.#ctor*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.#ctor
+  name: RedHttpServerWebResponse
+  nameWithType: RedHttpServerWebResponse.RedHttpServerWebResponse
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.RedHttpServerWebResponse
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader
+  name: GetHeader
+  nameWithType: RedHttpServerWebResponse.GetHeader
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.GetHeader
+- uid: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  isExternal: true
+  name: GetHeader(String)
+  nameWithType: IHttpResponse.GetHeader(String)
+  fullName: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+    name: GetHeader
+    nameWithType: IHttpResponse.GetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.GetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.GetHeader(System.String)
+    name: GetHeader
+    nameWithType: IHttpResponse.GetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.GetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader
+  name: SetHeader
+  nameWithType: RedHttpServerWebResponse.SetHeader
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.SetHeader
+- uid: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  isExternal: true
+  name: SetHeader(String, String)
+  nameWithType: IHttpResponse.SetHeader(String, String)
+  fullName: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String, System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+    name: SetHeader
+    nameWithType: IHttpResponse.SetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SetHeader(System.String,System.String)
+    name: SetHeader
+    nameWithType: IHttpResponse.SetHeader
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SetHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode
+  name: StatusCode
+  nameWithType: RedHttpServerWebResponse.StatusCode
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusCode
+- uid: Butterfly.Web.WebApi.IHttpResponse.StatusCode
+  commentId: P:Butterfly.Web.WebApi.IHttpResponse.StatusCode
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  name: StatusCode
+  nameWithType: IHttpResponse.StatusCode
+  fullName: Butterfly.Web.WebApi.IHttpResponse.StatusCode
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText
+  name: StatusText
+  nameWithType: RedHttpServerWebResponse.StatusText
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.StatusText
+- uid: Butterfly.Web.WebApi.IHttpResponse.StatusText
+  commentId: P:Butterfly.Web.WebApi.IHttpResponse.StatusText
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  name: StatusText
+  nameWithType: IHttpResponse.StatusText
+  fullName: Butterfly.Web.WebApi.IHttpResponse.StatusText
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect
+  name: SendRedirect
+  nameWithType: RedHttpServerWebResponse.SendRedirect
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.SendRedirect
+- uid: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  parent: Butterfly.Web.WebApi.IHttpResponse
+  isExternal: true
+  name: SendRedirect(String)
+  nameWithType: IHttpResponse.SendRedirect(String)
+  fullName: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+    name: SendRedirect
+    nameWithType: IHttpResponse.SendRedirect
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SendRedirect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpResponse.SendRedirect(System.String)
+    name: SendRedirect
+    nameWithType: IHttpResponse.SendRedirect
+    fullName: Butterfly.Web.WebApi.IHttpResponse.SendRedirect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream
+  name: OutputStream
+  nameWithType: RedHttpServerWebResponse.OutputStream
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.OutputStream
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync
+  name: WriteAsTextAsync
+  nameWithType: RedHttpServerWebResponse.WriteAsTextAsync
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebResponse.WriteAsTextAsync
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+shouldSkipMarkup: true
