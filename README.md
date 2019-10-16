@@ -1,6 +1,6 @@
 # Butterfly.Web ![Butterfly Logo](https://raw.githubusercontent.com/firesharkstudios/Butterfly/master/img/logo-40x40.png) 
 
-> Collection of utility methods used in the Butterfly Server
+> Simple Web and Subscription API server in C#
 
 ## Getting Started
 
@@ -14,19 +14,28 @@
 
 ### Install from Source Code
 
-git clone https://github.com/firesharkstudios/butterfly-web
+```git clone https://github.com/firesharkstudios/butterfly-web```
 
-## Creating a Web Api
+## Overview
 
-### Overview
+*Butterfly.Web* defines an *IWebApi* interface to define RESTlike APIs and defines an *ISubscriptionApi* to stream real-time updates to clients.
 
-An [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) instance allows defining an API for your application like this...
+*Butterfly.Web.EmbedIO* implements the *Butterfly.Web* interfaces using the lightweight [EmbedIO](https://github.com/unosquare/embedio) web server.
+
+*Butterfly.Web.RedHttpServer* implements the *Butterfly.Web* interfaces using the Kestral based [RedHttpServer](https://github.com/RedHttp/Red).
+ 
+## Using IWebApi
+
+An *IWebApi* instance allows defining a RESTlike API like this...
 
 ```cs
+// Create an IWebApi instance using EmbedIO or RedHttpServer
+
 webApi.OnPost("/api/todo/insert", async (req, res) => {
     var todo = await req.ParseAsJsonAsync<Dict>();
     // Do something to insert the todo
 });
+
 webApi.OnPost("/api/todo/delete", async (req, res) => {
     var id = await req.ParseAsJsonAsync<string>();
     // Do something to delete the todo
@@ -36,9 +45,7 @@ webApi.OnPost("/api/todo/delete", async (req, res) => {
 webApi.Compile();
 ```
 
-You need an implementation like [EmbedIO](#using-embedio) or [RedHttpServer](#using-redhttpserver) to get an instance of [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html).
-
-### Example Request Handling
+### Request Handling
 
 There are many ways to receive data from a client...
 
@@ -82,9 +89,7 @@ webApi.OnPost("/api/todo", async(req, res) => {
 });
 ```
 
-See [IHttpRequest](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.WebApi.IHttpRequest.html) for more details.
-
-### Example Response Handling
+### Response Handling
 
 There are many ways to send a response to a client...
 
@@ -107,142 +112,86 @@ webApi.OnGet("/api/todo/{id}", (req, res) => {
 });
 ```
 
-See [IHttpResponse](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.WebApi.IHttpResponse.html) for more details.
+## Using ISubscriptionAPI
 
-## Creating a Subscription API
-
-### Overview
-
-An [ISubscriptionApi](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.Channel.ISubscriptionApi.html) instance allows defining a Subscription API that can push real-time data to clients like this...
+An *ISubscriptionApi* instance allows clients to receive real-time updates like this...
 
 ```cs
-subscriptionApi.OnSubscribe("todos", (vars, channel) => {
-    return database.CreateAndStartDynamicViewAsync("todo", dataEventTransaction => {
-	    channel.Queue(dataEventTransaction);
-    });
-});
-```
+// Create an ISubscriptionApi instance using EmbedIO or RedHttpServer
 
-Notes
-- The *vars* variable allows the client to pass values to the subscription
-- The *channel* variable allows accessing the client authentication information
-- The subscription handler must return an object implementing *IDisposable* (object will be disposed when the client unsuscribes) 
-
-A common usecase is to return a *DynamicViewSet* instance that pushes initial data and data changes to the client over the channel.
-
-You need an implementation like [EmbedIO](#using-embedio) to get an instance of [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html).
-
-### Example Simple Subscription
-
-The following javascript client subscribes to an *echo-messages* subscription passing in a *someName* variable and echoing the *messageType* and *message* received from the server to the console...
-
-```js
-// Javascript client
-channelClient.subscribe({
-    channel: 'echo-messages',
-    vars: {
-        someName = 'Spongebob',
-    },
-    handler(messageType, message) {
-        console.debug(`messageType=${messageType},message=${message}`);
-    })
-});
-```
-
-The above code assumes you have [Butterfly Client](#butterfly-client) installed and have initialized a *WebSocketChannelClient* instance.
-
-The following server code defines the *echo-messages* subscription that uses an instance of the *RunEvery* class to send a message to any subscribed clients every 2 seconds...
-
-```cs
-// C# server
-subscriptionApi.OnSubscribe("echo-messages", (vars, channel) => {
+subscriptionApi.OnSubscribe("echoes", async(vars, channel) => {
     int count = 0;
-    var someName = vars.GetAs("someName", "");
     return Butterfly.Util.RunEvery(() => {
-        channel.Queue("Echo", $"Message #{++count} from {someName}");
+        channel.Queue("Echo", $"Echo #{++count}");
     }, 2000);
-);
-```
-
-Notice that the subscription handler above returns the instance of *RunEvery* which implements *IDisposable*.  The *RunEvery* instance will be disposed when the client unsubscribes (or disconnects for too long).
-
-So, the end result of running the code above would be the following in the client javascript console...
-
-```js
-messageType=Echo,message=Message #1 from Spongebob
-messageType=Echo,message=Message #2 from Spongebob
-messageType=Echo,message=Message #3 from Spongebob
-...
-```
-
-
-### Example Dynamic Subscription
-
-The following javascript client subscribes to a *todo-page* subscription and maps the two datasets to the local *todosList* and *tagsList* arrays...
-
-```js
-let todosList = [];
-let tagsList = [];
-channelClient.subscribe({
-    channel: 'todo-page',
-    vars: {
-        userId: '123'
-    },
-    handler: new ArrayDataEventHandler({
-        arrayMapping: {
-            todo: todosList
-            tag: tagsList
-        }
-    })
 });
 ```
 
-The above code assumes you have [Butterfly Client](#butterfly-client) installed and have initialized a *WebSocketChannelClient* instance.
+A client subscribing to the *echoes* subscription above would receive messages every two seconds (first message would have type *Echo* and text *Echo #1*).
 
-The following server code defines the *todo-page* subscription that returns a *DynamicViewSet* containing two *DynamicViews* (one for *todos* and one for *tags*)...
+The subscription handler must return an *IDisposable* instance that is disposed when the client unsubscribes or disconnects.
 
-```cs
-subscriptionApi.OnSubscribe("todo-page", async(vars, channel) => {
-    var dynamicViewSet = database.CreateDynamicViewSet(dataEventTransaction => channel.Queue(dataEventTransaction);
+## Using EmbedIO
 
-    string userId = vars.GetAs("userId", "");
-    if (!string.IsNullOrEmpty(userId)) throw new Exception("Must specify a userId in vars");
+[EmbedIO](https://github.com/unosquare/embedio) is a capable low footprint web server that can be used to implement both the [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) interfaces. 
 
-    // DynamicViews can include JOINs and will update if 
-    // any of the joined tables change the resultset
-    // (note this requires using a database like MySQL that supports JOINs)
-    dynamicViewSet.CreateDynamicView(
-        @"SELECT td.id, td.name, td.user_id, u.name user_name
-        FROM todo td
-            INNER JOIN user u ON td.user_id=u.id
-        WHERE u.id=@userId",
-        new {
-            userId
-        }
-    );
+The [EmbedIOContext](https://butterflyserver.io/docfx/api/Butterfly.EmbedIO.EmbedIOContext.html) class is a convenience class that creates [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) instances using an [EmbedIO](https://github.com/unosquare/embedio) web server.
 
-    // A channel can return multiple resultsets as well
-    dynamicViewSet.CreateDynamicView(
-        @"SELECT id, name
-        FROM tag
-        WHERE user_id=@userId",
-        new {
-            userId
-        }
-    );
+In the *Package Manager Console*...
 
-    // Send initial datasets and send any data changes as they occur    
-    await dynamicViewSet.StartAsync();
-
-    return dynamicViewSet;
-);
+```
+Install-Package Butterfly.EmbedIO
 ```
 
-So, the end result of running the code above would be a local *todosList* and *tagsList* arrays that automatically stay synchronized with the server.
+In your application...
 
-## API Documentation
+```csharp
+var context = new Butterfly.EmbedIO.EmbedIOContext("http://+:8000/");
 
-Available [here](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.html).
+// Declare your Web API and Subscription API like...
+context.WebApi.OnPost("/api/todo/insert", async (req, res) => {
+   // Do something
+});
+context.WebApi.OnPost("/api/todo/delete", async (req, res) => {
+   // Do something
+});
+context.SubscriptionApi.OnSubscribe("todos", (vars, channel) => {
+   // Do something
+});
+
+context.Start();
+```
+
+## Using RedHttpServer
+
+[RedHttpServer](https://github.com/rosenbjerg/Red) is a Kestrel/ASP.NET Core based web server that can be used to implement both the [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) interfaces. 
+
+The [RedHttpServerContext](https://butterflyserver.io/docfx/api/Butterfly.RedHttpServer.RedHttpServerContext.html) class is a convenience class that creates [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) instances using [RedHttpServer](https://github.com/rosenbjerg/Red).
+
+In the *Package Manager Console*...
+
+```
+Install-Package Butterfly.RedHttpServer
+```
+
+In your application...
+
+```csharp
+var context = new Butterfly.RedHttpServer.RedHttpServerContext("http://+:8000/");
+
+// Declare your Web API and Subscription API like...
+context.WebApi.OnPost("/api/todo/insert", async (req, res) => {
+   // Do something
+});
+context.WebApi.OnPost("/api/todo/delete", async (req, res) => {
+   // Do something
+});
+context.SubscriptionApi.OnSubscribe("todos", (vars, channel) => {
+   // Do something
+});
+
+context.Start();
+```
 
 ## Contributing
 
