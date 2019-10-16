@@ -82,7 +82,7 @@ webApi.OnPost("/api/todo", async(req, res) => {
 });
 ```
 
-See [IHttpRequest](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IHttpRequest.html) for more details.
+See [IHttpRequest](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.WebApi.IHttpRequest.html) for more details.
 
 ### Example Response Handling
 
@@ -107,13 +107,13 @@ webApi.OnGet("/api/todo/{id}", (req, res) => {
 });
 ```
 
-See [IHttpResponse](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IHttpResponse.html) for more details.
+See [IHttpResponse](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.WebApi.IHttpResponse.html) for more details.
 
 ## Creating a Subscription API
 
 ### Overview
 
-An [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) instance allows defining a Subscription API that can push real-time data to clients like this...
+An [ISubscriptionApi](http://htmlpreview.github.io/?https://github.com/firesharkstudios/butterfly-web/blob/master/docs/api/Butterfly.Web.Channel.ISubscriptionApi.html) instance allows defining a Subscription API that can push real-time data to clients like this...
 
 ```cs
 subscriptionApi.OnSubscribe("todos", (vars, channel) => {
