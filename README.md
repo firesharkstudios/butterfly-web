@@ -1,6 +1,6 @@
 # Butterfly.Web ![Butterfly Logo](https://raw.githubusercontent.com/firesharkstudios/Butterfly/master/img/logo-40x40.png) 
 
-> Simple Web and Subscription API server in C#
+> Simple RESTlike and Subscription API server in C#
 
 ## Getting Started
 
