@@ -140,13 +140,13 @@ The *EmbedIOContext* class is a convenience class that creates *IWebApi* and *IS
 In the *Package Manager Console*...
 
 ```
-Install-Package Butterfly.Db.EmbedIO
+Install-Package Butterfly.Web.EmbedIO
 ```
 
 In your application...
 
 ```csharp
-var context = new Butterfly.Db.EmbedIO.EmbedIOContext("http://+:8000/");
+var context = new Butterfly.Web.EmbedIO.EmbedIOContext("http://+:8000/");
 
 // Declare your Web API and Subscription API like...
 context.WebApi.OnPost("/api/todo/insert", async (req, res) => {
@@ -177,7 +177,7 @@ Install-Package Butterfly.RedHttpServer
 In your application...
 
 ```csharp
-var context = new Butterfly.RedHttpServer.RedHttpServerContext("http://+:8000/");
+var context = new Butterfly.Web.RedHttpServer.RedHttpServerContext("http://+:8000/");
 
 // Declare your Web API and Subscription API like...
 context.WebApi.OnPost("/api/todo/insert", async (req, res) => {
