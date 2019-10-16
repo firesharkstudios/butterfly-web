@@ -112,7 +112,7 @@ webApi.OnGet("/api/todo/{id}", (req, res) => {
 });
 ```
 
-## Using ISubscriptionAPI
+## Using ISubscriptionApi
 
 An *ISubscriptionApi* instance allows clients to receive real-time updates like this...
 
