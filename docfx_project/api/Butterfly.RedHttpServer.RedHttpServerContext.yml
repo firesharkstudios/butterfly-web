@@ -22,7 +22,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RedHttpServerContext
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 15
@@ -57,7 +59,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: webServer
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 18
@@ -88,7 +92,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: webApi
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 19
@@ -119,7 +125,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: subscriptionApi
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 20
@@ -150,7 +158,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 22
@@ -183,7 +193,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WebApi
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 35
@@ -216,7 +228,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SubscriptionApi
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 36
@@ -249,7 +263,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Start
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 38
@@ -277,7 +293,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerContext.cs
     startLine: 47

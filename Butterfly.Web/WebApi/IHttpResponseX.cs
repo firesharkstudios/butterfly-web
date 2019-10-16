@@ -12,7 +12,7 @@ using System.IO;
 using System.Linq;
 using Butterfly.Util;
 
-namespace Butterfly.Web {
+namespace Butterfly.Web.WebApi {
     public static class IHttpResponseX {
         /// <summary>
         /// Write the <paramref name="value"/> as JSON

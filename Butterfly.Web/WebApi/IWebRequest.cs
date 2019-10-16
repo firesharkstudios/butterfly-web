@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Butterfly.Web {
+namespace Butterfly.Web.WebApi {
     public interface IWebRequest {
         /// <summary>
         /// Retrieves the URL used to make the request

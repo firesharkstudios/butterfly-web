@@ -17,7 +17,9 @@ items:
   type: Interface
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpRequest.cs
+      path: Butterfly.Web/WebApi/IHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IHttpRequest
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
     startLine: 11
@@ -31,14 +33,14 @@ items:
       Public Interface IHttpRequest
           Inherits IWebRequest
   inheritedMembers:
-  - Butterfly.Web.IWebRequest.RequestUrl
-  - Butterfly.Web.IWebRequest.Headers
-  - Butterfly.Web.IWebRequest.PathParams
-  - Butterfly.Web.IWebRequest.QueryParams
+  - Butterfly.Web.WebApi.IWebRequest.RequestUrl
+  - Butterfly.Web.WebApi.IWebRequest.Headers
+  - Butterfly.Web.WebApi.IWebRequest.PathParams
+  - Butterfly.Web.WebApi.IWebRequest.QueryParams
   extensionMethods:
-  - Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
-  - Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1
-  - Butterfly.Web.IWebRequest.Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
+  - Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1
+  - Butterfly.Web.WebApi.IWebRequest.Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   modifiers.csharp:
   - public
   - interface
@@ -58,7 +60,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpRequest.cs
+      path: Butterfly.Web/WebApi/IHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ClientIp
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
     startLine: 13
@@ -89,7 +93,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpRequest.cs
+      path: Butterfly.Web/WebApi/IHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ReadAsync
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
     startLine: 17
@@ -115,7 +121,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpRequest.cs
+      path: Butterfly.Web/WebApi/IHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsMultipartStream
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
     startLine: 24
@@ -144,42 +152,42 @@ references:
   name: Butterfly.Web.WebApi
   nameWithType: Butterfly.Web.WebApi
   fullName: Butterfly.Web.WebApi
-- uid: Butterfly.Web.IWebRequest.RequestUrl
-  commentId: P:Butterfly.Web.IWebRequest.RequestUrl
-  parent: Butterfly.Web.IWebRequest
+- uid: Butterfly.Web.WebApi.IWebRequest.RequestUrl
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.RequestUrl
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: RequestUrl
   nameWithType: IWebRequest.RequestUrl
-  fullName: Butterfly.Web.IWebRequest.RequestUrl
-- uid: Butterfly.Web.IWebRequest.Headers
-  commentId: P:Butterfly.Web.IWebRequest.Headers
-  parent: Butterfly.Web.IWebRequest
+  fullName: Butterfly.Web.WebApi.IWebRequest.RequestUrl
+- uid: Butterfly.Web.WebApi.IWebRequest.Headers
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.Headers
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: Headers
   nameWithType: IWebRequest.Headers
-  fullName: Butterfly.Web.IWebRequest.Headers
-- uid: Butterfly.Web.IWebRequest.PathParams
-  commentId: P:Butterfly.Web.IWebRequest.PathParams
-  parent: Butterfly.Web.IWebRequest
+  fullName: Butterfly.Web.WebApi.IWebRequest.Headers
+- uid: Butterfly.Web.WebApi.IWebRequest.PathParams
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.PathParams
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: PathParams
   nameWithType: IWebRequest.PathParams
-  fullName: Butterfly.Web.IWebRequest.PathParams
-- uid: Butterfly.Web.IWebRequest.QueryParams
-  commentId: P:Butterfly.Web.IWebRequest.QueryParams
-  parent: Butterfly.Web.IWebRequest
+  fullName: Butterfly.Web.WebApi.IWebRequest.PathParams
+- uid: Butterfly.Web.WebApi.IWebRequest.QueryParams
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.QueryParams
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: QueryParams
   nameWithType: IWebRequest.QueryParams
-  fullName: Butterfly.Web.IWebRequest.QueryParams
-- uid: Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
-  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
-  parent: Butterfly.Web.IHttpRequestX
-  definition: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IWebRequest.QueryParams
+- uid: Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  parent: Butterfly.Web.WebApi.IHttpRequestX
+  definition: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   name: ParseAsUrlEncodedAsync()
   nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync()
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync()
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync()
   spec.csharp:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
     name: ParseAsUrlEncodedAsync
     nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -187,31 +195,31 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
     name: ParseAsUrlEncodedAsync
     nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1
-  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
-  parent: Butterfly.Web.IHttpRequestX
-  definition: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+- uid: Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  parent: Butterfly.Web.WebApi.IHttpRequestX
+  definition: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
   name: ParseAsJsonAsync<T>()
   nameWithType: IHttpRequestX.ParseAsJsonAsync<T>()
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync<T>()
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync<T>()
   nameWithType.vb: IHttpRequestX.ParseAsJsonAsync(Of T)()
-  fullName.vb: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync(Of T)()
+  fullName.vb: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync(Of T)()
   name.vb: ParseAsJsonAsync(Of T)()
   spec.csharp:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1
     name: ParseAsJsonAsync<T>
     nameWithType: IHttpRequestX.ParseAsJsonAsync<T>
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync<T>
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync<T>
   - name: (
     nameWithType: (
     fullName: (
@@ -219,28 +227,28 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1
     name: ParseAsJsonAsync(Of T)
     nameWithType: IHttpRequestX.ParseAsJsonAsync(Of T)
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync(Of T)
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync(Of T)
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IWebRequest.Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
-  commentId: M:Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
-  parent: Butterfly.Web.IWebRequestX
-  definition: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+- uid: Butterfly.Web.WebApi.IWebRequest.Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
+  commentId: M:Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
+  parent: Butterfly.Web.WebApi.IWebRequestX
+  definition: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
   name: GetAuthenticationHeaderValue()
   nameWithType: IWebRequestX.GetAuthenticationHeaderValue()
-  fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue()
+  fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue()
   spec.csharp:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
@@ -248,32 +256,32 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IWebRequest
-  commentId: T:Butterfly.Web.IWebRequest
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IWebRequest
+  commentId: T:Butterfly.Web.WebApi.IWebRequest
+  parent: Butterfly.Web.WebApi
   name: IWebRequest
   nameWithType: IWebRequest
-  fullName: Butterfly.Web.IWebRequest
-- uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
-  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IWebRequest
+- uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   name: ParseAsUrlEncodedAsync(IHttpRequest)
   nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync(IHttpRequest)
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   spec.csharp:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
     name: ParseAsUrlEncodedAsync
     nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -285,10 +293,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
     name: ParseAsUrlEncodedAsync
     nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -299,25 +307,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IHttpRequestX
-  commentId: T:Butterfly.Web.IHttpRequestX
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IHttpRequestX
+  commentId: T:Butterfly.Web.WebApi.IHttpRequestX
+  parent: Butterfly.Web.WebApi
   name: IHttpRequestX
   nameWithType: IHttpRequestX
-  fullName: Butterfly.Web.IHttpRequestX
-- uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
-  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX
+- uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
   name: ParseAsJsonAsync<T>(IHttpRequest)
   nameWithType: IHttpRequestX.ParseAsJsonAsync<T>(IHttpRequest)
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync<T>(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync<T>(Butterfly.Web.WebApi.IHttpRequest)
   nameWithType.vb: IHttpRequestX.ParseAsJsonAsync(Of T)(IHttpRequest)
-  fullName.vb: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync(Of T)(Butterfly.Web.WebApi.IHttpRequest)
+  fullName.vb: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync(Of T)(Butterfly.Web.WebApi.IHttpRequest)
   name.vb: ParseAsJsonAsync(Of T)(IHttpRequest)
   spec.csharp:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
     name: ParseAsJsonAsync<T>
     nameWithType: IHttpRequestX.ParseAsJsonAsync<T>
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync<T>
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync<T>
   - name: (
     nameWithType: (
     fullName: (
@@ -329,10 +337,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
     name: ParseAsJsonAsync(Of T)
     nameWithType: IHttpRequestX.ParseAsJsonAsync(Of T)
-    fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync(Of T)
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync(Of T)
   - name: (
     nameWithType: (
     fullName: (
@@ -343,52 +351,47 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
-  commentId: M:Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+- uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
+  commentId: M:Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
   name: GetAuthenticationHeaderValue(IWebRequest)
   nameWithType: IWebRequestX.GetAuthenticationHeaderValue(IWebRequest)
-  fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
   spec.csharp:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
-  - uid: Butterfly.Web.IWebRequest
+  - uid: Butterfly.Web.WebApi.IWebRequest
     name: IWebRequest
     nameWithType: IWebRequest
-    fullName: Butterfly.Web.IWebRequest
+    fullName: Butterfly.Web.WebApi.IWebRequest
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
-  - uid: Butterfly.Web.IWebRequest
+  - uid: Butterfly.Web.WebApi.IWebRequest
     name: IWebRequest
     nameWithType: IWebRequest
-    fullName: Butterfly.Web.IWebRequest
+    fullName: Butterfly.Web.WebApi.IWebRequest
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IWebRequestX
-  commentId: T:Butterfly.Web.IWebRequestX
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IWebRequestX
+  commentId: T:Butterfly.Web.WebApi.IWebRequestX
+  parent: Butterfly.Web.WebApi
   name: IWebRequestX
   nameWithType: IWebRequestX
-  fullName: Butterfly.Web.IWebRequestX
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
+  fullName: Butterfly.Web.WebApi.IWebRequestX
 - uid: Butterfly.Web.WebApi.IHttpRequest.ClientIp*
   commentId: Overload:Butterfly.Web.WebApi.IHttpRequest.ClientIp
   name: ClientIp

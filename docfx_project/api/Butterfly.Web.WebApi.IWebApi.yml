@@ -19,7 +19,9 @@ items:
   type: Interface
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+      path: Butterfly.Web/WebApi/IWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IWebApi
     path: ../Butterfly.Web/WebApi/IWebApi.cs
     startLine: 22
@@ -53,7 +55,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+      path: Butterfly.Web/WebApi/IWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnDelete
     path: ../Butterfly.Web/WebApi/IWebApi.cs
     startLine: 40
@@ -90,7 +94,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+      path: Butterfly.Web/WebApi/IWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnGet
     path: ../Butterfly.Web/WebApi/IWebApi.cs
     startLine: 60
@@ -127,7 +133,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+      path: Butterfly.Web/WebApi/IWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnPost
     path: ../Butterfly.Web/WebApi/IWebApi.cs
     startLine: 75
@@ -164,7 +172,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+      path: Butterfly.Web/WebApi/IWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnPut
     path: ../Butterfly.Web/WebApi/IWebApi.cs
     startLine: 90
@@ -201,7 +211,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IWebApi.cs
+      path: Butterfly.Web/WebApi/IWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Compile
     path: ../Butterfly.Web/WebApi/IWebApi.cs
     startLine: 95

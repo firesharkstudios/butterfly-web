@@ -7,8 +7,12 @@ items:
   - Butterfly.Web.WebApi.BaseHttpRequest
   - Butterfly.Web.WebApi.BaseWebApi
   - Butterfly.Web.WebApi.IHttpRequest
+  - Butterfly.Web.WebApi.IHttpRequestX
   - Butterfly.Web.WebApi.IHttpResponse
+  - Butterfly.Web.WebApi.IHttpResponseX
   - Butterfly.Web.WebApi.IWebApi
+  - Butterfly.Web.WebApi.IWebRequest
+  - Butterfly.Web.WebApi.IWebRequestX
   - Butterfly.Web.WebApi.WebApiUtil
   - Butterfly.Web.WebApi.WebHandler
   langs:
@@ -39,18 +43,42 @@ references:
   name: IHttpRequest
   nameWithType: IHttpRequest
   fullName: Butterfly.Web.WebApi.IHttpRequest
+- uid: Butterfly.Web.WebApi.IHttpRequestX
+  commentId: T:Butterfly.Web.WebApi.IHttpRequestX
+  parent: Butterfly.Web.WebApi
+  name: IHttpRequestX
+  nameWithType: IHttpRequestX
+  fullName: Butterfly.Web.WebApi.IHttpRequestX
 - uid: Butterfly.Web.WebApi.IHttpResponse
   commentId: T:Butterfly.Web.WebApi.IHttpResponse
   parent: Butterfly.Web.WebApi
   name: IHttpResponse
   nameWithType: IHttpResponse
   fullName: Butterfly.Web.WebApi.IHttpResponse
+- uid: Butterfly.Web.WebApi.IHttpResponseX
+  commentId: T:Butterfly.Web.WebApi.IHttpResponseX
+  parent: Butterfly.Web.WebApi
+  name: IHttpResponseX
+  nameWithType: IHttpResponseX
+  fullName: Butterfly.Web.WebApi.IHttpResponseX
 - uid: Butterfly.Web.WebApi.IWebApi
   commentId: T:Butterfly.Web.WebApi.IWebApi
   parent: Butterfly.Web.WebApi
   name: IWebApi
   nameWithType: IWebApi
   fullName: Butterfly.Web.WebApi.IWebApi
+- uid: Butterfly.Web.WebApi.IWebRequest
+  commentId: T:Butterfly.Web.WebApi.IWebRequest
+  parent: Butterfly.Web.WebApi
+  name: IWebRequest
+  nameWithType: IWebRequest
+  fullName: Butterfly.Web.WebApi.IWebRequest
+- uid: Butterfly.Web.WebApi.IWebRequestX
+  commentId: T:Butterfly.Web.WebApi.IWebRequestX
+  parent: Butterfly.Web.WebApi
+  name: IWebRequestX
+  nameWithType: IWebRequestX
+  fullName: Butterfly.Web.WebApi.IWebRequestX
 - uid: Butterfly.Web.WebApi.WebApiUtil
   commentId: T:Butterfly.Web.WebApi.WebApiUtil
   name: WebApiUtil

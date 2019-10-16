@@ -23,7 +23,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: BaseWebApi
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 17
@@ -67,7 +69,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: logger
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 18
@@ -100,7 +104,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: webHandlers
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 20
@@ -131,7 +137,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnDelete
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 22
@@ -169,7 +177,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnGet
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 31
@@ -207,7 +217,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnPost
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 40
@@ -245,7 +257,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnPut
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 49
@@ -283,7 +297,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WebHandlers
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 58
@@ -316,7 +332,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Compile
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 64
@@ -348,7 +366,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseWebApi.cs
+      path: Butterfly.Web/WebApi/BaseWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 65

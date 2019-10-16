@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-## Install from Nuget
+### Install from Nuget
 
 | Name | Package | Install |
 | --- | --- | --- |

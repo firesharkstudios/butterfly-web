@@ -18,7 +18,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: EmbedIOWebApi
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
     startLine: 23
@@ -66,7 +68,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: server
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
     startLine: 25
@@ -97,7 +101,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
     startLine: 27
@@ -128,7 +134,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Compile
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
     startLine: 31
@@ -159,7 +167,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
     startLine: 35

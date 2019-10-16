@@ -18,7 +18,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RedHttpServerWebApi
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 18
@@ -66,7 +68,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: server
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 20
@@ -97,7 +101,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 22
@@ -128,7 +134,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Compile
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 27
@@ -159,7 +167,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 57

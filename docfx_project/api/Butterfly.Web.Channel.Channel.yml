@@ -27,7 +27,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Channel
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 15
@@ -62,7 +64,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: logger
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 16
@@ -95,7 +99,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: connection
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 18
@@ -126,7 +132,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: channelKey
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 19
@@ -157,7 +165,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: vars
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 20
@@ -188,7 +198,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 22
@@ -226,7 +238,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Connection
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 28
@@ -259,7 +273,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ChannelKey
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 30
@@ -292,7 +308,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Vars
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 32
@@ -325,7 +343,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: disposables
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 34
@@ -356,7 +376,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Attach
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 36
@@ -387,7 +409,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Queue
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 40
@@ -418,7 +442,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Queue
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 44
@@ -451,7 +477,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/Channel.cs
+      path: Butterfly.Web/Channel/Channel.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web/Channel/Channel.cs
     startLine: 48

@@ -20,10 +20,12 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: EmbedIOWebSocketWebRequest
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 115
+    startLine: 116
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -36,7 +38,7 @@ items:
   inheritance:
   - System.Object
   implements:
-  - Butterfly.Web.IWebRequest
+  - Butterfly.Web.WebApi.IWebRequest
   modifiers.csharp:
   - public
   - class
@@ -56,10 +58,12 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: context
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 117
+    startLine: 118
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -87,10 +91,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 119
+    startLine: 120
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -118,10 +124,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 123
+    startLine: 124
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -151,10 +159,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 125
+    startLine: 126
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -184,10 +194,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 127
+    startLine: 128
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -217,10 +229,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 129
+    startLine: 130
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -248,17 +262,17 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: Butterfly.Web.IWebRequest
-  commentId: T:Butterfly.Web.IWebRequest
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IWebRequest
+  commentId: T:Butterfly.Web.WebApi.IWebRequest
+  parent: Butterfly.Web.WebApi
   name: IWebRequest
   nameWithType: IWebRequest
-  fullName: Butterfly.Web.IWebRequest
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
+  fullName: Butterfly.Web.WebApi.IWebRequest
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
 - uid: IWebSocketContext
   isExternal: true
   name: IWebSocketContext

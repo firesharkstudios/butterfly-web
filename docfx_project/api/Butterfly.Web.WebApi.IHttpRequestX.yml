@@ -1,28 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Butterfly.Web.IHttpRequestX
-  commentId: T:Butterfly.Web.IHttpRequestX
+- uid: Butterfly.Web.WebApi.IHttpRequestX
+  commentId: T:Butterfly.Web.WebApi.IHttpRequestX
   id: IHttpRequestX
-  parent: Butterfly.Web
+  parent: Butterfly.Web.WebApi
   children:
-  - Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
-  - Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  - Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  - Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   langs:
   - csharp
   - vb
   name: IHttpRequestX
   nameWithType: IHttpRequestX
-  fullName: Butterfly.Web.IHttpRequestX
+  fullName: Butterfly.Web.WebApi.IHttpRequestX
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpRequestX.cs
+      path: Butterfly.Web/WebApi/IHttpRequestX.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IHttpRequestX
-    path: ../Butterfly.Web/IHttpRequestX.cs
+    path: ../Butterfly.Web/WebApi/IHttpRequestX.cs
     startLine: 11
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   syntax:
     content: 'public static class IHttpRequestX : object'
     content.vb: >-
@@ -37,27 +39,29 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
-  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+- uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   id: ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   isExtensionMethod: true
-  parent: Butterfly.Web.IHttpRequestX
+  parent: Butterfly.Web.WebApi.IHttpRequestX
   langs:
   - csharp
   - vb
   name: ParseAsUrlEncodedAsync(IHttpRequest)
   nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync(IHttpRequest)
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpRequestX.cs
+      path: Butterfly.Web/WebApi/IHttpRequestX.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsUrlEncodedAsync
-    path: ../Butterfly.Web/IHttpRequestX.cs
+    path: ../Butterfly.Web/WebApi/IHttpRequestX.cs
     startLine: 12
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   syntax:
     content: public static Task<Dictionary<string, string>> ParseAsUrlEncodedAsync(this IHttpRequest me)
     parameters:
@@ -69,34 +73,36 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function ParseAsUrlEncodedAsync(me As IHttpRequest) As Task(Of Dictionary(Of String, String))
-  overload: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync*
+  overload: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
-  commentId: M:Butterfly.Web.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+- uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
   id: ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
   isExtensionMethod: true
-  parent: Butterfly.Web.IHttpRequestX
+  parent: Butterfly.Web.WebApi.IHttpRequestX
   langs:
   - csharp
   - vb
   name: ParseAsJsonAsync<T>(IHttpRequest)
   nameWithType: IHttpRequestX.ParseAsJsonAsync<T>(IHttpRequest)
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync<T>(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync<T>(Butterfly.Web.WebApi.IHttpRequest)
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IHttpRequestX.cs
+      path: Butterfly.Web/WebApi/IHttpRequestX.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsJsonAsync
-    path: ../Butterfly.Web/IHttpRequestX.cs
+    path: ../Butterfly.Web/WebApi/IHttpRequestX.cs
     startLine: 17
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   syntax:
     content: public static Task<T> ParseAsJsonAsync<T>(this IHttpRequest me)
     parameters:
@@ -110,7 +116,7 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function ParseAsJsonAsync(Of T)(me As IHttpRequest) As Task(Of T)
-  overload: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync*
+  overload: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync*
   nameWithType.vb: IHttpRequestX.ParseAsJsonAsync(Of T)(IHttpRequest)
   modifiers.csharp:
   - public
@@ -118,24 +124,24 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync(Of T)(Butterfly.Web.WebApi.IHttpRequest)
+  fullName.vb: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync(Of T)(Butterfly.Web.WebApi.IHttpRequest)
   name.vb: ParseAsJsonAsync(Of T)(IHttpRequest)
 references:
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync*
-  commentId: Overload:Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+- uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync*
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
   name: ParseAsUrlEncodedAsync
   nameWithType: IHttpRequestX.ParseAsUrlEncodedAsync
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsUrlEncodedAsync
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
 - uid: Butterfly.Web.WebApi.IHttpRequest
   commentId: T:Butterfly.Web.WebApi.IHttpRequest
   parent: Butterfly.Web.WebApi
@@ -223,11 +229,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.WebApi
-  commentId: N:Butterfly.Web.WebApi
-  name: Butterfly.Web.WebApi
-  nameWithType: Butterfly.Web.WebApi
-  fullName: Butterfly.Web.WebApi
 - uid: Task`1
   isExternal: true
   name: Task<>
@@ -266,11 +267,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync*
-  commentId: Overload:Butterfly.Web.IHttpRequestX.ParseAsJsonAsync
+- uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync*
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync
   name: ParseAsJsonAsync
   nameWithType: IHttpRequestX.ParseAsJsonAsync
-  fullName: Butterfly.Web.IHttpRequestX.ParseAsJsonAsync
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync
 - uid: Task{{T}}
   commentId: '!:Task{``0}'
   definition: Task`1

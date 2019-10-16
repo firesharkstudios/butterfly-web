@@ -19,10 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: EmbedIOSubscriptionApiConnection
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 93
+    startLine: 94
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -81,10 +83,12 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: send
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 94
+    startLine: 95
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -112,10 +116,12 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: context
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 95
+    startLine: 96
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -143,10 +149,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 97
+    startLine: 98
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -181,10 +189,12 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SendAsync
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 102
+    startLine: 103
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -217,10 +227,12 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: DoDispose
     path: ../Butterfly.Web.EmbedIO/EmbedIOSubscriptionApi.cs
-    startLine: 108
+    startLine: 109
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO

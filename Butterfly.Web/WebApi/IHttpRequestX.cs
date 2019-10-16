@@ -8,7 +8,7 @@ using System.Web;
 using Butterfly.Util;
 using Butterfly.Web.WebApi;
 
-namespace Butterfly.Web {
+namespace Butterfly.Web.WebApi {
     public static class IHttpRequestX {
         public static async Task<Dictionary<string, string>> ParseAsUrlEncodedAsync(this IHttpRequest me) {
             string text = await me.ReadAsync();

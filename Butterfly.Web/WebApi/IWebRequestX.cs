@@ -5,7 +5,7 @@
 using System.Net;
 using System.Net.Http.Headers;
 
-namespace Butterfly.Web {
+namespace Butterfly.Web.WebApi {
     public static class IWebRequestX {
         public static AuthenticationHeaderValue GetAuthenticationHeaderValue(this IWebRequest me) {
             if (me.Headers!=null && me.Headers.TryGetValue(HttpRequestHeader.Authorization.ToString().ToUpper(), out string text)) {

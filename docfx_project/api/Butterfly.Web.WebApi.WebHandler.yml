@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebHandler.cs
+      path: Butterfly.Web/WebApi/WebHandler.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WebHandler
     path: ../Butterfly.Web/WebApi/WebHandler.cs
     startLine: 12
@@ -52,7 +54,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebHandler.cs
+      path: Butterfly.Web/WebApi/WebHandler.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: method
     path: ../Butterfly.Web/WebApi/WebHandler.cs
     startLine: 13
@@ -81,7 +85,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebHandler.cs
+      path: Butterfly.Web/WebApi/WebHandler.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: path
     path: ../Butterfly.Web/WebApi/WebHandler.cs
     startLine: 14
@@ -110,7 +116,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebHandler.cs
+      path: Butterfly.Web/WebApi/WebHandler.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: listener
     path: ../Butterfly.Web/WebApi/WebHandler.cs
     startLine: 15

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IHttpRequest
+    <title>Class IHttpRequestX
    | Butterfly Server .NET API Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IHttpRequest
+    <meta name="title" content="Class IHttpRequestX
    | Butterfly Server .NET API Documentation ">
     <meta name="generator" content="docfx 2.46.0.0">
     
@@ -68,70 +68,33 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Butterfly.Web.WebApi.IHttpRequest">
+            <article class="content wrap" id="_content" data-uid="Butterfly.Web.WebApi.IHttpRequestX">
   
   
-  <h1 id="Butterfly_Web_WebApi_IHttpRequest" data-uid="Butterfly.Web.WebApi.IHttpRequest" class="text-break">Interface IHttpRequest
+  <h1 id="Butterfly_Web_WebApi_IHttpRequestX" data-uid="Butterfly.Web.WebApi.IHttpRequestX" class="text-break">Class IHttpRequestX
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Butterfly.Web.WebApi.IWebRequest.html#Butterfly_Web_WebApi_IWebRequest_RequestUrl">IWebRequest.RequestUrl</a>
-    </div>
-    <div>
-      <a class="xref" href="Butterfly.Web.WebApi.IWebRequest.html#Butterfly_Web_WebApi_IWebRequest_Headers">IWebRequest.Headers</a>
-    </div>
-    <div>
-      <a class="xref" href="Butterfly.Web.WebApi.IWebRequest.html#Butterfly_Web_WebApi_IWebRequest_PathParams">IWebRequest.PathParams</a>
-    </div>
-    <div>
-      <a class="xref" href="Butterfly.Web.WebApi.IWebRequest.html#Butterfly_Web_WebApi_IWebRequest_QueryParams">IWebRequest.QueryParams</a>
-    </div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">IHttpRequestX</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Butterfly.Web.WebApi.html">Butterfly.Web.WebApi</a></h6>
   <h6><strong>Assembly</strong>: Butterfly.Web.dll</h6>
-  <h5 id="Butterfly_Web_WebApi_IHttpRequest_syntax">Syntax</h5>
+  <h5 id="Butterfly_Web_WebApi_IHttpRequestX_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IHttpRequest : IWebRequest</code></pre>
+    <pre><code class="lang-csharp hljs">public static class IHttpRequestX : object</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
-  <a id="Butterfly_Web_WebApi_IHttpRequest_ClientIp_" data-uid="Butterfly.Web.WebApi.IHttpRequest.ClientIp*"></a>
-  <h4 id="Butterfly_Web_WebApi_IHttpRequest_ClientIp" data-uid="Butterfly.Web.WebApi.IHttpRequest.ClientIp">ClientIp</h4>
+  <a id="Butterfly_Web_WebApi_IHttpRequestX_ParseAsJsonAsync_" data-uid="Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync*"></a>
+  <h4 id="Butterfly_Web_WebApi_IHttpRequestX_ParseAsJsonAsync__1_Butterfly_Web_WebApi_IHttpRequest_" data-uid="Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)">ParseAsJsonAsync&lt;T&gt;(IHttpRequest)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string ClientIp { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="Butterfly_Web_WebApi_IHttpRequest_ParseAsMultipartStream_" data-uid="Butterfly.Web.WebApi.IHttpRequest.ParseAsMultipartStream*"></a>
-  <h4 id="Butterfly_Web_WebApi_IHttpRequest_ParseAsMultipartStream_Action_System_String_System_String_System_String_System_String_System_Byte___System_Int32__Action_System_String_System_String__" data-uid="Butterfly.Web.WebApi.IHttpRequest.ParseAsMultipartStream(Action{System.String,System.String,System.String,System.String,System.Byte[],System.Int32},Action{System.String,System.String})">ParseAsMultipartStream(Action&lt;String, String, String, String, Byte[], Int32&gt;, Action&lt;String, String&gt;)</h4>
-  <div class="markdown level1 summary">
-Parses the body of a POST as a multipart stream (based on https://www.nuget.org/packages/HttpMultipartParser/)
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ParseAsMultipartStream(Action&lt;string, string, string, string, byte[], int&gt; onData, Action&lt;string, string&gt; onParameter = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; ParseAsJsonAsync&lt;T&gt;(this IHttpRequest me)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,25 +107,12 @@ Parses the body of a POST as a multipart stream (based on https://www.nuget.org/
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>, <span class="xref">System.String</span>, <span class="xref">System.String</span>, <span class="xref">System.Byte</span>[], <span class="xref">System.Int32</span>&gt;</td>
-        <td><span class="parametername">onData</span></td>
-        <td>Callback with parameters for name, fileName, type, disposition, buffer, bytes</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">onParameter</span></td>
-        <td>Callback with parameters for name, data</td>
+        <td><a class="xref" href="Butterfly.Web.WebApi.IHttpRequest.html">IHttpRequest</a></td>
+        <td><span class="parametername">me</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Butterfly_Web_WebApi_IHttpRequest_ReadAsync_" data-uid="Butterfly.Web.WebApi.IHttpRequest.ReadAsync*"></a>
-  <h4 id="Butterfly_Web_WebApi_IHttpRequest_ReadAsync" data-uid="Butterfly.Web.WebApi.IHttpRequest.ReadAsync">ReadAsync()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;string&gt; ReadAsync()</code></pre>
-  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -173,21 +123,66 @@ Parses the body of a POST as a multipart stream (based on https://www.nuget.org/
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Butterfly.Web.WebApi.IHttpRequestX.html#Butterfly_Web_WebApi_IHttpRequestX_ParseAsUrlEncodedAsync_Butterfly_Web_WebApi_IHttpRequest_">IHttpRequestX.ParseAsUrlEncodedAsync(IHttpRequest)</a>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Butterfly_Web_WebApi_IHttpRequestX_ParseAsUrlEncodedAsync_" data-uid="Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync*"></a>
+  <h4 id="Butterfly_Web_WebApi_IHttpRequestX_ParseAsUrlEncodedAsync_Butterfly_Web_WebApi_IHttpRequest_" data-uid="Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)">ParseAsUrlEncodedAsync(IHttpRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Dictionary&lt;string, string&gt;&gt; ParseAsUrlEncodedAsync(this IHttpRequest me)</code></pre>
   </div>
-  <div>
-      <a class="xref" href="Butterfly.Web.WebApi.IHttpRequestX.html#Butterfly_Web_WebApi_IHttpRequestX_ParseAsJsonAsync__1_Butterfly_Web_WebApi_IHttpRequest_">IHttpRequestX.ParseAsJsonAsync&lt;T&gt;(IHttpRequest)</a>
-  </div>
-  <div>
-      <a class="xref" href="Butterfly.Web.WebApi.IWebRequestX.html#Butterfly_Web_WebApi_IWebRequestX_GetAuthenticationHeaderValue_Butterfly_Web_WebApi_IWebRequest_">IWebRequestX.GetAuthenticationHeaderValue(IWebRequest)</a>
-  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Butterfly.Web.WebApi.IHttpRequest.html">IHttpRequest</a></td>
+        <td><span class="parametername">me</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

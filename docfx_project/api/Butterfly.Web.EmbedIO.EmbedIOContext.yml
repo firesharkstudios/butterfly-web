@@ -22,7 +22,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: EmbedIOContext
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 17
@@ -57,7 +59,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: webServer
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 20
@@ -88,7 +92,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: webApi
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 21
@@ -119,7 +125,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: subscriptionApi
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 22
@@ -150,7 +158,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 24
@@ -183,7 +193,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WebApi
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 46
@@ -216,7 +228,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SubscriptionApi
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 47
@@ -249,7 +263,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Start
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 49
@@ -277,7 +293,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      path: Butterfly.Web.EmbedIO/EmbedIOContext.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web.EmbedIO/EmbedIOContext.cs
     startLine: 58

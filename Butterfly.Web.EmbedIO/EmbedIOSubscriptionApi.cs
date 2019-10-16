@@ -12,8 +12,9 @@ using NLog;
 using Unosquare.Labs.EmbedIO.Modules;
 using Unosquare.Labs.EmbedIO;
 
-using Butterfly.Web.Channel;
 using Butterfly.Util;
+using Butterfly.Web.Channel;
+using Butterfly.Web.WebApi;
 
 namespace Butterfly.Web.EmbedIO {
 

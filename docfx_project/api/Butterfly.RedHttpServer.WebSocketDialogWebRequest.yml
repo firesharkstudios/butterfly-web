@@ -20,10 +20,12 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WebSocketDialogWebRequest
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
-    startLine: 67
+    startLine: 69
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -36,7 +38,7 @@ items:
   inheritance:
   - System.Object
   implements:
-  - Butterfly.Web.IWebRequest
+  - Butterfly.Web.WebApi.IWebRequest
   modifiers.csharp:
   - public
   - class
@@ -56,10 +58,12 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: webSocketDialog
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
-    startLine: 69
+    startLine: 71
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -87,10 +91,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
-    startLine: 71
+    startLine: 73
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -118,10 +124,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
-    startLine: 75
+    startLine: 77
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -151,10 +159,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
-    startLine: 77
+    startLine: 79
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -184,10 +194,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
-    startLine: 79
+    startLine: 81
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -217,10 +229,12 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerSubscriptionApi.cs
-    startLine: 81
+    startLine: 83
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -248,17 +262,17 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: Butterfly.Web.IWebRequest
-  commentId: T:Butterfly.Web.IWebRequest
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IWebRequest
+  commentId: T:Butterfly.Web.WebApi.IWebRequest
+  parent: Butterfly.Web.WebApi
   name: IWebRequest
   nameWithType: IWebRequest
-  fullName: Butterfly.Web.IWebRequest
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
+  fullName: Butterfly.Web.WebApi.IWebRequest
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
 - uid: WebSocketDialog
   isExternal: true
   name: WebSocketDialog

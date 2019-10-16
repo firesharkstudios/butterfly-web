@@ -16,7 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebApiUtil.cs
+      path: Butterfly.Web/WebApi/WebApiUtil.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WebApiUtil
     path: ../Butterfly.Web/WebApi/WebApiUtil.cs
     startLine: 9
@@ -49,7 +51,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebApiUtil.cs
+      path: Butterfly.Web/WebApi/WebApiUtil.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: logger
     path: ../Butterfly.Web/WebApi/WebApiUtil.cs
     startLine: 10
@@ -82,7 +86,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/WebApiUtil.cs
+      path: Butterfly.Web/WebApi/WebApiUtil.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: FileUploadHandlerAsync
     path: ../Butterfly.Web/WebApi/WebApiUtil.cs
     startLine: 12

@@ -15,7 +15,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/HttpRequestX.cs
+      path: Butterfly.Web.RedHttpServer/HttpRequestX.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: HttpRequestX
     path: ../Butterfly.Web.RedHttpServer/HttpRequestX.cs
     startLine: 4
@@ -50,7 +52,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/HttpRequestX.cs
+      path: Butterfly.Web.RedHttpServer/HttpRequestX.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ToUri
     path: ../Butterfly.Web.RedHttpServer/HttpRequestX.cs
     startLine: 5

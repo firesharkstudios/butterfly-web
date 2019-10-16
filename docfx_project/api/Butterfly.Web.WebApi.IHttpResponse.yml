@@ -21,7 +21,9 @@ items:
   type: Interface
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IHttpResponse
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 8
@@ -32,8 +34,8 @@ items:
     content: public interface IHttpResponse
     content.vb: Public Interface IHttpResponse
   extensionMethods:
-  - Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
-  - Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  - Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
+  - Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
   modifiers.csharp:
   - public
   - interface
@@ -53,7 +55,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: GetHeader
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 14
@@ -86,7 +90,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SetHeader
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 21
@@ -119,7 +125,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: StatusCode
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 26
@@ -151,7 +159,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: StatusText
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 31
@@ -183,7 +193,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SendRedirect
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 37
@@ -213,7 +225,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OutputStream
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 42
@@ -246,7 +260,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/IHttpResponse.cs
+      path: Butterfly.Web/WebApi/IHttpResponse.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WriteAsTextAsync
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
     startLine: 49
@@ -274,18 +290,18 @@ references:
   name: Butterfly.Web.WebApi
   nameWithType: Butterfly.Web.WebApi
   fullName: Butterfly.Web.WebApi
-- uid: Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
-  commentId: M:Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
-  parent: Butterfly.Web.IHttpResponseX
-  definition: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+- uid: Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  parent: Butterfly.Web.WebApi.IHttpResponseX
+  definition: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
   name: WriteAsJsonAsync(Object, String)
   nameWithType: IHttpResponseX.WriteAsJsonAsync(Object, String)
-  fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(System.Object, System.String)
+  fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(System.Object, System.String)
   spec.csharp:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
     name: WriteAsJsonAsync
     nameWithType: IHttpResponseX.WriteAsJsonAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -306,10 +322,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(System.Object,System.String)
     name: WriteAsJsonAsync
     nameWithType: IHttpResponseX.WriteAsJsonAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -329,21 +345,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
-  commentId: M:Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
-  parent: Butterfly.Web.IHttpResponseX
-  definition: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+- uid: Butterfly.Web.WebApi.IHttpResponse.Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  commentId: M:Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  parent: Butterfly.Web.WebApi.IHttpResponseX
+  definition: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
   name: WriteAsCsvAsync(System.Collections.Generic.Dictionary<String, Object>[], String[], String[])
   nameWithType: IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary<String, Object>[], String[], String[])
-  fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary<System.String, System.Object>[], System.String[], System.String[])
+  fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary<System.String, System.Object>[], System.String[], System.String[])
   nameWithType.vb: IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary(Of String, Object)(), String(), String())
-  fullName.vb: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary(Of System.String, System.Object)(), System.String(), System.String())
+  fullName.vb: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary(Of System.String, System.Object)(), System.String(), System.String())
   name.vb: WriteAsCsvAsync(System.Collections.Generic.Dictionary(Of String, Object)(), String(), String())
   spec.csharp:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
     name: WriteAsCsvAsync
     nameWithType: IHttpResponseX.WriteAsCsvAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -400,10 +416,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
     name: WriteAsCsvAsync
     nameWithType: IHttpResponseX.WriteAsCsvAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -459,17 +475,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
-  commentId: M:Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+- uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  commentId: M:Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
   isExternal: true
   name: WriteAsJsonAsync(IHttpResponse, Object, String)
   nameWithType: IHttpResponseX.WriteAsJsonAsync(IHttpResponse, Object, String)
-  fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse, System.Object, System.String)
+  fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse, System.Object, System.String)
   spec.csharp:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
     name: WriteAsJsonAsync
     nameWithType: IHttpResponseX.WriteAsJsonAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -497,10 +513,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync(Butterfly.Web.WebApi.IHttpResponse,System.Object,System.String)
     name: WriteAsJsonAsync
     nameWithType: IHttpResponseX.WriteAsJsonAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsJsonAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsJsonAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -527,26 +543,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IHttpResponseX
-  commentId: T:Butterfly.Web.IHttpResponseX
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IHttpResponseX
+  commentId: T:Butterfly.Web.WebApi.IHttpResponseX
+  parent: Butterfly.Web.WebApi
   name: IHttpResponseX
   nameWithType: IHttpResponseX
-  fullName: Butterfly.Web.IHttpResponseX
-- uid: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
-  commentId: M:Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  fullName: Butterfly.Web.WebApi.IHttpResponseX
+- uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  commentId: M:Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
   isExternal: true
   name: WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary<String, Object>[], String[], String[])
   nameWithType: IHttpResponseX.WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary<String, Object>[], String[], String[])
-  fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse, System.Collections.Generic.Dictionary<System.String, System.Object>[], System.String[], System.String[])
+  fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse, System.Collections.Generic.Dictionary<System.String, System.Object>[], System.String[], System.String[])
   nameWithType.vb: IHttpResponseX.WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary(Of String, Object)(), String(), String())
-  fullName.vb: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse, System.Collections.Generic.Dictionary(Of System.String, System.Object)(), System.String(), System.String())
+  fullName.vb: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse, System.Collections.Generic.Dictionary(Of System.String, System.Object)(), System.String(), System.String())
   name.vb: WriteAsCsvAsync(IHttpResponse, System.Collections.Generic.Dictionary(Of String, Object)(), String(), String())
   spec.csharp:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
     name: WriteAsCsvAsync
     nameWithType: IHttpResponseX.WriteAsCsvAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -610,10 +626,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
+  - uid: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync(Butterfly.Web.WebApi.IHttpResponse,System.Collections.Generic.Dictionary{System.String,System.Object}[],System.String[],System.String[])
     name: WriteAsCsvAsync
     nameWithType: IHttpResponseX.WriteAsCsvAsync
-    fullName: Butterfly.Web.IHttpResponseX.WriteAsCsvAsync
+    fullName: Butterfly.Web.WebApi.IHttpResponseX.WriteAsCsvAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -676,11 +692,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
 - uid: Butterfly.Web.WebApi.IHttpResponse.GetHeader*
   commentId: Overload:Butterfly.Web.WebApi.IHttpResponse.GetHeader
   name: GetHeader

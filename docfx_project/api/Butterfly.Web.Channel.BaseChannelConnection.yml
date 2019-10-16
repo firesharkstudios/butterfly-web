@@ -40,7 +40,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: BaseChannelConnection
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 25
@@ -84,7 +86,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: logger
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 26
@@ -117,7 +121,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: subscriptionApi
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 28
@@ -148,7 +154,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: created
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 30
@@ -179,7 +187,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: buffer
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 32
@@ -210,7 +220,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: monitor
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 33
@@ -241,7 +253,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: authToken
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 35
@@ -270,7 +284,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: id
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 36
@@ -299,7 +315,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: lastHeartbeat
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 41
@@ -330,7 +348,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 43
@@ -361,7 +381,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: AuthToken
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 48
@@ -396,7 +418,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Id
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 50
@@ -431,7 +455,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Created
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 52
@@ -466,7 +492,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: LastHeartbeat
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 59
@@ -503,7 +531,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueueMessage
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 75
@@ -547,7 +577,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: started
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 91
@@ -576,7 +608,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Start
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 92
@@ -611,7 +645,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: channelByKey
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 99
@@ -642,7 +678,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RunAsync
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 101
@@ -672,7 +710,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SendAsync
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 124
@@ -709,7 +749,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ReceiveMessageAsync
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 126
@@ -742,7 +784,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: EMPTY_DICT
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 178
@@ -771,7 +815,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SubscribeAsync
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 180
@@ -807,7 +853,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: UnsubscribeAll
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 217
@@ -835,7 +883,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Unsubscribe
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 221
@@ -869,7 +919,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 240
@@ -899,7 +951,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseChannelConnection.cs
+      path: Butterfly.Web/Channel/BaseChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: DoDispose
     path: ../Butterfly.Web/Channel/BaseChannelConnection.cs
     startLine: 262

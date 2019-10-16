@@ -1,61 +1,65 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Butterfly.Web.IWebRequest
-  commentId: T:Butterfly.Web.IWebRequest
+- uid: Butterfly.Web.WebApi.IWebRequest
+  commentId: T:Butterfly.Web.WebApi.IWebRequest
   id: IWebRequest
-  parent: Butterfly.Web
+  parent: Butterfly.Web.WebApi
   children:
-  - Butterfly.Web.IWebRequest.Headers
-  - Butterfly.Web.IWebRequest.PathParams
-  - Butterfly.Web.IWebRequest.QueryParams
-  - Butterfly.Web.IWebRequest.RequestUrl
+  - Butterfly.Web.WebApi.IWebRequest.Headers
+  - Butterfly.Web.WebApi.IWebRequest.PathParams
+  - Butterfly.Web.WebApi.IWebRequest.QueryParams
+  - Butterfly.Web.WebApi.IWebRequest.RequestUrl
   langs:
   - csharp
   - vb
   name: IWebRequest
   nameWithType: IWebRequest
-  fullName: Butterfly.Web.IWebRequest
+  fullName: Butterfly.Web.WebApi.IWebRequest
   type: Interface
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+      path: Butterfly.Web/WebApi/IWebRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IWebRequest
-    path: ../Butterfly.Web/IWebRequest.cs
+    path: ../Butterfly.Web/WebApi/IWebRequest.cs
     startLine: 8
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   syntax:
     content: public interface IWebRequest
     content.vb: Public Interface IWebRequest
   extensionMethods:
-  - Butterfly.Web.IWebRequest.Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - Butterfly.Web.WebApi.IWebRequest.Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   modifiers.csharp:
   - public
   - interface
   modifiers.vb:
   - Public
   - Interface
-- uid: Butterfly.Web.IWebRequest.RequestUrl
-  commentId: P:Butterfly.Web.IWebRequest.RequestUrl
+- uid: Butterfly.Web.WebApi.IWebRequest.RequestUrl
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.RequestUrl
   id: RequestUrl
-  parent: Butterfly.Web.IWebRequest
+  parent: Butterfly.Web.WebApi.IWebRequest
   langs:
   - csharp
   - vb
   name: RequestUrl
   nameWithType: IWebRequest.RequestUrl
-  fullName: Butterfly.Web.IWebRequest.RequestUrl
+  fullName: Butterfly.Web.WebApi.IWebRequest.RequestUrl
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+      path: Butterfly.Web/WebApi/IWebRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
-    path: ../Butterfly.Web/IWebRequest.cs
+    path: ../Butterfly.Web/WebApi/IWebRequest.cs
     startLine: 12
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   summary: "\nRetrieves the URL used to make the request\n"
   example: []
   syntax:
@@ -64,31 +68,33 @@ items:
     return:
       type: Uri
     content.vb: ReadOnly Property RequestUrl As Uri
-  overload: Butterfly.Web.IWebRequest.RequestUrl*
+  overload: Butterfly.Web.WebApi.IWebRequest.RequestUrl*
   modifiers.csharp:
   - get
   modifiers.vb:
   - ReadOnly
-- uid: Butterfly.Web.IWebRequest.Headers
-  commentId: P:Butterfly.Web.IWebRequest.Headers
+- uid: Butterfly.Web.WebApi.IWebRequest.Headers
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.Headers
   id: Headers
-  parent: Butterfly.Web.IWebRequest
+  parent: Butterfly.Web.WebApi.IWebRequest
   langs:
   - csharp
   - vb
   name: Headers
   nameWithType: IWebRequest.Headers
-  fullName: Butterfly.Web.IWebRequest.Headers
+  fullName: Butterfly.Web.WebApi.IWebRequest.Headers
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+      path: Butterfly.Web/WebApi/IWebRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
-    path: ../Butterfly.Web/IWebRequest.cs
+    path: ../Butterfly.Web/WebApi/IWebRequest.cs
     startLine: 17
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   summary: "\nRetrieves the request headers\n"
   example: []
   syntax:
@@ -97,31 +103,33 @@ items:
     return:
       type: Dictionary{System.String,System.String}
     content.vb: ReadOnly Property Headers As Dictionary(Of String, String)
-  overload: Butterfly.Web.IWebRequest.Headers*
+  overload: Butterfly.Web.WebApi.IWebRequest.Headers*
   modifiers.csharp:
   - get
   modifiers.vb:
   - ReadOnly
-- uid: Butterfly.Web.IWebRequest.PathParams
-  commentId: P:Butterfly.Web.IWebRequest.PathParams
+- uid: Butterfly.Web.WebApi.IWebRequest.PathParams
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.PathParams
   id: PathParams
-  parent: Butterfly.Web.IWebRequest
+  parent: Butterfly.Web.WebApi.IWebRequest
   langs:
   - csharp
   - vb
   name: PathParams
   nameWithType: IWebRequest.PathParams
-  fullName: Butterfly.Web.IWebRequest.PathParams
+  fullName: Butterfly.Web.WebApi.IWebRequest.PathParams
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+      path: Butterfly.Web/WebApi/IWebRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
-    path: ../Butterfly.Web/IWebRequest.cs
+    path: ../Butterfly.Web/WebApi/IWebRequest.cs
     startLine: 30
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   summary: "\nRetrieves the path params\n"
   example:
   - "\n<pre><code>webApi.OnGet(&quot;/todo/{id}&quot;, (req, res) => {\n    // Opening /todo/123 would echo id=123 to the console below\n    Console.Writeline($&quot;id={req.PathParams[&quot;id&quot;]}&quot;);\n});</code></pre>\n"
@@ -131,31 +139,33 @@ items:
     return:
       type: Dictionary{System.String,System.String}
     content.vb: ReadOnly Property PathParams As Dictionary(Of String, String)
-  overload: Butterfly.Web.IWebRequest.PathParams*
+  overload: Butterfly.Web.WebApi.IWebRequest.PathParams*
   modifiers.csharp:
   - get
   modifiers.vb:
   - ReadOnly
-- uid: Butterfly.Web.IWebRequest.QueryParams
-  commentId: P:Butterfly.Web.IWebRequest.QueryParams
+- uid: Butterfly.Web.WebApi.IWebRequest.QueryParams
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.QueryParams
   id: QueryParams
-  parent: Butterfly.Web.IWebRequest
+  parent: Butterfly.Web.WebApi.IWebRequest
   langs:
   - csharp
   - vb
   name: QueryParams
   nameWithType: IWebRequest.QueryParams
-  fullName: Butterfly.Web.IWebRequest.QueryParams
+  fullName: Butterfly.Web.WebApi.IWebRequest.QueryParams
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/IWebRequest.cs
+      path: Butterfly.Web/WebApi/IWebRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
-    path: ../Butterfly.Web/IWebRequest.cs
+    path: ../Butterfly.Web/WebApi/IWebRequest.cs
     startLine: 43
   assemblies:
   - Butterfly.Web
-  namespace: Butterfly.Web
+  namespace: Butterfly.Web.WebApi
   summary: "\nRetrieves the query string params\n"
   example:
   - "\n<pre><code>webApi.OnGet(&quot;/todo&quot;, (req, res) => {\n    // Opening /todo?id=123 would echo id=123 to the console below\n    Console.Writeline($&quot;id={req.QueryParams[&quot;id&quot;]}&quot;);\n});</code></pre>\n"
@@ -165,29 +175,29 @@ items:
     return:
       type: Dictionary{System.String,System.String}
     content.vb: ReadOnly Property QueryParams As Dictionary(Of String, String)
-  overload: Butterfly.Web.IWebRequest.QueryParams*
+  overload: Butterfly.Web.WebApi.IWebRequest.QueryParams*
   modifiers.csharp:
   - get
   modifiers.vb:
   - ReadOnly
 references:
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
-- uid: Butterfly.Web.IWebRequest.Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
-  commentId: M:Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
-  parent: Butterfly.Web.IWebRequestX
-  definition: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+- uid: Butterfly.Web.WebApi
+  commentId: N:Butterfly.Web.WebApi
+  name: Butterfly.Web.WebApi
+  nameWithType: Butterfly.Web.WebApi
+  fullName: Butterfly.Web.WebApi
+- uid: Butterfly.Web.WebApi.IWebRequest.Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
+  commentId: M:Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
+  parent: Butterfly.Web.WebApi.IWebRequestX
+  definition: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
   name: GetAuthenticationHeaderValue()
   nameWithType: IWebRequestX.GetAuthenticationHeaderValue()
-  fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue()
+  fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue()
   spec.csharp:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
@@ -195,72 +205,72 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
-  commentId: M:Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+- uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
+  commentId: M:Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
   name: GetAuthenticationHeaderValue(IWebRequest)
   nameWithType: IWebRequestX.GetAuthenticationHeaderValue(IWebRequest)
-  fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
   spec.csharp:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
-  - uid: Butterfly.Web.IWebRequest
+  - uid: Butterfly.Web.WebApi.IWebRequest
     name: IWebRequest
     nameWithType: IWebRequest
-    fullName: Butterfly.Web.IWebRequest
+    fullName: Butterfly.Web.WebApi.IWebRequest
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.IWebRequest)
+  - uid: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
     name: GetAuthenticationHeaderValue
     nameWithType: IWebRequestX.GetAuthenticationHeaderValue
-    fullName: Butterfly.Web.IWebRequestX.GetAuthenticationHeaderValue
+    fullName: Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   - name: (
     nameWithType: (
     fullName: (
-  - uid: Butterfly.Web.IWebRequest
+  - uid: Butterfly.Web.WebApi.IWebRequest
     name: IWebRequest
     nameWithType: IWebRequest
-    fullName: Butterfly.Web.IWebRequest
+    fullName: Butterfly.Web.WebApi.IWebRequest
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IWebRequestX
-  commentId: T:Butterfly.Web.IWebRequestX
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IWebRequestX
+  commentId: T:Butterfly.Web.WebApi.IWebRequestX
+  parent: Butterfly.Web.WebApi
   name: IWebRequestX
   nameWithType: IWebRequestX
-  fullName: Butterfly.Web.IWebRequestX
-- uid: Butterfly.Web.IWebRequest.RequestUrl*
-  commentId: Overload:Butterfly.Web.IWebRequest.RequestUrl
+  fullName: Butterfly.Web.WebApi.IWebRequestX
+- uid: Butterfly.Web.WebApi.IWebRequest.RequestUrl*
+  commentId: Overload:Butterfly.Web.WebApi.IWebRequest.RequestUrl
   name: RequestUrl
   nameWithType: IWebRequest.RequestUrl
-  fullName: Butterfly.Web.IWebRequest.RequestUrl
+  fullName: Butterfly.Web.WebApi.IWebRequest.RequestUrl
 - uid: Uri
   isExternal: true
   name: Uri
   nameWithType: Uri
   fullName: Uri
-- uid: Butterfly.Web.IWebRequest.Headers*
-  commentId: Overload:Butterfly.Web.IWebRequest.Headers
+- uid: Butterfly.Web.WebApi.IWebRequest.Headers*
+  commentId: Overload:Butterfly.Web.WebApi.IWebRequest.Headers
   name: Headers
   nameWithType: IWebRequest.Headers
-  fullName: Butterfly.Web.IWebRequest.Headers
+  fullName: Butterfly.Web.WebApi.IWebRequest.Headers
 - uid: Dictionary{System.String,System.String}
   commentId: '!:Dictionary{System.String,System.String}'
   definition: Dictionary`2
@@ -370,14 +380,14 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.IWebRequest.PathParams*
-  commentId: Overload:Butterfly.Web.IWebRequest.PathParams
+- uid: Butterfly.Web.WebApi.IWebRequest.PathParams*
+  commentId: Overload:Butterfly.Web.WebApi.IWebRequest.PathParams
   name: PathParams
   nameWithType: IWebRequest.PathParams
-  fullName: Butterfly.Web.IWebRequest.PathParams
-- uid: Butterfly.Web.IWebRequest.QueryParams*
-  commentId: Overload:Butterfly.Web.IWebRequest.QueryParams
+  fullName: Butterfly.Web.WebApi.IWebRequest.PathParams
+- uid: Butterfly.Web.WebApi.IWebRequest.QueryParams*
+  commentId: Overload:Butterfly.Web.WebApi.IWebRequest.QueryParams
   name: QueryParams
   nameWithType: IWebRequest.QueryParams
-  fullName: Butterfly.Web.IWebRequest.QueryParams
+  fullName: Butterfly.Web.WebApi.IWebRequest.QueryParams
 shouldSkipMarkup: true

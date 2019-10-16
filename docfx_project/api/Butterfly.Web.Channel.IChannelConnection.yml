@@ -20,7 +20,9 @@ items:
   type: Interface
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+      path: Butterfly.Web/Channel/IChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IChannelConnection
     path: ../Butterfly.Web/Channel/IChannelConnection.cs
     startLine: 10
@@ -53,7 +55,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+      path: Butterfly.Web/Channel/IChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: AuthToken
     path: ../Butterfly.Web/Channel/IChannelConnection.cs
     startLine: 11
@@ -84,7 +88,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+      path: Butterfly.Web/Channel/IChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Id
     path: ../Butterfly.Web/Channel/IChannelConnection.cs
     startLine: 12
@@ -115,7 +121,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+      path: Butterfly.Web/Channel/IChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Created
     path: ../Butterfly.Web/Channel/IChannelConnection.cs
     startLine: 13
@@ -146,7 +154,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+      path: Butterfly.Web/Channel/IChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: LastHeartbeat
     path: ../Butterfly.Web/Channel/IChannelConnection.cs
     startLine: 14
@@ -177,7 +187,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+      path: Butterfly.Web/Channel/IChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Start
     path: ../Butterfly.Web/Channel/IChannelConnection.cs
     startLine: 15
@@ -206,7 +218,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/IChannelConnection.cs
+      path: Butterfly.Web/Channel/IChannelConnection.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueueMessage
     path: ../Butterfly.Web/Channel/IChannelConnection.cs
     startLine: 16

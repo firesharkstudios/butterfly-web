@@ -35,7 +35,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: BaseSubscriptionApi
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 22
@@ -80,7 +82,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: logger
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 23
@@ -113,7 +117,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: unauthenticatedConnections
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 25
@@ -144,7 +150,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: authenticatedConnectionByAuthId
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 26
@@ -175,7 +183,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: getAuthToken
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 28
@@ -206,7 +216,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: getAuthTokenAsync
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 29
@@ -237,7 +249,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: getId
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 31
@@ -268,7 +282,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: getIdAsync
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 32
@@ -299,7 +315,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: channelSubscriptionByKey
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 34
@@ -330,7 +348,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: mustReceiveHeartbeatMillis
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 36
@@ -361,7 +381,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 38
@@ -403,7 +425,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ChannelSubscriptionByKey
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 74
@@ -436,7 +460,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OnSubscribe
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 76
@@ -478,7 +504,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: AddUnauthenticatedConnection
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 94
@@ -509,7 +537,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: UnauthenticatedConnections
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 120
@@ -544,7 +574,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: AuthenticatedConnections
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 122
@@ -579,7 +611,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: GetConnection
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 124
@@ -616,7 +650,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: started
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 129
@@ -645,7 +681,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Start
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 134
@@ -677,7 +715,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: DoStart
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 141
@@ -707,7 +747,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: CheckForDeadChannelsAsync
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 143
@@ -737,7 +779,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      path: Butterfly.Web/Channel/BaseSubscriptionApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Dispose
     path: ../Butterfly.Web/Channel/BaseSubscriptionApi.cs
     startLine: 191

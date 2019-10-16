@@ -23,7 +23,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: BaseHttpRequest
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 14
@@ -43,7 +45,7 @@ items:
   - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest
   implements:
   - Butterfly.Web.WebApi.IHttpRequest
-  - Butterfly.Web.IWebRequest
+  - Butterfly.Web.WebApi.IWebRequest
   modifiers.csharp:
   - public
   - abstract
@@ -65,7 +67,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: logger
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 15
@@ -98,7 +102,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: InputStream
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 17
@@ -133,7 +139,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ClientIp
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 19
@@ -170,7 +178,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 23
@@ -185,7 +195,7 @@ items:
     content.vb: Public MustOverride ReadOnly Property RequestUrl As Uri
   overload: Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl*
   implements:
-  - Butterfly.Web.IWebRequest.RequestUrl
+  - Butterfly.Web.WebApi.IWebRequest.RequestUrl
   modifiers.csharp:
   - public
   - abstract
@@ -207,7 +217,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 25
@@ -222,7 +234,7 @@ items:
     content.vb: Public MustOverride ReadOnly Property Headers As Dictionary(Of String, String)
   overload: Butterfly.Web.WebApi.BaseHttpRequest.Headers*
   implements:
-  - Butterfly.Web.IWebRequest.Headers
+  - Butterfly.Web.WebApi.IWebRequest.Headers
   modifiers.csharp:
   - public
   - abstract
@@ -244,7 +256,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 27
@@ -259,7 +273,7 @@ items:
     content.vb: Public MustOverride ReadOnly Property PathParams As Dictionary(Of String, String)
   overload: Butterfly.Web.WebApi.BaseHttpRequest.PathParams*
   implements:
-  - Butterfly.Web.IWebRequest.PathParams
+  - Butterfly.Web.WebApi.IWebRequest.PathParams
   modifiers.csharp:
   - public
   - abstract
@@ -281,7 +295,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 29
@@ -296,7 +312,7 @@ items:
     content.vb: Public MustOverride ReadOnly Property QueryParams As Dictionary(Of String, String)
   overload: Butterfly.Web.WebApi.BaseHttpRequest.QueryParams*
   implements:
-  - Butterfly.Web.IWebRequest.QueryParams
+  - Butterfly.Web.WebApi.IWebRequest.QueryParams
   modifiers.csharp:
   - public
   - abstract
@@ -318,7 +334,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ReadAsync
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 31
@@ -350,7 +368,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web/WebApi/BaseHttpRequest.cs
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsMultipartStream
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
     startLine: 37
@@ -392,17 +412,12 @@ references:
   name: IHttpRequest
   nameWithType: IHttpRequest
   fullName: Butterfly.Web.WebApi.IHttpRequest
-- uid: Butterfly.Web.IWebRequest
-  commentId: T:Butterfly.Web.IWebRequest
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IWebRequest
+  commentId: T:Butterfly.Web.WebApi.IWebRequest
+  parent: Butterfly.Web.WebApi
   name: IWebRequest
   nameWithType: IWebRequest
-  fullName: Butterfly.Web.IWebRequest
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
+  fullName: Butterfly.Web.WebApi.IWebRequest
 - uid: Logger
   isExternal: true
   name: Logger
@@ -439,12 +454,12 @@ references:
   name: RequestUrl
   nameWithType: BaseHttpRequest.RequestUrl
   fullName: Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
-- uid: Butterfly.Web.IWebRequest.RequestUrl
-  commentId: P:Butterfly.Web.IWebRequest.RequestUrl
-  parent: Butterfly.Web.IWebRequest
+- uid: Butterfly.Web.WebApi.IWebRequest.RequestUrl
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.RequestUrl
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: RequestUrl
   nameWithType: IWebRequest.RequestUrl
-  fullName: Butterfly.Web.IWebRequest.RequestUrl
+  fullName: Butterfly.Web.WebApi.IWebRequest.RequestUrl
 - uid: Uri
   isExternal: true
   name: Uri
@@ -455,12 +470,12 @@ references:
   name: Headers
   nameWithType: BaseHttpRequest.Headers
   fullName: Butterfly.Web.WebApi.BaseHttpRequest.Headers
-- uid: Butterfly.Web.IWebRequest.Headers
-  commentId: P:Butterfly.Web.IWebRequest.Headers
-  parent: Butterfly.Web.IWebRequest
+- uid: Butterfly.Web.WebApi.IWebRequest.Headers
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.Headers
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: Headers
   nameWithType: IWebRequest.Headers
-  fullName: Butterfly.Web.IWebRequest.Headers
+  fullName: Butterfly.Web.WebApi.IWebRequest.Headers
 - uid: Dictionary{System.String,System.String}
   commentId: '!:Dictionary{System.String,System.String}'
   definition: Dictionary`2
@@ -575,23 +590,23 @@ references:
   name: PathParams
   nameWithType: BaseHttpRequest.PathParams
   fullName: Butterfly.Web.WebApi.BaseHttpRequest.PathParams
-- uid: Butterfly.Web.IWebRequest.PathParams
-  commentId: P:Butterfly.Web.IWebRequest.PathParams
-  parent: Butterfly.Web.IWebRequest
+- uid: Butterfly.Web.WebApi.IWebRequest.PathParams
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.PathParams
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: PathParams
   nameWithType: IWebRequest.PathParams
-  fullName: Butterfly.Web.IWebRequest.PathParams
+  fullName: Butterfly.Web.WebApi.IWebRequest.PathParams
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.QueryParams*
   commentId: Overload:Butterfly.Web.WebApi.BaseHttpRequest.QueryParams
   name: QueryParams
   nameWithType: BaseHttpRequest.QueryParams
   fullName: Butterfly.Web.WebApi.BaseHttpRequest.QueryParams
-- uid: Butterfly.Web.IWebRequest.QueryParams
-  commentId: P:Butterfly.Web.IWebRequest.QueryParams
-  parent: Butterfly.Web.IWebRequest
+- uid: Butterfly.Web.WebApi.IWebRequest.QueryParams
+  commentId: P:Butterfly.Web.WebApi.IWebRequest.QueryParams
+  parent: Butterfly.Web.WebApi.IWebRequest
   name: QueryParams
   nameWithType: IWebRequest.QueryParams
-  fullName: Butterfly.Web.IWebRequest.QueryParams
+  fullName: Butterfly.Web.WebApi.IWebRequest.QueryParams
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync*
   commentId: Overload:Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
   name: ReadAsync

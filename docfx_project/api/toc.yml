@@ -18,17 +18,6 @@
     name: WebSocketDialogChannelConnection
   - uid: Butterfly.RedHttpServer.WebSocketDialogWebRequest
     name: WebSocketDialogWebRequest
-- uid: Butterfly.Web
-  name: Butterfly.Web
-  items:
-  - uid: Butterfly.Web.IHttpRequestX
-    name: IHttpRequestX
-  - uid: Butterfly.Web.IHttpResponseX
-    name: IHttpResponseX
-  - uid: Butterfly.Web.IWebRequest
-    name: IWebRequest
-  - uid: Butterfly.Web.IWebRequestX
-    name: IWebRequestX
 - uid: Butterfly.Web.Channel
   name: Butterfly.Web.Channel
   items:
@@ -74,10 +63,18 @@
     name: BaseWebApi
   - uid: Butterfly.Web.WebApi.IHttpRequest
     name: IHttpRequest
+  - uid: Butterfly.Web.WebApi.IHttpRequestX
+    name: IHttpRequestX
   - uid: Butterfly.Web.WebApi.IHttpResponse
     name: IHttpResponse
+  - uid: Butterfly.Web.WebApi.IHttpResponseX
+    name: IHttpResponseX
   - uid: Butterfly.Web.WebApi.IWebApi
     name: IWebApi
+  - uid: Butterfly.Web.WebApi.IWebRequest
+    name: IWebRequest
+  - uid: Butterfly.Web.WebApi.IWebRequestX
+    name: IWebRequestX
   - uid: Butterfly.Web.WebApi.WebApiUtil
     name: WebApiUtil
   - uid: Butterfly.Web.WebApi.WebHandler

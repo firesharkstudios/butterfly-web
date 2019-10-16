@@ -22,7 +22,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RedHttpServerWebRequest
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 61
@@ -40,7 +42,7 @@ items:
   - Butterfly.Web.WebApi.BaseHttpRequest
   implements:
   - Butterfly.Web.WebApi.IHttpRequest
-  - Butterfly.Web.IWebRequest
+  - Butterfly.Web.WebApi.IWebRequest
   inheritedMembers:
   - Butterfly.Web.WebApi.BaseHttpRequest.logger
   - Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
@@ -64,7 +66,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: request
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 63
@@ -95,7 +99,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 65
@@ -126,7 +132,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: InputStream
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 69
@@ -162,7 +170,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ClientIp
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 71
@@ -198,7 +208,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 73
@@ -234,7 +246,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 75
@@ -270,7 +284,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 77
@@ -306,7 +322,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/kent1/Documents/Visual Studio 2019/Projects/Butterfly.Web/Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
     startLine: 79
@@ -352,12 +370,12 @@ references:
   name: IHttpRequest
   nameWithType: IHttpRequest
   fullName: Butterfly.Web.WebApi.IHttpRequest
-- uid: Butterfly.Web.IWebRequest
-  commentId: T:Butterfly.Web.IWebRequest
-  parent: Butterfly.Web
+- uid: Butterfly.Web.WebApi.IWebRequest
+  commentId: T:Butterfly.Web.WebApi.IWebRequest
+  parent: Butterfly.Web.WebApi
   name: IWebRequest
   nameWithType: IWebRequest
-  fullName: Butterfly.Web.IWebRequest
+  fullName: Butterfly.Web.WebApi.IWebRequest
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.logger
   commentId: F:Butterfly.Web.WebApi.BaseHttpRequest.logger
   parent: Butterfly.Web.WebApi.BaseHttpRequest
@@ -601,11 +619,6 @@ references:
   name: Butterfly.Web.WebApi
   nameWithType: Butterfly.Web.WebApi
   fullName: Butterfly.Web.WebApi
-- uid: Butterfly.Web
-  commentId: N:Butterfly.Web
-  name: Butterfly.Web
-  nameWithType: Butterfly.Web
-  fullName: Butterfly.Web
 - uid: Request
   isExternal: true
   name: Request
