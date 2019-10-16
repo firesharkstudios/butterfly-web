@@ -133,20 +133,20 @@ The subscription handler must return an *IDisposable* instance that is disposed 
 
 ## Using EmbedIO
 
-[EmbedIO](https://github.com/unosquare/embedio) is a capable low footprint web server that can be used to implement both the [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) interfaces. 
+[EmbedIO](https://github.com/unosquare/embedio) is a capable low footprint web server that can be used to implement both the *IWebApi* and *ISubscriptionApi* interfaces. 
 
-The [EmbedIOContext](https://butterflyserver.io/docfx/api/Butterfly.EmbedIO.EmbedIOContext.html) class is a convenience class that creates [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) instances using an [EmbedIO](https://github.com/unosquare/embedio) web server.
+The *EmbedIOContext* class is a convenience class that creates *IWebApi* and *ISubscriptionApi* instances using an [EmbedIO](https://github.com/unosquare/embedio) web server.
 
 In the *Package Manager Console*...
 
 ```
-Install-Package Butterfly.EmbedIO
+Install-Package Butterfly.Db.EmbedIO
 ```
 
 In your application...
 
 ```csharp
-var context = new Butterfly.EmbedIO.EmbedIOContext("http://+:8000/");
+var context = new Butterfly.Db.EmbedIO.EmbedIOContext("http://+:8000/");
 
 // Declare your Web API and Subscription API like...
 context.WebApi.OnPost("/api/todo/insert", async (req, res) => {
@@ -164,9 +164,9 @@ context.Start();
 
 ## Using RedHttpServer
 
-[RedHttpServer](https://github.com/rosenbjerg/Red) is a Kestrel/ASP.NET Core based web server that can be used to implement both the [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) interfaces. 
+[RedHttpServer](https://github.com/rosenbjerg/Red) is a Kestrel/ASP.NET Core based web server that can be used to implement both the *IWebApi* and *ISubscriptionApi* interfaces. 
 
-The [RedHttpServerContext](https://butterflyserver.io/docfx/api/Butterfly.RedHttpServer.RedHttpServerContext.html) class is a convenience class that creates [IWebApi](https://butterflyserver.io/docfx/api/Butterfly.Core.WebApi.IWebApi.html) and [ISubscriptionApi](https://butterflyserver.io/docfx/api/Butterfly.Core.Channel.ISubscriptionApi.html) instances using [RedHttpServer](https://github.com/rosenbjerg/Red).
+The *RedHttpServerContext* class is a convenience class that creates *IWebApi* and *ISubscriptionApi* instances using [RedHttpServer](https://github.com/rosenbjerg/Red).
 
 In the *Package Manager Console*...
 
