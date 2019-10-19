@@ -90,16 +90,16 @@ namespace Butterfly.RedHttpServer {
         }
 
         public string GetHeader(string name) {
-            throw new NotImplementedException();
+            return this.response.AspNetResponse.Headers[name];
         }
 
         public void SetHeader(string name, string value) {
-            throw new NotImplementedException();
+            this.response.AspNetResponse.Headers[name] = value;
         }
 
         public int StatusCode {
-            get => throw new NotImplementedException();
-            set => throw new NotImplementedException();
+            get => this.response.AspNetResponse.StatusCode;
+            set => this.response.AspNetResponse.StatusCode = value;
         }
 
         public string StatusText {
@@ -108,7 +108,7 @@ namespace Butterfly.RedHttpServer {
         }
 
         public void SendRedirect(string url) {
-            throw new NotImplementedException();
+            this.response.Redirect(url);
         }
 
         public Stream OutputStream => this.response.Context.AspNetContext.Response.Body;

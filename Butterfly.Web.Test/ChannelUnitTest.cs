@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using Butterfly.Util;
 using Butterfly.Client.DotNet;
+using Butterfly.Util;
 using Butterfly.Web.Channel;
 
 namespace Butterfly.Web.Test {

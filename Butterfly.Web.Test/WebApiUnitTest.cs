@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Butterfly.Util;
-using Butterfly.Web;
 using Butterfly.Web.WebApi;
 
 namespace Butterfly.Core.Test {
