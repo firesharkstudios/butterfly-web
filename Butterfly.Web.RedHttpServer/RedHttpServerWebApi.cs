@@ -27,30 +27,36 @@ namespace Butterfly.RedHttpServer {
 
         public override void Compile() {
             foreach (var webHandler in this.webHandlers) {
+                async Task<HandlerType> handler(Request req, Response res) {
+                    try {
+                        await webHandler.listener(new RedHttpServerWebRequest(req), new RedHttpServerWebResponse(res));
+                        return HandlerType.Final;
+                    }
+                    catch (Exception e) {
+                        logger.Error(e);
+                        return HandlerType.Error;
+                    }
+                }
+
                 if (webHandler.method == HttpMethod.Get) {
                     string newPath = Regex.Replace(webHandler.path, "{([^/]+?)}", m => $":{m.Groups[1].Value}");
-                    this.server.Get(newPath, async (req, res) => {
-                        try {
-                            await webHandler.listener(new RedHttpServerWebRequest(req), new RedHttpServerWebResponse(res));
-                            return HandlerType.Final;
-                        }
-                        catch (Exception e) {
-                            logger.Error(e);
-                            return HandlerType.Error;
-                        }
-                    });
+                    this.server.Get(newPath, handler);
                 }
                 else if (webHandler.method == HttpMethod.Post) {
-                    this.server.Post(webHandler.path, async (req, res) => {
-                        try {
-                            await webHandler.listener(new RedHttpServerWebRequest(req), new RedHttpServerWebResponse(res));
-                            return HandlerType.Final;
-                        }
-                        catch (Exception e) {
-                            logger.Error(e);
-                            return HandlerType.Error;
-                        }
-                    });
+                    this.server.Post(webHandler.path, handler);
+                }
+                else if (webHandler.method == HttpMethod.Put) {
+                    this.server.Put(webHandler.path, handler);
+                }
+                else if (webHandler.method == HttpMethod.Delete) {
+                    this.server.Delete(webHandler.path, handler);
+                }
+                else if (webHandler.method == null) {
+                    string newPath = Regex.Replace(webHandler.path, "{([^/]+?)}", m => $":{m.Groups[1].Value}");
+                    this.server.Get(newPath, handler);
+                    this.server.Post(webHandler.path, handler);
+                    this.server.Put(webHandler.path, handler);
+                    this.server.Delete(webHandler.path, handler);
                 }
             }
         }

@@ -20,6 +20,15 @@ namespace Butterfly.Web.WebApi {
 
         protected readonly List<WebHandler> webHandlers = new List<WebHandler>();
 
+        public void OnHandle(string path, Func<IHttpRequest, IHttpResponse, Task> listener) {
+            logger.Debug($"OnHandle():path={path}");
+            webHandlers.Add(new WebHandler {
+                method = null,
+                path = path,
+                listener = listener
+            });
+        }
+
         public void OnDelete(string path, Func<IHttpRequest, IHttpResponse, Task> listener) {
             logger.Debug($"OnDelete():path={path}");
             webHandlers.Add(new WebHandler {

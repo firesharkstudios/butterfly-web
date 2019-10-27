@@ -43,7 +43,10 @@ namespace Butterfly.Web.EmbedIO {
         public MyWebModule(ICollection<WebApi.WebHandler> webHandlers) {
             foreach (var webHandler in webHandlers) {
                 HttpVerbs httpVerb;
-                if (webHandler.method == HttpMethod.Delete) {
+                if (webHandler.method == null) {
+                    httpVerb = HttpVerbs.Any;
+                }
+                else if (webHandler.method == HttpMethod.Delete) {
                     httpVerb = HttpVerbs.Delete;
                 }
                 else if (webHandler.method == HttpMethod.Get) {

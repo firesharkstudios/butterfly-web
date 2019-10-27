@@ -28,7 +28,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: EmbedIOWebResponse
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 113
+    startLine: 116
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -66,7 +66,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: context
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 115
+    startLine: 118
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -99,7 +99,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 117
+    startLine: 120
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -132,7 +132,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: GetHeader
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 121
+    startLine: 124
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -169,7 +169,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SetHeader
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 125
+    startLine: 128
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -206,7 +206,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: StatusCode
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 134
+    startLine: 137
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -243,7 +243,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: StatusText
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 143
+    startLine: 146
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -280,7 +280,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SendRedirect
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 152
+    startLine: 155
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -315,7 +315,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OutputStream
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 156
+    startLine: 159
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -350,7 +350,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WriteAsTextAsync
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 158
+    startLine: 161
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO

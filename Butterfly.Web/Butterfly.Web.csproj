@@ -11,7 +11,7 @@
     <Company>Fireshark Studios, LLC</Company>
     <Product>Butterfly.Web</Product>
     <Copyright>Copyright 2017-2019 Fireshark Studios, LLC</Copyright>
-    <Version>2.0.3</Version>
+    <Version>2.0.5</Version>
     <PackageReleaseNotes>Various improvements and bug fixes</PackageReleaseNotes>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(MSBuildProjectName).xml</DocumentationFile>
     <LangVersion>7.1</LangVersion>
