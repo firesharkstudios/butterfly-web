@@ -21,6 +21,10 @@ namespace Butterfly.Web.WebApi {
             get;
         }
 
+        public abstract string Method {
+            get;
+        }
+
         public abstract Uri RequestUrl { get; }
 
         public abstract Dictionary<string, string> Headers { get; }

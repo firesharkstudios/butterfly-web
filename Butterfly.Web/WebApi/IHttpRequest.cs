@@ -5,13 +5,15 @@
 using System;
 using System.Threading.Tasks;
 
-using Butterfly.Util;
-
 namespace Butterfly.Web.WebApi {
     /// <inheritdoc/>
     public interface IHttpRequest : IWebRequest {
 
         string ClientIp {
+            get;
+        }
+
+        string Method {
             get;
         }
 

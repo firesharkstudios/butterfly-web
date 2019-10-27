@@ -77,11 +77,13 @@ namespace Butterfly.RedHttpServer {
 
         public override string ClientIp => this.request?.AspNetRequest?.HttpContext?.Connection?.RemoteIpAddress?.ToString();
 
-        public override Uri RequestUrl => this.request.Context.AspNetContext.Request.ToUri();
+        public override string Method => this.request?.AspNetRequest?.Method?.ToUpper();
+
+        public override Uri RequestUrl => this.request?.Context?.AspNetContext?.Request?.ToUri();
 
         public override Dictionary<string, string> Headers => this.request.Headers.ToDictionary(x => x.Key, x => x.Value.ToString());
 
-        public override Dictionary<string, string> PathParams => this.request.Context.ExtractAllUrlParameters();
+        public override Dictionary<string, string> PathParams => this.request?.Context?.ExtractAllUrlParameters();
 
         public override Dictionary<string, string> QueryParams => this.RequestUrl.ParseQuery();
 

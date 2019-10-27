@@ -99,6 +99,8 @@ namespace Butterfly.Web.EmbedIO {
 
         public override string ClientIp => this.context?.Request?.RemoteEndPoint?.Address?.ToString();
 
+        public override string Method => this.context?.Request?.HttpMethod?.ToUpper();
+
         public override Uri RequestUrl => this.context.Request.Url;
 
         public override Dictionary<string, string> Headers => this.context.Request.Headers?.ToDictionary(forceUpperCaseKeys: true);
