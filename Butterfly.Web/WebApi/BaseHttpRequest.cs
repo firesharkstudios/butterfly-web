@@ -15,7 +15,7 @@ namespace Butterfly.Web.WebApi {
     public abstract class BaseHttpRequest : IHttpRequest {
         protected static readonly Logger logger = LogManager.GetCurrentClassLogger();
 
-        protected abstract Stream InputStream { get; }
+        public abstract Stream InputStream { get; }
 
         public abstract string ClientIp {
             get;
@@ -33,7 +33,7 @@ namespace Butterfly.Web.WebApi {
 
         public abstract Dictionary<string, string> QueryParams { get; }
 
-        public async Task<string> ReadAsync() {
+        public async Task<string> ReadAsTextAsync() {
             using (StreamReader reader = new StreamReader(this.InputStream)) {
                 return await reader.ReadToEndAsync();
             }

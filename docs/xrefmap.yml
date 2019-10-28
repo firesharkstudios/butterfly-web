@@ -2261,19 +2261,19 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.WebApi.BaseHttpRequest.QueryParams
   nameWithType: BaseHttpRequest.QueryParams
-- uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
-  name: ReadAsync()
-  href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_ReadAsync
-  commentId: M:Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
-  fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync()
-  nameWithType: BaseHttpRequest.ReadAsync()
-- uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync*
-  name: ReadAsync
-  href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_ReadAsync_
-  commentId: Overload:Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
+  name: ReadAsTextAsync()
+  href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_ReadAsTextAsync
+  commentId: M:Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync()
+  nameWithType: BaseHttpRequest.ReadAsTextAsync()
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync*
+  name: ReadAsTextAsync
+  href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_ReadAsTextAsync_
+  commentId: Overload:Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
   isSpec: "True"
-  fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
-  nameWithType: BaseHttpRequest.ReadAsync
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
+  nameWithType: BaseHttpRequest.ReadAsTextAsync
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   name: RequestUrl
   href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_RequestUrl
@@ -2443,6 +2443,19 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.WebApi.IHttpRequest.ClientIp
   nameWithType: IHttpRequest.ClientIp
+- uid: Butterfly.Web.WebApi.IHttpRequest.InputStream
+  name: InputStream
+  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_InputStream
+  commentId: P:Butterfly.Web.WebApi.IHttpRequest.InputStream
+  fullName: Butterfly.Web.WebApi.IHttpRequest.InputStream
+  nameWithType: IHttpRequest.InputStream
+- uid: Butterfly.Web.WebApi.IHttpRequest.InputStream*
+  name: InputStream
+  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_InputStream_
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequest.InputStream
+  isSpec: "True"
+  fullName: Butterfly.Web.WebApi.IHttpRequest.InputStream
+  nameWithType: IHttpRequest.InputStream
 - uid: Butterfly.Web.WebApi.IHttpRequest.Method
   name: Method
   href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_Method
@@ -2472,19 +2485,19 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.WebApi.IHttpRequest.ParseAsMultipartStream
   nameWithType: IHttpRequest.ParseAsMultipartStream
-- uid: Butterfly.Web.WebApi.IHttpRequest.ReadAsync
-  name: ReadAsync()
-  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_ReadAsync
-  commentId: M:Butterfly.Web.WebApi.IHttpRequest.ReadAsync
-  fullName: Butterfly.Web.WebApi.IHttpRequest.ReadAsync()
-  nameWithType: IHttpRequest.ReadAsync()
-- uid: Butterfly.Web.WebApi.IHttpRequest.ReadAsync*
-  name: ReadAsync
-  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_ReadAsync_
-  commentId: Overload:Butterfly.Web.WebApi.IHttpRequest.ReadAsync
+- uid: Butterfly.Web.WebApi.IHttpRequest.ReadAsTextAsync
+  name: ReadAsTextAsync()
+  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_ReadAsTextAsync
+  commentId: M:Butterfly.Web.WebApi.IHttpRequest.ReadAsTextAsync
+  fullName: Butterfly.Web.WebApi.IHttpRequest.ReadAsTextAsync()
+  nameWithType: IHttpRequest.ReadAsTextAsync()
+- uid: Butterfly.Web.WebApi.IHttpRequest.ReadAsTextAsync*
+  name: ReadAsTextAsync
+  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_ReadAsTextAsync_
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequest.ReadAsTextAsync
   isSpec: "True"
-  fullName: Butterfly.Web.WebApi.IHttpRequest.ReadAsync
-  nameWithType: IHttpRequest.ReadAsync
+  fullName: Butterfly.Web.WebApi.IHttpRequest.ReadAsTextAsync
+  nameWithType: IHttpRequest.ReadAsTextAsync
 - uid: Butterfly.Web.WebApi.IHttpRequestX
   name: IHttpRequestX
   href: api/Butterfly.Web.WebApi.IHttpRequestX.html

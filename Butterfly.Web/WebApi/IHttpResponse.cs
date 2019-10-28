@@ -46,6 +46,7 @@ namespace Butterfly.Web.WebApi {
         /// Write the <paramref name="value"/> as plain text
         /// </summary>
         /// <param name="value"></param>
+        /// <param name="contentType"></param>
         /// <returns></returns>
         Task WriteAsTextAsync(string value, string contentType = "text/plain");
     }

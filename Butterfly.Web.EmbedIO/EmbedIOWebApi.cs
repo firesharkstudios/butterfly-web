@@ -95,7 +95,7 @@ namespace Butterfly.Web.EmbedIO {
             this.context = context;
         }
 
-        protected override Stream InputStream => this.context.Request.InputStream;
+        public override Stream InputStream => this.context.Request.InputStream;
 
         public override string ClientIp => this.context?.Request?.RemoteEndPoint?.Address?.ToString();
 

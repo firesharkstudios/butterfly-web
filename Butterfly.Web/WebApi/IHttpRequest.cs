@@ -3,6 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 using System;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace Butterfly.Web.WebApi {
@@ -17,7 +18,9 @@ namespace Butterfly.Web.WebApi {
             get;
         }
 
-        Task<string> ReadAsync();
+        Stream InputStream { get; }
+
+        Task<string> ReadAsTextAsync();
 
         /// <summary>
         /// Parses the body of a POST as a multipart stream (based on https://www.nuget.org/packages/HttpMultipartParser/)

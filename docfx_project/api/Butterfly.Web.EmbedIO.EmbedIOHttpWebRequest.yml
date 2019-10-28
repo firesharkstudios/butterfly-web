@@ -47,7 +47,7 @@ items:
   - Butterfly.Web.WebApi.IWebRequest
   inheritedMembers:
   - Butterfly.Web.WebApi.BaseHttpRequest.logger
-  - Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
+  - Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
   - Butterfly.Web.WebApi.BaseHttpRequest.ParseAsMultipartStream(Action{System.String,System.String,System.String,System.String,System.Byte[],System.Int32},Action{System.String,System.String})
   modifiers.csharp:
   - public
@@ -179,19 +179,19 @@ items:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
   syntax:
-    content: protected override Stream InputStream { get; }
+    content: public override Stream InputStream { get; }
     parameters: []
     return:
       type: Stream
-    content.vb: Protected Overrides ReadOnly Property InputStream As Stream
+    content.vb: Public Overrides ReadOnly Property InputStream As Stream
   overridden: Butterfly.Web.WebApi.BaseHttpRequest.InputStream
   overload: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.InputStream*
   modifiers.csharp:
-  - protected
+  - public
   - override
   - get
   modifiers.vb:
-  - Protected
+  - Public
   - Overrides
   - ReadOnly
 - uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.ClientIp
@@ -457,17 +457,17 @@ references:
   name: logger
   nameWithType: BaseHttpRequest.logger
   fullName: Butterfly.Web.WebApi.BaseHttpRequest.logger
-- uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
-  commentId: M:Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
+  commentId: M:Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
   parent: Butterfly.Web.WebApi.BaseHttpRequest
-  name: ReadAsync()
-  nameWithType: BaseHttpRequest.ReadAsync()
-  fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync()
+  name: ReadAsTextAsync()
+  nameWithType: BaseHttpRequest.ReadAsTextAsync()
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync()
   spec.csharp:
-  - uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
-    name: ReadAsync
-    nameWithType: BaseHttpRequest.ReadAsync
-    fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
+  - uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
+    name: ReadAsTextAsync
+    nameWithType: BaseHttpRequest.ReadAsTextAsync
+    fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
   - name: (
     nameWithType: (
     fullName: (
@@ -475,10 +475,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
-    name: ReadAsync
-    nameWithType: BaseHttpRequest.ReadAsync
-    fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsync
+  - uid: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
+    name: ReadAsTextAsync
+    nameWithType: BaseHttpRequest.ReadAsTextAsync
+    fullName: Butterfly.Web.WebApi.BaseHttpRequest.ReadAsTextAsync
   - name: (
     nameWithType: (
     fullName: (

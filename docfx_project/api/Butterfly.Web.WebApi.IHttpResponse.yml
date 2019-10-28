@@ -265,7 +265,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WriteAsTextAsync
     path: ../Butterfly.Web/WebApi/IHttpResponse.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -279,6 +279,7 @@ items:
       description: ''
     - id: contentType
       type: System.String
+      description: ''
     return:
       type: Task
       description: ''

@@ -6,18 +6,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
+
 using Butterfly.Util;
-using Butterfly.Web.WebApi;
 
 namespace Butterfly.Web.WebApi {
     public static class IHttpRequestX {
         public static async Task<Dictionary<string, string>> ParseAsUrlEncodedAsync(this IHttpRequest me) {
-            string text = await me.ReadAsync();
+            string text = await me.ReadAsTextAsync();
             return HttpUtility.ParseQueryString(text).ToDictionary();
         }
 
         public static async Task<T> ParseAsJsonAsync<T>(this IHttpRequest me) {
-            string json = await me.ReadAsync();
+            string json = await me.ReadAsTextAsync();
             return JsonUtil.Deserialize<T>(json);
         }
 

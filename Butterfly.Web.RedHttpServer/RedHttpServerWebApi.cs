@@ -73,7 +73,7 @@ namespace Butterfly.RedHttpServer {
             this.request = request;
         }
 
-        protected override Stream InputStream => this.request.BodyStream;
+        public override Stream InputStream => this.request.BodyStream;
 
         public override string ClientIp => this.request?.AspNetRequest?.HttpContext?.Connection?.RemoteIpAddress?.ToString();
 

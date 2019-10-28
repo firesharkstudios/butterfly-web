@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Butterfly.RedHttpServer.RedHttpServerWebRequest.html",
-          "hash": "EtB4NwYiHnQetKnba8DKVg=="
+          "hash": "6gJY3DeBmUoyk20Im/ofXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "zI/dCFNtepXjnmyEAbvmxg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "axB//NRrAvmGQwD7nlq2xQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.html",
-          "hash": "6u2kqrHMtHP5Als6AHqLDQ=="
+          "hash": "M3E3qpcZztQWFBfgeQmibg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +264,7 @@
           "hash": "FC0CT21dR1QqZaLDmpHfHA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -312,7 +312,7 @@
           "hash": "420ZtRibhNWtlRkJWbrU4A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Butterfly.Web.WebApi.BaseHttpRequest.html",
-          "hash": "ZWLsBKGnvFoPccsW3xhdoA=="
+          "hash": "XdNEyONgKxaK1lC+bwxG9Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Butterfly.Web.WebApi.IHttpRequest.html",
-          "hash": "BaCleu0uFTeClYAl4tDe+w=="
+          "hash": "50W87hnteCWqmvT7V3tQwQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -360,7 +360,7 @@
           "hash": "yygqnnjOPxXBuUJQJ1ZRuw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -372,7 +372,7 @@
           "hash": "f9PtV0NE9RWJsIPltS3OZA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -384,7 +384,7 @@
           "hash": "MFhVL+mS3z96PeemQrFgow=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -432,7 +432,7 @@
           "hash": "Zj6cLZTmwyHQx3C5L5J3sg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -456,7 +456,7 @@
           "hash": "xzZG8UcUwUNllBs4qMSr9A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -535,6 +535,13 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -545,14 +552,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 38,
-          "skipped_file_count": 38
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "skipped_file_count": 33
         }
       }
     },
