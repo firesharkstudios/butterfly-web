@@ -9,6 +9,7 @@ items:
   - Butterfly.RedHttpServer.RedHttpServerWebRequest.ClientIp
   - Butterfly.RedHttpServer.RedHttpServerWebRequest.Headers
   - Butterfly.RedHttpServer.RedHttpServerWebRequest.InputStream
+  - Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
   - Butterfly.RedHttpServer.RedHttpServerWebRequest.PathParams
   - Butterfly.RedHttpServer.RedHttpServerWebRequest.QueryParams
   - Butterfly.RedHttpServer.RedHttpServerWebRequest.request
@@ -195,6 +196,44 @@ items:
   - Public
   - Overrides
   - ReadOnly
+- uid: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  commentId: P:Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  id: Method
+  parent: Butterfly.RedHttpServer.RedHttpServerWebRequest
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: RedHttpServerWebRequest.Method
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  type: Property
+  source:
+    remote:
+      path: Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
+    id: Method
+    path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
+    startLine: 79
+  assemblies:
+  - Butterfly.Web.RedHttpServer
+  namespace: Butterfly.RedHttpServer
+  syntax:
+    content: public override string Method { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Method As String
+  overridden: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  overload: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: Butterfly.RedHttpServer.RedHttpServerWebRequest.RequestUrl
   commentId: P:Butterfly.RedHttpServer.RedHttpServerWebRequest.RequestUrl
   id: RequestUrl
@@ -213,7 +252,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 79
+    startLine: 81
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -251,7 +290,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 81
+    startLine: 83
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -289,7 +328,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 83
+    startLine: 85
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -327,7 +366,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 85
+    startLine: 87
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -661,6 +700,17 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  commentId: P:Butterfly.Web.WebApi.BaseHttpRequest.Method
+  parent: Butterfly.Web.WebApi.BaseHttpRequest
+  name: Method
+  nameWithType: BaseHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.Method
+- uid: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method*
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  name: Method
+  nameWithType: RedHttpServerWebRequest.Method
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   commentId: P:Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   parent: Butterfly.Web.WebApi.BaseHttpRequest

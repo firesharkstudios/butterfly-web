@@ -6,9 +6,9 @@ items:
   parent: Butterfly.Web.WebApi
   children:
   - Butterfly.Web.WebApi.IWebApi.Compile
+  - Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.IWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.IWebApi.OnGet(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  - Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.IWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.IWebApi.OnPut(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   langs:
@@ -43,23 +43,23 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  commentId: M:Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  id: OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+- uid: Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  id: OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   parent: Butterfly.Web.WebApi.IWebApi
   langs:
   - csharp
   - vb
-  name: OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  nameWithType: IWebApi.OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  fullName: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  name: OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: IWebApi.OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.IWebApi.OnAny(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
   type: Method
   source:
     remote:
       path: Butterfly.Web/WebApi/IWebApi.cs
       branch: master
       repo: https://github.com/firesharkstudios/butterfly-web.git
-    id: OnHandle
+    id: OnAny
     path: ../Butterfly.Web/WebApi/IWebApi.cs
     startLine: 40
   assemblies:
@@ -67,9 +67,9 @@ items:
   namespace: Butterfly.Web.WebApi
   summary: "\nAdds a <code data-dev-comment-type=\"paramref\" class=\"paramref\">listener</code> executed when DELETE requests are received matching <code data-dev-comment-type=\"paramref\" class=\"paramref\">path</code>\n"
   example:
-  - "\n<pre><code>webApi.OnHandle(&quot;/api/todo&quot;, async(req, res) => {\n    var id = await req.ParseAsJsonAsync&lt;string>();\n    await database.DeleteAndCommitAsync(&quot;todo&quot;, id);\n});\nwebApi.OnHandle(&quot;/api/todo/{id}&quot;, async(req, res) => {\n    var id = req.PathParams.GetAs(&quot;id&quot;, &quot;&quot;);\n    await database.DeleteAndCommitAsync(&quot;todo&quot;, id);\n});</code></pre>    \n"
+  - "\n<pre><code>webApi.OnAny(&quot;/api/todo&quot;, async(req, res) => {\n    var id = await req.ParseAsJsonAsync&lt;string>();\n    await database.DeleteAndCommitAsync(&quot;todo&quot;, id);\n});\nwebApi.OnAny(&quot;/api/todo/{id}&quot;, async(req, res) => {\n    var id = req.PathParams.GetAs(&quot;id&quot;, &quot;&quot;);\n    await database.DeleteAndCommitAsync(&quot;todo&quot;, id);\n});</code></pre>    \n"
   syntax:
-    content: void OnHandle(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
+    content: void OnAny(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
     parameters:
     - id: path
       type: System.String
@@ -77,11 +77,11 @@ items:
     - id: listener
       type: Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}
       description: Execute this async handler when a request is received matching the <code data-dev-comment-type="paramref" class="paramref">path</code>
-    content.vb: Sub OnHandle(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
-  overload: Butterfly.Web.WebApi.IWebApi.OnHandle*
-  nameWithType.vb: IWebApi.OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
-  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
-  name.vb: OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
+    content.vb: Sub OnAny(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
+  overload: Butterfly.Web.WebApi.IWebApi.OnAny*
+  nameWithType.vb: IWebApi.OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnAny(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
 - uid: Butterfly.Web.WebApi.IWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   commentId: M:Butterfly.Web.WebApi.IWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   id: OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
@@ -272,11 +272,11 @@ references:
   name: Butterfly.Web.WebApi
   nameWithType: Butterfly.Web.WebApi
   fullName: Butterfly.Web.WebApi
-- uid: Butterfly.Web.WebApi.IWebApi.OnHandle*
-  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnHandle
-  name: OnHandle
-  nameWithType: IWebApi.OnHandle
-  fullName: Butterfly.Web.WebApi.IWebApi.OnHandle
+- uid: Butterfly.Web.WebApi.IWebApi.OnAny*
+  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnAny
+  name: OnAny
+  nameWithType: IWebApi.OnAny
+  fullName: Butterfly.Web.WebApi.IWebApi.OnAny
 - uid: System.String
   isExternal: true
   name: String

@@ -9,6 +9,7 @@ items:
   - Butterfly.Web.WebApi.BaseHttpRequest.Headers
   - Butterfly.Web.WebApi.BaseHttpRequest.InputStream
   - Butterfly.Web.WebApi.BaseHttpRequest.logger
+  - Butterfly.Web.WebApi.BaseHttpRequest.Method
   - Butterfly.Web.WebApi.BaseHttpRequest.ParseAsMultipartStream(Action{System.String,System.String,System.String,System.String,System.Byte[],System.Int32},Action{System.String,System.String})
   - Butterfly.Web.WebApi.BaseHttpRequest.PathParams
   - Butterfly.Web.WebApi.BaseHttpRequest.QueryParams
@@ -165,6 +166,45 @@ items:
   - Public
   - MustOverride
   - ReadOnly
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  commentId: P:Butterfly.Web.WebApi.BaseHttpRequest.Method
+  id: Method
+  parent: Butterfly.Web.WebApi.BaseHttpRequest
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: BaseHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  type: Property
+  source:
+    remote:
+      path: Butterfly.Web/WebApi/BaseHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
+    id: Method
+    path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
+    startLine: 23
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  syntax:
+    content: public abstract string Method { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property Method As String
+  overload: Butterfly.Web.WebApi.BaseHttpRequest.Method*
+  implements:
+  - Butterfly.Web.WebApi.IHttpRequest.Method
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   commentId: P:Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   id: RequestUrl
@@ -183,7 +223,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
-    startLine: 23
+    startLine: 27
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -222,7 +262,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
-    startLine: 25
+    startLine: 29
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -261,7 +301,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
-    startLine: 27
+    startLine: 31
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -300,7 +340,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
-    startLine: 29
+    startLine: 33
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -339,7 +379,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ReadAsync
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
-    startLine: 31
+    startLine: 35
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -373,7 +413,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsMultipartStream
     path: ../Butterfly.Web/WebApi/BaseHttpRequest.cs
-    startLine: 37
+    startLine: 41
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -449,6 +489,17 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.Method*
+  commentId: Overload:Butterfly.Web.WebApi.BaseHttpRequest.Method
+  name: Method
+  nameWithType: BaseHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.Method
+- uid: Butterfly.Web.WebApi.IHttpRequest.Method
+  commentId: P:Butterfly.Web.WebApi.IHttpRequest.Method
+  parent: Butterfly.Web.WebApi.IHttpRequest
+  name: Method
+  nameWithType: IHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.IHttpRequest.Method
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl*
   commentId: Overload:Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   name: RequestUrl

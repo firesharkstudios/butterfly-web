@@ -6,6 +6,7 @@ items:
   parent: Butterfly.Web.WebApi
   children:
   - Butterfly.Web.WebApi.IHttpRequest.ClientIp
+  - Butterfly.Web.WebApi.IHttpRequest.Method
   - Butterfly.Web.WebApi.IHttpRequest.ParseAsMultipartStream(Action{System.String,System.String,System.String,System.String,System.Byte[],System.Int32},Action{System.String,System.String})
   - Butterfly.Web.WebApi.IHttpRequest.ReadAsync
   langs:
@@ -22,7 +23,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IHttpRequest
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
-    startLine: 11
+    startLine: 9
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -65,7 +66,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ClientIp
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
-    startLine: 13
+    startLine: 11
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -76,6 +77,39 @@ items:
       type: System.String
     content.vb: ReadOnly Property ClientIp As String
   overload: Butterfly.Web.WebApi.IHttpRequest.ClientIp*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Butterfly.Web.WebApi.IHttpRequest.Method
+  commentId: P:Butterfly.Web.WebApi.IHttpRequest.Method
+  id: Method
+  parent: Butterfly.Web.WebApi.IHttpRequest
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: IHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.IHttpRequest.Method
+  type: Property
+  source:
+    remote:
+      path: Butterfly.Web/WebApi/IHttpRequest.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
+    id: Method
+    path: ../Butterfly.Web/WebApi/IHttpRequest.cs
+    startLine: 15
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  syntax:
+    content: string Method { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Method As String
+  overload: Butterfly.Web.WebApi.IHttpRequest.Method*
   modifiers.csharp:
   - get
   modifiers.vb:
@@ -98,7 +132,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ReadAsync
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
-    startLine: 17
+    startLine: 19
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -126,7 +160,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsMultipartStream
     path: ../Butterfly.Web/WebApi/IHttpRequest.cs
-    startLine: 24
+    startLine: 26
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -402,6 +436,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Butterfly.Web.WebApi.IHttpRequest.Method*
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequest.Method
+  name: Method
+  nameWithType: IHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.IHttpRequest.Method
 - uid: Butterfly.Web.WebApi.IHttpRequest.ReadAsync*
   commentId: Overload:Butterfly.Web.WebApi.IHttpRequest.ReadAsync
   name: ReadAsync

@@ -26,11 +26,11 @@ namespace Butterfly.Web.WebApi {
         /// </summary>
         /// <example>
         /// <code>
-        /// webApi.OnHandle("/api/todo", async(req, res) => {
+        /// webApi.OnAny("/api/todo", async(req, res) => {
         ///     var id = await req.ParseAsJsonAsync&lt;string&gt;();
         ///     await database.DeleteAndCommitAsync("todo", id);
         /// });
-        /// webApi.OnHandle("/api/todo/{id}", async(req, res) => {
+        /// webApi.OnAny("/api/todo/{id}", async(req, res) => {
         ///     var id = req.PathParams.GetAs("id", "");
         ///     await database.DeleteAndCommitAsync("todo", id);
         /// });
@@ -38,7 +38,7 @@ namespace Butterfly.Web.WebApi {
         /// </example>
         /// <param name="path">Only execute the <paramref name="listener"/> when requests match this path.</param>
         /// <param name="listener">Execute this async handler when a request is received matching the <paramref name="path"/></param>
-        void OnHandle(string path, Func<IHttpRequest, IHttpResponse, Task> listener);
+        void OnAny(string path, Func<IHttpRequest, IHttpResponse, Task> listener);
 
         /// <summary>
         /// Adds a <paramref name="listener"/> executed when DELETE requests are received matching <paramref name="path"/>

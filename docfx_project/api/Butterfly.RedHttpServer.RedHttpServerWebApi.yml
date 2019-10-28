@@ -44,7 +44,7 @@ items:
   inheritedMembers:
   - Butterfly.Web.WebApi.BaseWebApi.logger
   - Butterfly.Web.WebApi.BaseWebApi.webHandlers
-  - Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  - Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.OnGet(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
@@ -228,21 +228,21 @@ references:
   name: webHandlers
   nameWithType: BaseWebApi.webHandlers
   fullName: Butterfly.Web.WebApi.BaseWebApi.webHandlers
-- uid: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  commentId: M:Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+- uid: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   parent: Butterfly.Web.WebApi.BaseWebApi
   isExternal: true
-  name: OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  nameWithType: BaseWebApi.OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  fullName: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
-  nameWithType.vb: BaseWebApi.OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
-  fullName.vb: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
-  name.vb: OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  name: OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: BaseWebApi.OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  nameWithType.vb: BaseWebApi.OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
   spec.csharp:
-  - uid: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-    name: OnHandle
-    nameWithType: BaseWebApi.OnHandle
-    fullName: Butterfly.Web.WebApi.BaseWebApi.OnHandle
+  - uid: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+    name: OnAny
+    nameWithType: BaseWebApi.OnAny
+    fullName: Butterfly.Web.WebApi.BaseWebApi.OnAny
   - name: (
     nameWithType: (
     fullName: (
@@ -288,10 +288,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-    name: OnHandle
-    nameWithType: BaseWebApi.OnHandle
-    fullName: Butterfly.Web.WebApi.BaseWebApi.OnHandle
+  - uid: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+    name: OnAny
+    nameWithType: BaseWebApi.OnAny
+    fullName: Butterfly.Web.WebApi.BaseWebApi.OnAny
   - name: (
     nameWithType: (
     fullName: (

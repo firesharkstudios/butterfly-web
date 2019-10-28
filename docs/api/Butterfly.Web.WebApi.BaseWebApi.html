@@ -184,6 +184,36 @@ Base class implementing <a class="xref" href="Butterfly.Web.WebApi.IWebApi.html"
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract void Dispose()</code></pre>
   </div>
+  <a id="Butterfly_Web_WebApi_BaseWebApi_OnAny_" data-uid="Butterfly.Web.WebApi.BaseWebApi.OnAny*"></a>
+  <h4 id="Butterfly_Web_WebApi_BaseWebApi_OnAny_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__" data-uid="Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})">OnAny(String, Func&lt;IHttpRequest, IHttpResponse, Task&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAny(string path, Func&lt;IHttpRequest, IHttpResponse, Task&gt; listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<a class="xref" href="Butterfly.Web.WebApi.IHttpRequest.html">IHttpRequest</a>, <a class="xref" href="Butterfly.Web.WebApi.IHttpResponse.html">IHttpResponse</a>, <span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">listener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Butterfly_Web_WebApi_BaseWebApi_OnDelete_" data-uid="Butterfly.Web.WebApi.BaseWebApi.OnDelete*"></a>
   <h4 id="Butterfly_Web_WebApi_BaseWebApi_OnDelete_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__" data-uid="Butterfly.Web.WebApi.BaseWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})">OnDelete(String, Func&lt;IHttpRequest, IHttpResponse, Task&gt;)</h4>
   <div class="markdown level1 summary"></div>
@@ -221,36 +251,6 @@ Base class implementing <a class="xref" href="Butterfly.Web.WebApi.IWebApi.html"
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnGet(string path, Func&lt;IHttpRequest, IHttpResponse, Task&gt; listener)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">path</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<a class="xref" href="Butterfly.Web.WebApi.IHttpRequest.html">IHttpRequest</a>, <a class="xref" href="Butterfly.Web.WebApi.IHttpResponse.html">IHttpResponse</a>, <span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">listener</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Butterfly_Web_WebApi_BaseWebApi_OnHandle_" data-uid="Butterfly.Web.WebApi.BaseWebApi.OnHandle*"></a>
-  <h4 id="Butterfly_Web_WebApi_BaseWebApi_OnHandle_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__" data-uid="Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})">OnHandle(String, Func&lt;IHttpRequest, IHttpResponse, Task&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnHandle(string path, Func&lt;IHttpRequest, IHttpResponse, Task&gt; listener)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

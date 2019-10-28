@@ -271,6 +271,19 @@ references:
   isSpec: "True"
   fullName: Butterfly.RedHttpServer.RedHttpServerWebRequest.InputStream
   nameWithType: RedHttpServerWebRequest.InputStream
+- uid: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  name: Method
+  href: api/Butterfly.RedHttpServer.RedHttpServerWebRequest.html#Butterfly_RedHttpServer_RedHttpServerWebRequest_Method
+  commentId: P:Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  nameWithType: RedHttpServerWebRequest.Method
+- uid: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method*
+  name: Method
+  href: api/Butterfly.RedHttpServer.RedHttpServerWebRequest.html#Butterfly_RedHttpServer_RedHttpServerWebRequest_Method_
+  commentId: Overload:Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  isSpec: "True"
+  fullName: Butterfly.RedHttpServer.RedHttpServerWebRequest.Method
+  nameWithType: RedHttpServerWebRequest.Method
 - uid: Butterfly.RedHttpServer.RedHttpServerWebRequest.PathParams
   name: PathParams
   href: api/Butterfly.RedHttpServer.RedHttpServerWebRequest.html#Butterfly_RedHttpServer_RedHttpServerWebRequest_PathParams
@@ -1556,6 +1569,19 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.InputStream
   nameWithType: EmbedIOHttpWebRequest.InputStream
+- uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  name: Method
+  href: api/Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.html#Butterfly_Web_EmbedIO_EmbedIOHttpWebRequest_Method
+  commentId: P:Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  fullName: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  nameWithType: EmbedIOHttpWebRequest.Method
+- uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method*
+  name: Method
+  href: api/Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.html#Butterfly_Web_EmbedIO_EmbedIOHttpWebRequest_Method_
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  isSpec: "True"
+  fullName: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  nameWithType: EmbedIOHttpWebRequest.Method
 - uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.PathParams
   name: PathParams
   href: api/Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.html#Butterfly_Web_EmbedIO_EmbedIOHttpWebRequest_PathParams
@@ -2180,6 +2206,19 @@ references:
   commentId: F:Butterfly.Web.WebApi.BaseHttpRequest.logger
   fullName: Butterfly.Web.WebApi.BaseHttpRequest.logger
   nameWithType: BaseHttpRequest.logger
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  name: Method
+  href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_Method
+  commentId: P:Butterfly.Web.WebApi.BaseHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  nameWithType: BaseHttpRequest.Method
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.Method*
+  name: Method
+  href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_Method_
+  commentId: Overload:Butterfly.Web.WebApi.BaseHttpRequest.Method
+  isSpec: "True"
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  nameWithType: BaseHttpRequest.Method
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.ParseAsMultipartStream(Action{System.String,System.String,System.String,System.String,System.Byte[],System.Int32},Action{System.String,System.String})
   name: ParseAsMultipartStream(Action<String, String, String, String, Byte[], Int32>, Action<String, String>)
   href: api/Butterfly.Web.WebApi.BaseHttpRequest.html#Butterfly_Web_WebApi_BaseHttpRequest_ParseAsMultipartStream_Action_System_String_System_String_System_String_System_String_System_Byte___System_Int32__Action_System_String_System_String__
@@ -2286,6 +2325,22 @@ references:
   commentId: F:Butterfly.Web.WebApi.BaseWebApi.logger
   fullName: Butterfly.Web.WebApi.BaseWebApi.logger
   nameWithType: BaseWebApi.logger
+- uid: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  name: OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  href: api/Butterfly.Web.WebApi.BaseWebApi.html#Butterfly_Web_WebApi_BaseWebApi_OnAny_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__
+  commentId: M:Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  name.vb: OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  fullName.vb: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  nameWithType: BaseWebApi.OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType.vb: BaseWebApi.OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
+- uid: Butterfly.Web.WebApi.BaseWebApi.OnAny*
+  name: OnAny
+  href: api/Butterfly.Web.WebApi.BaseWebApi.html#Butterfly_Web_WebApi_BaseWebApi_OnAny_
+  commentId: Overload:Butterfly.Web.WebApi.BaseWebApi.OnAny
+  isSpec: "True"
+  fullName: Butterfly.Web.WebApi.BaseWebApi.OnAny
+  nameWithType: BaseWebApi.OnAny
 - uid: Butterfly.Web.WebApi.BaseWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   name: OnDelete(String, Func<IHttpRequest, IHttpResponse, Task>)
   href: api/Butterfly.Web.WebApi.BaseWebApi.html#Butterfly_Web_WebApi_BaseWebApi_OnDelete_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__
@@ -2318,22 +2373,6 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.WebApi.BaseWebApi.OnGet
   nameWithType: BaseWebApi.OnGet
-- uid: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  name: OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  href: api/Butterfly.Web.WebApi.BaseWebApi.html#Butterfly_Web_WebApi_BaseWebApi_OnHandle_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__
-  commentId: M:Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  name.vb: OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
-  fullName: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
-  fullName.vb: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
-  nameWithType: BaseWebApi.OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  nameWithType.vb: BaseWebApi.OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
-- uid: Butterfly.Web.WebApi.BaseWebApi.OnHandle*
-  name: OnHandle
-  href: api/Butterfly.Web.WebApi.BaseWebApi.html#Butterfly_Web_WebApi_BaseWebApi_OnHandle_
-  commentId: Overload:Butterfly.Web.WebApi.BaseWebApi.OnHandle
-  isSpec: "True"
-  fullName: Butterfly.Web.WebApi.BaseWebApi.OnHandle
-  nameWithType: BaseWebApi.OnHandle
 - uid: Butterfly.Web.WebApi.BaseWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   name: OnPost(String, Func<IHttpRequest, IHttpResponse, Task>)
   href: api/Butterfly.Web.WebApi.BaseWebApi.html#Butterfly_Web_WebApi_BaseWebApi_OnPost_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__
@@ -2404,6 +2443,19 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.WebApi.IHttpRequest.ClientIp
   nameWithType: IHttpRequest.ClientIp
+- uid: Butterfly.Web.WebApi.IHttpRequest.Method
+  name: Method
+  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_Method
+  commentId: P:Butterfly.Web.WebApi.IHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.IHttpRequest.Method
+  nameWithType: IHttpRequest.Method
+- uid: Butterfly.Web.WebApi.IHttpRequest.Method*
+  name: Method
+  href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_Method_
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequest.Method
+  isSpec: "True"
+  fullName: Butterfly.Web.WebApi.IHttpRequest.Method
+  nameWithType: IHttpRequest.Method
 - uid: Butterfly.Web.WebApi.IHttpRequest.ParseAsMultipartStream(Action{System.String,System.String,System.String,System.String,System.Byte[],System.Int32},Action{System.String,System.String})
   name: ParseAsMultipartStream(Action<String, String, String, String, Byte[], Int32>, Action<String, String>)
   href: api/Butterfly.Web.WebApi.IHttpRequest.html#Butterfly_Web_WebApi_IHttpRequest_ParseAsMultipartStream_Action_System_String_System_String_System_String_System_String_System_Byte___System_Int32__Action_System_String_System_String__
@@ -2619,6 +2671,22 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.WebApi.IWebApi.Compile
   nameWithType: IWebApi.Compile
+- uid: Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  name: OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  href: api/Butterfly.Web.WebApi.IWebApi.html#Butterfly_Web_WebApi_IWebApi_OnAny_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__
+  commentId: M:Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  name.vb: OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName: Butterfly.Web.WebApi.IWebApi.OnAny(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnAny(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  nameWithType: IWebApi.OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType.vb: IWebApi.OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
+- uid: Butterfly.Web.WebApi.IWebApi.OnAny*
+  name: OnAny
+  href: api/Butterfly.Web.WebApi.IWebApi.html#Butterfly_Web_WebApi_IWebApi_OnAny_
+  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnAny
+  isSpec: "True"
+  fullName: Butterfly.Web.WebApi.IWebApi.OnAny
+  nameWithType: IWebApi.OnAny
 - uid: Butterfly.Web.WebApi.IWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   name: OnDelete(String, Func<IHttpRequest, IHttpResponse, Task>)
   href: api/Butterfly.Web.WebApi.IWebApi.html#Butterfly_Web_WebApi_IWebApi_OnDelete_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__
@@ -2651,22 +2719,6 @@ references:
   isSpec: "True"
   fullName: Butterfly.Web.WebApi.IWebApi.OnGet
   nameWithType: IWebApi.OnGet
-- uid: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  name: OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  href: api/Butterfly.Web.WebApi.IWebApi.html#Butterfly_Web_WebApi_IWebApi_OnHandle_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__
-  commentId: M:Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  name.vb: OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
-  fullName: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
-  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
-  nameWithType: IWebApi.OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  nameWithType.vb: IWebApi.OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
-- uid: Butterfly.Web.WebApi.IWebApi.OnHandle*
-  name: OnHandle
-  href: api/Butterfly.Web.WebApi.IWebApi.html#Butterfly_Web_WebApi_IWebApi_OnHandle_
-  commentId: Overload:Butterfly.Web.WebApi.IWebApi.OnHandle
-  isSpec: "True"
-  fullName: Butterfly.Web.WebApi.IWebApi.OnHandle
-  nameWithType: IWebApi.OnHandle
 - uid: Butterfly.Web.WebApi.IWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   name: OnPost(String, Func<IHttpRequest, IHttpResponse, Task>)
   href: api/Butterfly.Web.WebApi.IWebApi.html#Butterfly_Web_WebApi_IWebApi_OnPost_System_String_Func_Butterfly_Web_WebApi_IHttpRequest_Butterfly_Web_WebApi_IHttpResponse_Task__

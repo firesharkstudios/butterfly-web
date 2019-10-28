@@ -28,7 +28,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RedHttpServerWebResponse
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 89
+    startLine: 91
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -66,7 +66,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: response
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 91
+    startLine: 93
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -99,7 +99,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: .ctor
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 93
+    startLine: 95
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -132,7 +132,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: GetHeader
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 97
+    startLine: 99
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -169,7 +169,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SetHeader
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 101
+    startLine: 103
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -206,7 +206,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: StatusCode
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 105
+    startLine: 107
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -243,7 +243,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: StatusText
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 110
+    startLine: 112
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -280,7 +280,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: SendRedirect
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 115
+    startLine: 117
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -315,7 +315,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: OutputStream
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 119
+    startLine: 121
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer
@@ -350,7 +350,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WriteAsTextAsync
     path: ../Butterfly.Web.RedHttpServer/RedHttpServerWebApi.cs
-    startLine: 121
+    startLine: 123
   assemblies:
   - Butterfly.Web.RedHttpServer
   namespace: Butterfly.RedHttpServer

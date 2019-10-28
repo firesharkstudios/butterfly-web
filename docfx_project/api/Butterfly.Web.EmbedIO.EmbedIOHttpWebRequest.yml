@@ -10,6 +10,7 @@ items:
   - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.context
   - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Headers
   - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.InputStream
+  - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
   - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.PathParams
   - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.pathPattern
   - Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.QueryParams
@@ -231,6 +232,44 @@ items:
   - Public
   - Overrides
   - ReadOnly
+- uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  commentId: P:Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  id: Method
+  parent: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: EmbedIOHttpWebRequest.Method
+  fullName: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  type: Property
+  source:
+    remote:
+      path: Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
+    id: Method
+    path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
+    startLine: 101
+  assemblies:
+  - Butterfly.Web.EmbedIO
+  namespace: Butterfly.Web.EmbedIO
+  syntax:
+    content: public override string Method { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Method As String
+  overridden: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  overload: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.RequestUrl
   commentId: P:Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.RequestUrl
   id: RequestUrl
@@ -249,7 +288,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: RequestUrl
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 101
+    startLine: 103
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -287,7 +326,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: Headers
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 103
+    startLine: 105
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -325,7 +364,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: PathParams
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 105
+    startLine: 107
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -363,7 +402,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: QueryParams
     path: ../Butterfly.Web.EmbedIO/EmbedIOWebApi.cs
-    startLine: 112
+    startLine: 114
   assemblies:
   - Butterfly.Web.EmbedIO
   namespace: Butterfly.Web.EmbedIO
@@ -697,6 +736,17 @@ references:
   name: ClientIp
   nameWithType: EmbedIOHttpWebRequest.ClientIp
   fullName: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.ClientIp
+- uid: Butterfly.Web.WebApi.BaseHttpRequest.Method
+  commentId: P:Butterfly.Web.WebApi.BaseHttpRequest.Method
+  parent: Butterfly.Web.WebApi.BaseHttpRequest
+  name: Method
+  nameWithType: BaseHttpRequest.Method
+  fullName: Butterfly.Web.WebApi.BaseHttpRequest.Method
+- uid: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method*
+  commentId: Overload:Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
+  name: Method
+  nameWithType: EmbedIOHttpWebRequest.Method
+  fullName: Butterfly.Web.EmbedIO.EmbedIOHttpWebRequest.Method
 - uid: Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   commentId: P:Butterfly.Web.WebApi.BaseHttpRequest.RequestUrl
   parent: Butterfly.Web.WebApi.BaseHttpRequest

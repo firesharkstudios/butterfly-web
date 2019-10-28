@@ -8,9 +8,9 @@ items:
   - Butterfly.Web.WebApi.BaseWebApi.Compile
   - Butterfly.Web.WebApi.BaseWebApi.Dispose
   - Butterfly.Web.WebApi.BaseWebApi.logger
+  - Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.OnGet(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  - Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.OnPost(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.OnPut(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   - Butterfly.Web.WebApi.BaseWebApi.webHandlers
@@ -125,46 +125,46 @@ items:
   modifiers.vb:
   - Protected
   - ReadOnly
-- uid: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  commentId: M:Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  id: OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+- uid: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  id: OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   parent: Butterfly.Web.WebApi.BaseWebApi
   langs:
   - csharp
   - vb
-  name: OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  nameWithType: BaseWebApi.OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  fullName: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  name: OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: BaseWebApi.OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
   type: Method
   source:
     remote:
       path: Butterfly.Web/WebApi/BaseWebApi.cs
       branch: master
       repo: https://github.com/firesharkstudios/butterfly-web.git
-    id: OnHandle
+    id: OnAny
     path: ../Butterfly.Web/WebApi/BaseWebApi.cs
     startLine: 22
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
   syntax:
-    content: public void OnHandle(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
+    content: public void OnAny(string path, Func<IHttpRequest, IHttpResponse, Task> listener)
     parameters:
     - id: path
       type: System.String
     - id: listener
       type: Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task}
-    content.vb: Public Sub OnHandle(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
-  overload: Butterfly.Web.WebApi.BaseWebApi.OnHandle*
+    content.vb: Public Sub OnAny(path As String, listener As Func(Of IHttpRequest, IHttpResponse, Task))
+  overload: Butterfly.Web.WebApi.BaseWebApi.OnAny*
   implements:
-  - Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  nameWithType.vb: BaseWebApi.OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  - Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  nameWithType.vb: BaseWebApi.OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Butterfly.Web.WebApi.BaseWebApi.OnHandle(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
-  name.vb: OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.BaseWebApi.OnAny(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
 - uid: Butterfly.Web.WebApi.BaseWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   commentId: M:Butterfly.Web.WebApi.BaseWebApi.OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   id: OnDelete(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
@@ -532,26 +532,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Butterfly.Web.WebApi.BaseWebApi.OnHandle*
-  commentId: Overload:Butterfly.Web.WebApi.BaseWebApi.OnHandle
-  name: OnHandle
-  nameWithType: BaseWebApi.OnHandle
-  fullName: Butterfly.Web.WebApi.BaseWebApi.OnHandle
-- uid: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-  commentId: M:Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+- uid: Butterfly.Web.WebApi.BaseWebApi.OnAny*
+  commentId: Overload:Butterfly.Web.WebApi.BaseWebApi.OnAny
+  name: OnAny
+  nameWithType: BaseWebApi.OnAny
+  fullName: Butterfly.Web.WebApi.BaseWebApi.OnAny
+- uid: Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+  commentId: M:Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
   parent: Butterfly.Web.WebApi.IWebApi
   isExternal: true
-  name: OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  nameWithType: IWebApi.OnHandle(String, Func<IHttpRequest, IHttpResponse, Task>)
-  fullName: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
-  nameWithType.vb: IWebApi.OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
-  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
-  name.vb: OnHandle(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  name: OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  nameWithType: IWebApi.OnAny(String, Func<IHttpRequest, IHttpResponse, Task>)
+  fullName: Butterfly.Web.WebApi.IWebApi.OnAny(System.String, Func<Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task>)
+  nameWithType.vb: IWebApi.OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
+  fullName.vb: Butterfly.Web.WebApi.IWebApi.OnAny(System.String, Func(Of Butterfly.Web.WebApi.IHttpRequest, Butterfly.Web.WebApi.IHttpResponse, Task))
+  name.vb: OnAny(String, Func(Of IHttpRequest, IHttpResponse, Task))
   spec.csharp:
-  - uid: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-    name: OnHandle
-    nameWithType: IWebApi.OnHandle
-    fullName: Butterfly.Web.WebApi.IWebApi.OnHandle
+  - uid: Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+    name: OnAny
+    nameWithType: IWebApi.OnAny
+    fullName: Butterfly.Web.WebApi.IWebApi.OnAny
   - name: (
     nameWithType: (
     fullName: (
@@ -597,10 +597,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Butterfly.Web.WebApi.IWebApi.OnHandle(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
-    name: OnHandle
-    nameWithType: IWebApi.OnHandle
-    fullName: Butterfly.Web.WebApi.IWebApi.OnHandle
+  - uid: Butterfly.Web.WebApi.IWebApi.OnAny(System.String,Func{Butterfly.Web.WebApi.IHttpRequest,Butterfly.Web.WebApi.IHttpResponse,Task})
+    name: OnAny
+    nameWithType: IWebApi.OnAny
+    fullName: Butterfly.Web.WebApi.IWebApi.OnAny
   - name: (
     nameWithType: (
     fullName: (
