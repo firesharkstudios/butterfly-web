@@ -41,6 +41,7 @@ items:
   extensionMethods:
   - Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync
   - Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1
+  - Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.GetCookies
   - Butterfly.Web.WebApi.IWebRequest.Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   modifiers.csharp:
   - public
@@ -271,6 +272,35 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Butterfly.Web.WebApi.IHttpRequest.Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  parent: Butterfly.Web.WebApi.IHttpRequestX
+  definition: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  name: GetCookies()
+  nameWithType: IHttpRequestX.GetCookies()
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies()
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+    name: GetCookies
+    nameWithType: IHttpRequestX.GetCookies
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+    name: GetCookies
+    nameWithType: IHttpRequestX.GetCookies
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Butterfly.Web.WebApi.IWebRequest.Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue
   commentId: M:Butterfly.Web.WebApi.IWebRequestX.GetAuthenticationHeaderValue(Butterfly.Web.WebApi.IWebRequest)
   parent: Butterfly.Web.WebApi.IWebRequestX
@@ -375,6 +405,41 @@ references:
     name: ParseAsJsonAsync(Of T)
     nameWithType: IHttpRequestX.ParseAsJsonAsync(Of T)
     fullName: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Butterfly.Web.WebApi.IHttpRequest
+    name: IHttpRequest
+    nameWithType: IHttpRequest
+    fullName: Butterfly.Web.WebApi.IHttpRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  name: GetCookies(IHttpRequest)
+  nameWithType: IHttpRequestX.GetCookies(IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  spec.csharp:
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+    name: GetCookies
+    nameWithType: IHttpRequestX.GetCookies
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Butterfly.Web.WebApi.IHttpRequest
+    name: IHttpRequest
+    nameWithType: IHttpRequest
+    fullName: Butterfly.Web.WebApi.IHttpRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+    name: GetCookies
+    nameWithType: IHttpRequestX.GetCookies
+    fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
   - name: (
     nameWithType: (
     fullName: (

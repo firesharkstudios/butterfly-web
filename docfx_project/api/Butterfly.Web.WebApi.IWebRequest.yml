@@ -95,7 +95,7 @@ items:
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
-  summary: "\nRetrieves the request headers\n"
+  summary: "\nRetrieves the request headers (key should always be upper case)\n"
   example: []
   syntax:
     content: Dictionary<string, string> Headers { get; }

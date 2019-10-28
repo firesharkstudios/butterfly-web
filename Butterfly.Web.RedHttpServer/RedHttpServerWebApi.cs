@@ -81,7 +81,7 @@ namespace Butterfly.RedHttpServer {
 
         public override Uri RequestUrl => this.request?.Context?.AspNetContext?.Request?.ToUri();
 
-        public override Dictionary<string, string> Headers => this.request.Headers.ToDictionary(x => x.Key, x => x.Value.ToString());
+        public override Dictionary<string, string> Headers => this.request.Headers.ToDictionary(x => x.Key.ToUpper(), x => x.Value.ToString());
 
         public override Dictionary<string, string> PathParams => this.request?.Context?.ExtractAllUrlParameters();
 

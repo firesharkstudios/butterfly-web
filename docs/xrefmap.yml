@@ -2491,6 +2491,19 @@ references:
   commentId: T:Butterfly.Web.WebApi.IHttpRequestX
   fullName: Butterfly.Web.WebApi.IHttpRequestX
   nameWithType: IHttpRequestX
+- uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  name: GetCookies(IHttpRequest)
+  href: api/Butterfly.Web.WebApi.IHttpRequestX.html#Butterfly_Web_WebApi_IHttpRequestX_GetCookies_Butterfly_Web_WebApi_IHttpRequest_
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  nameWithType: IHttpRequestX.GetCookies(IHttpRequest)
+- uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies*
+  name: GetCookies
+  href: api/Butterfly.Web.WebApi.IHttpRequestX.html#Butterfly_Web_WebApi_IHttpRequestX_GetCookies_
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+  isSpec: "True"
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+  nameWithType: IHttpRequestX.GetCookies
 - uid: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync*
   name: ParseAsJsonAsync
   href: api/Butterfly.Web.WebApi.IHttpRequestX.html#Butterfly_Web_WebApi_IHttpRequestX_ParseAsJsonAsync_

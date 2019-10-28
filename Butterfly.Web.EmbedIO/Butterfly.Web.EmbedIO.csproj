@@ -12,7 +12,7 @@
     <Authors>Kent Johnson</Authors>
     <Copyright>Copyright 2017-2019 Fireshark Studios, LLC</Copyright>
     <Description>Implementation of Butterfly.Web for EmbedIO (see https://github.com/unosquare/embedio)</Description>
-    <Version>2.0.7</Version>
+    <Version>2.0.9</Version>
     <PackageReleaseNotes>Various improvements and bug fixes</PackageReleaseNotes>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(MSBuildProjectName).xml</DocumentationFile>
     <LangVersion>7.1</LangVersion>

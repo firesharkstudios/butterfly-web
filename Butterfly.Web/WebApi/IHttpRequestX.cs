@@ -3,6 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using Butterfly.Util;
@@ -18,6 +19,10 @@ namespace Butterfly.Web.WebApi {
         public static async Task<T> ParseAsJsonAsync<T>(this IHttpRequest me) {
             string json = await me.ReadAsync();
             return JsonUtil.Deserialize<T>(json);
+        }
+
+        public static Dictionary<string, string> GetCookies(this IHttpRequest me) {
+            return me.Headers.GetAs("COOKIE", "").Split(";").Select(x => x.Split('=')).ToDictionary(x => x[0]?.Trim(), x => x.Length>0 ? x[1]?.Trim() : null);
         }
     }
 }

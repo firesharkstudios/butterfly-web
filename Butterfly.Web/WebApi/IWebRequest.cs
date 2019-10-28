@@ -13,7 +13,7 @@ namespace Butterfly.Web.WebApi {
         Uri RequestUrl { get;  }
 
         /// <summary>
-        /// Retrieves the request headers
+        /// Retrieves the request headers (key should always be upper case)
         /// </summary>
         Dictionary<string, string> Headers { get; }
 

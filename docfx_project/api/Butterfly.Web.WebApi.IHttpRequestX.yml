@@ -5,6 +5,7 @@ items:
   id: IHttpRequestX
   parent: Butterfly.Web.WebApi
   children:
+  - Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
   - Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)
   - Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)
   langs:
@@ -21,7 +22,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: IHttpRequestX
     path: ../Butterfly.Web/WebApi/IHttpRequestX.cs
-    startLine: 11
+    startLine: 12
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -58,7 +59,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsUrlEncodedAsync
     path: ../Butterfly.Web/WebApi/IHttpRequestX.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -99,7 +100,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: ParseAsJsonAsync
     path: ../Butterfly.Web/WebApi/IHttpRequestX.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -126,6 +127,47 @@ items:
   - Shared
   fullName.vb: Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync(Of T)(Butterfly.Web.WebApi.IHttpRequest)
   name.vb: ParseAsJsonAsync(Of T)(IHttpRequest)
+- uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  commentId: M:Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  id: GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  isExtensionMethod: true
+  parent: Butterfly.Web.WebApi.IHttpRequestX
+  langs:
+  - csharp
+  - vb
+  name: GetCookies(IHttpRequest)
+  nameWithType: IHttpRequestX.GetCookies(IHttpRequest)
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)
+  type: Method
+  source:
+    remote:
+      path: Butterfly.Web/WebApi/IHttpRequestX.cs
+      branch: master
+      repo: https://github.com/firesharkstudios/butterfly-web.git
+    id: GetCookies
+    path: ../Butterfly.Web/WebApi/IHttpRequestX.cs
+    startLine: 23
+  assemblies:
+  - Butterfly.Web
+  namespace: Butterfly.Web.WebApi
+  syntax:
+    content: public static Dictionary<string, string> GetCookies(this IHttpRequest me)
+    parameters:
+    - id: me
+      type: Butterfly.Web.WebApi.IHttpRequest
+    return:
+      type: Dictionary{System.String,System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetCookies(me As IHttpRequest) As Dictionary(Of String, String)
+  overload: Butterfly.Web.WebApi.IHttpRequestX.GetCookies*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: Butterfly.Web.WebApi
   commentId: N:Butterfly.Web.WebApi
@@ -308,6 +350,120 @@ references:
   - name: T
     nameWithType: T
     fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Butterfly.Web.WebApi.IHttpRequestX.GetCookies*
+  commentId: Overload:Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+  name: GetCookies
+  nameWithType: IHttpRequestX.GetCookies
+  fullName: Butterfly.Web.WebApi.IHttpRequestX.GetCookies
+- uid: Dictionary{System.String,System.String}
+  commentId: '!:Dictionary{System.String,System.String}'
+  definition: Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

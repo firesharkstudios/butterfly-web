@@ -235,6 +235,7 @@
   "Butterfly.Web.WebApi.IHttpRequest.ParseAsMultipartStream(Action{System.String,System.String,System.String,System.String,System.Byte[],System.Int32},Action{System.String,System.String})": "Butterfly.Web.WebApi.IHttpRequest.yml",
   "Butterfly.Web.WebApi.IHttpRequest.ReadAsync": "Butterfly.Web.WebApi.IHttpRequest.yml",
   "Butterfly.Web.WebApi.IHttpRequestX": "Butterfly.Web.WebApi.IHttpRequestX.yml",
+  "Butterfly.Web.WebApi.IHttpRequestX.GetCookies(Butterfly.Web.WebApi.IHttpRequest)": "Butterfly.Web.WebApi.IHttpRequestX.yml",
   "Butterfly.Web.WebApi.IHttpRequestX.ParseAsJsonAsync``1(Butterfly.Web.WebApi.IHttpRequest)": "Butterfly.Web.WebApi.IHttpRequestX.yml",
   "Butterfly.Web.WebApi.IHttpRequestX.ParseAsUrlEncodedAsync(Butterfly.Web.WebApi.IHttpRequest)": "Butterfly.Web.WebApi.IHttpRequestX.yml",
   "Butterfly.Web.WebApi.IHttpResponse": "Butterfly.Web.WebApi.IHttpResponse.yml",
