@@ -22,7 +22,9 @@ namespace Butterfly.Web.WebApi {
         }
 
         public static Dictionary<string, string> GetCookies(this IHttpRequest me) {
-            return me.Headers.GetAs("COOKIE", "").Split(";").Select(x => x.Split('=')).ToDictionary(x => x[0]?.Trim(), x => x.Length>0 ? x[1]?.Trim() : null);
+            var text = me.Headers.GetAs("COOKIE", "");
+            if (string.IsNullOrWhiteSpace(text)) return new Dictionary<string, string>();
+            return text.Split(";").Select(x => x.Split('=')).ToDictionary(x => x[0].Trim(), x => x.Length>1 ? x[1].Trim() : null);
         }
     }
 }
