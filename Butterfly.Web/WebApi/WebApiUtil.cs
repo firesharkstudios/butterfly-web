@@ -2,30 +2,33 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+
+using Dict = System.Collections.Generic.Dictionary<string, object>;
 
 namespace Butterfly.Web.WebApi {
     public class WebApiUtil {
         protected static readonly Logger logger = LogManager.GetCurrentClassLogger();
 
-        public static async Task<string[]> FileUploadHandlerAsync(IHttpRequest req, string tempPath, string finalPath, Func<string, string> getFileName, int chunkDelayInMillis = 0) {
+        public static async Task<(string[], Dict)> FileUploadHandlerAsync(IHttpRequest req, string tempPath, string finalPath, Func<string, string> getFileName, int chunkDelayInMillis = 0) {
             var fileStreamByName = new Dictionary<string, FileStream>();
             var uploadFileNameByName = new Dictionary<string, string>();
+
+            Dict otherFields = new Dict();
 
             // Parse stream
             req.ParseAsMultipartStream(
                 onData: (name, rawFileName, type, disposition, buffer, bytes) => {
-                    logger.Debug($"FileUploadHandlerAsync():onData():rawFileName={rawFileName}");
+                    //logger.Debug($"FileUploadHandlerAsync():onData():rawFileName={rawFileName}");
 
                     string fileName = Path.GetFileName(rawFileName);
-                    logger.Debug($"FileUploadHandlerAsync():onData():name={name},fileName={fileName},type={type},disposition={disposition},bytes={bytes}");
+                    //logger.Debug($"FileUploadHandlerAsync():onData():name={name},fileName={fileName},type={type},disposition={disposition},bytes={bytes}");
 
                     if (!fileStreamByName.TryGetValue(name, out FileStream fileStream)) {
                         string uploadFileName = getFileName(fileName);
                         string uploadFile = Path.Combine(tempPath, uploadFileName);
-                        logger.Debug($"FileUploadHandlerAsync():onData():uploadFile={uploadFile}");
+                        //logger.Debug($"FileUploadHandlerAsync():onData():uploadFile={uploadFile}");
                         if (File.Exists(uploadFile)) File.Delete(uploadFile);
                         fileStream = new FileStream(uploadFile, FileMode.CreateNew);
                         uploadFileNameByName[name] = uploadFile;
@@ -38,6 +41,7 @@ namespace Butterfly.Web.WebApi {
                 },
                 onParameter: (name, value) => {
                     logger.Debug($"FileUploadHandlerAsync():onParameter():name={name},value={value}");
+                    otherFields[name] = value;
                 }
             );
 
@@ -55,7 +59,7 @@ namespace Butterfly.Web.WebApi {
             }
 
             logger.Debug($"FileUploadHandler():Uploaded media files: {string.Join(", ", mediaFileNames)}");
-            return mediaFileNames.ToArray();
+            return (mediaFileNames.ToArray(), otherFields);
         }
 
     }

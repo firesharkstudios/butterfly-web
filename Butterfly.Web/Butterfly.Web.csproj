@@ -11,7 +11,7 @@
     <Company>Fireshark Studios, LLC</Company>
     <Product>Butterfly.Web</Product>
     <Copyright>Copyright 2017-2019 Fireshark Studios, LLC</Copyright>
-    <Version>2.0.11</Version>
+    <Version>2.0.12</Version>
     <PackageReleaseNotes>Various improvements and bug fixes</PackageReleaseNotes>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(MSBuildProjectName).xml</DocumentationFile>
     <LangVersion>7.1</LangVersion>
@@ -23,9 +23,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HttpMultipartParser" Version="2.2.4" />
+    <PackageReference Include="HttpMultipartParser" Version="3.0.0" />
     <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.0.0" />
-    <PackageReference Include="NLog" Version="4.6.7" />
+    <PackageReference Include="NLog" Version="4.6.8" />
   </ItemGroup>
 
   <ItemGroup>
