@@ -21,7 +21,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: WebApiUtil
     path: ../Butterfly.Web/WebApi/WebApiUtil.cs
-    startLine: 9
+    startLine: 10
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -56,7 +56,7 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: logger
     path: ../Butterfly.Web/WebApi/WebApiUtil.cs
-    startLine: 10
+    startLine: 11
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
@@ -91,12 +91,12 @@ items:
       repo: https://github.com/firesharkstudios/butterfly-web.git
     id: FileUploadHandlerAsync
     path: ../Butterfly.Web/WebApi/WebApiUtil.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Butterfly.Web
   namespace: Butterfly.Web.WebApi
   syntax:
-    content: public static Task<string[]> FileUploadHandlerAsync(IHttpRequest req, string tempPath, string finalPath, Func<string, string> getFileName, int chunkDelayInMillis = 0)
+    content: public static Task<(string[], System.Collections.Generic.Dictionary<string, object>)> FileUploadHandlerAsync(IHttpRequest req, string tempPath, string finalPath, Func<string, string> getFileName, int chunkDelayInMillis = 0)
     parameters:
     - id: req
       type: Butterfly.Web.WebApi.IHttpRequest
@@ -109,8 +109,8 @@ items:
     - id: chunkDelayInMillis
       type: System.Int32
     return:
-      type: Task{System.String[]}
-    content.vb: Public Shared Function FileUploadHandlerAsync(req As IHttpRequest, tempPath As String, finalPath As String, getFileName As Func(Of String, String), chunkDelayInMillis As Integer = 0) As Task(Of String())
+      type: Task{System.ValueTuple{System.String[],System.Collections.Generic.Dictionary{System.String,System.Object}}}
+    content.vb: Public Shared Function FileUploadHandlerAsync(req As IHttpRequest, tempPath As String, finalPath As String, getFileName As Func(Of String, String), chunkDelayInMillis As Integer = 0) As Task(Of(String(), System.Collections.Generic.Dictionary(Of String, Object)))
   overload: Butterfly.Web.WebApi.WebApiUtil.FileUploadHandlerAsync*
   nameWithType.vb: WebApiUtil.FileUploadHandlerAsync(IHttpRequest, String, String, Func(Of String, String), Int32)
   modifiers.csharp:
@@ -217,20 +217,28 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Task{System.String[]}
-  commentId: '!:Task{System.String[]}'
+- uid: Task{System.ValueTuple{System.String[],System.Collections.Generic.Dictionary{System.String,System.Object}}}
+  commentId: '!:Task{System.ValueTuple{System.String[],System.Collections.Generic.Dictionary{System.String,System.Object}}}'
   definition: Task`1
-  name: Task<String[]>
-  nameWithType: Task<String[]>
-  fullName: Task<System.String[]>
-  nameWithType.vb: Task(Of String())
-  fullName.vb: Task(Of System.String())
-  name.vb: Task(Of String())
+  name: Task<ValueTuple<String[], System.Collections.Generic.Dictionary<String, Object>>>
+  nameWithType: Task<ValueTuple<String[], System.Collections.Generic.Dictionary<String, Object>>>
+  fullName: Task<System.ValueTuple<System.String[], System.Collections.Generic.Dictionary<System.String, System.Object>>>
+  nameWithType.vb: Task(Of ValueTuple(Of String(), System.Collections.Generic.Dictionary(Of String, Object)))
+  fullName.vb: Task(Of System.ValueTuple(Of System.String(), System.Collections.Generic.Dictionary(Of System.String, System.Object)))
+  name.vb: Task(Of ValueTuple(Of String(), System.Collections.Generic.Dictionary(Of String, Object)))
   spec.csharp:
   - uid: Task`1
     name: Task
     nameWithType: Task
     fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
     isExternal: true
   - name: <
     nameWithType: <
@@ -243,6 +251,36 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: System.Collections.Generic.Dictionary
+    nameWithType: System.Collections.Generic.Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -255,6 +293,14 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
     nameWithType: String
@@ -263,6 +309,36 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: System.Collections.Generic.Dictionary
+    nameWithType: System.Collections.Generic.Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )

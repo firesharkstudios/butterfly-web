@@ -118,7 +118,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;string[]&gt; FileUploadHandlerAsync(IHttpRequest req, string tempPath, string finalPath, Func&lt;string, string&gt; getFileName, int chunkDelayInMillis = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;(string[], System.Collections.Generic.Dictionary&lt;string, object&gt;)&gt; FileUploadHandlerAsync(IHttpRequest req, string tempPath, string finalPath, Func&lt;string, string&gt; getFileName, int chunkDelayInMillis = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,7 +167,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>[]&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>[], <span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
